@@ -2,24 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ab6761-0d1c-45c3-90b8-0ca5f6827e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/PythonCodes/05-数据结构与算法/1-算法/02-代码执行时间测试模块.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/0/40632753bdee00181095fafd03b908c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/17/50678dab77ee00181edacb1c11b448d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/44/e0c7772bbdee00181095fafd03b908c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/67/e0e12c5f88ee00181de4a9b5e66cbf63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/cd/60d9aa43bdee00181095fafd03b908c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/d1/905a857677ee00181edacb1c11b448d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/23.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/1790278703.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/1790278703.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/JavaTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/JavaTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/studentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/studentInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PycharmProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/DOM/01-getElementByID.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/2.DOM/01-getElementByID.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/DOM/02-getElementsByTagName.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/2.DOM/02-getElementsByTagName.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/DOM/05-省市联动.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/2.DOM/05-省市联动.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/DOM/06-左右选择.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/2.DOM/06-左右选择.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-document-write.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/Array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/Boolean.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/Boolean.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/NullAndUndefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/NullAndUndefined.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/Number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/Object.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/Object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/String.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/String.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/其他进制的数字.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/其他进制的数字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/强制类型转换为Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/强制类型转换为Number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/强制类型转换为String.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/强制类型转换为String.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/Variables/转换为Boolean.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/1.Variables/转换为Boolean.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,33 +96,40 @@
         <option value="$PROJECT_DIR$/StudyJava/src/DataStructure/SortAndSearch/selectSort.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/DataStructure/SortAndSearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Printer.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" />
-        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" />
-        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/testSeachStuinfo.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/StudentsInfo.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/TestSeachStuinfo.java" />
       </list>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="JDK1101" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="202" />
-    <option name="y" value="48" />
-    <option name="width" value="1433" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="247" />
+    <option name="y" value="87" />
+    <option name="width" value="1134" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
       <hideEmptyPackages ProjectPane="false" />
       <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +159,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543472901908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543505003801" />
     <property name="last_opened_file_path" value="D:/Eclipse/Java/jdk1.8.0_192" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,32 +190,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
-    <configuration name="ArraysMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestSeachStuinfo">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch1.array.ArraysMethods.ArraysMethods" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.Employee" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.ch1.array.ArraysMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DataStructure.SortAndSearch.BinarySearch" />
-      <module name="StudyJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructure.SortAndSearch.*" />
+          <option name="PATTERN" value="Base.ch2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,6 +211,22 @@
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Base.ch2.EmployeeTest" />
+      <module name="StudyJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.Printer" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
@@ -231,6 +255,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSeachStuinfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.TestSeachStuinfo" />
+      <module name="StudyJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -239,29 +279,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch1.array.array2" />
-      <module name="StudyJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Base.ch1.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.TestSeachStuinfo" />
         <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.array2" />
-        <item itemvalue="Application.ArraysMethods" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.Printer" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -285,16 +309,20 @@
       <workItem from="1543318452871" duration="17000" />
       <workItem from="1543400303351" duration="15628000" />
       <workItem from="1543465102124" duration="5083000" />
+      <workItem from="1543479450528" duration="1737000" />
+      <workItem from="1543496857026" duration="533000" />
+      <workItem from="1543499579475" duration="2885000" />
+      <workItem from="1543502693268" duration="2731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34458000" />
+    <option name="totallyTimeSpent" value="42344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="165" y="58" width="756" height="585" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28762543" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.37965617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780847" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11608624" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58498895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +353,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28762543" />
+      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38252148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780847" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29847908" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11608624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,16 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch8/simpleFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,48 +621,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch8/simpleFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="256">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/TestSeachStuinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StudentsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>

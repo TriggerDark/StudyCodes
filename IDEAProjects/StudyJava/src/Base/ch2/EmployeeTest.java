@@ -15,8 +15,13 @@ public class EmployeeTest {
             e.raiseSalary(5);
 
         for (Employee e:staff){
-            System.out.println("name="+e.getName()+",salary="+e.getSalary()+
-                    ",hireDay="+e.getHireDay());
+            e.setId();
+            System.out.println("id: "+ e.getId() + ",name="+e.getName()+
+                    ",salary="+e.getSalary()+ ",hireDay="+e.getHireDay());
         }
+
+        int n = Employee.getNextId();
+        System.out.println("Next available id=" + n);
+
     }
 }

@@ -26,13 +26,11 @@ class JavaTeacher extends teacherInfor{
     private int age;
 
     public JavaTeacher(String name, String school, int age) {
-        //调用父类的构造方法
-        super(name, school);
+        super(name, school);//调用父类的构造方法
         this.age = age;
     }
 
-    //重写父类的方法
-    public void teaching() {
+    public void teaching() {//重写父类的方法
         System.out.println("age：" + age);
         System.out.println("上Java课");
     }

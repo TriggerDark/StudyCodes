@@ -24,9 +24,7 @@ class studentInfo{
         System.out.println("构造方法");
     }
 
-    static {
-        System.out.println("静态语句块");
-    }
+    static { System.out.println("静态语句块"); }
 
     public void showNumber1(){
         System.out.println(number1);
@@ -35,7 +33,6 @@ class studentInfo{
     public static void showNumber2() {
         System.out.println(number2);
     }
-
 
     public String toString() {
         return schoolName;
