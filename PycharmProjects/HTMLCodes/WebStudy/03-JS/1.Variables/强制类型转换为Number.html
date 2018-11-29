@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        /**
+         * 方式一：
+         *     -Number()
+         *         - 字符串-->数字
+         *             纯数字 -- 数字
+         *             非数字 -- NaN
+         * 方式二：
+         *     - parseInt() 
+         *         可以将字符串中的有效的数字提取出来
+         *         只会取整数
+         *     - parseFloat()
+         */
+        
+        var a = "123";//-->123
+        a = "abc"//-->NaN
+        a = "123abc";//-->NaN
+        a = true;//-->1
+        a = false;//-->0
+        a = null;//-->0
+        a = undefined;//-->NaN
+
+        a = Number(a);
+
+        console.log(a);
+        console.log(typeof a)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

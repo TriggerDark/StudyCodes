@@ -1,0 +1,44 @@
+1. 折线图
+    plot(x, y)
+    eg.
+    >>> import matplotlib.pylab as plt
+    >>> plt.plot(x轴数据, y轴数据)
+    >>> plt.xticks(rotation=45) x轴坐标倾斜45度
+    >>> plt.yticks(roattion=45) y轴坐标倾斜45度
+    >>> plt.xlabel("x轴的标签")
+    >>> plt.ylabel("yz轴的标签")
+    >>> plt.title("标题")
+    >>> plt.show()
+
+    >>> fig = plt.figure(figsize=(6, 3))
+    >>> ax1.add_subplot(h, l, x1)
+    >>> ax2.add_subplot(h, l, x2)
+    >>> ...
+    >>> plt.plot(subset["MONTH"], subset["VALUE"], c=colors[i], label=label)
+    >>> plot.legend(loc="best")  # 定位
+
+2. 条形图
+    bar(x, y, width)
+    barh(x, y, width)
+3. 散点图
+    scatter(x, y)
+
+    eg.
+    >>> import matplotlib.pylab as plt
+    >>> fig, ax = add_subplots()
+    >>> ax.bar(x, y, width)
+    or
+    >>> ax.barh(x, y, width)
+    or
+    >>> ax.scatter(x, y)
+    >>> ax.set_xlabel("")
+    >>> ax.set_ylabel("")
+    >>> ax.set_title("")
+    >>> plt.show()
+4. 柱形图
+    hist
+5. 盒图
+    box
+
+
+

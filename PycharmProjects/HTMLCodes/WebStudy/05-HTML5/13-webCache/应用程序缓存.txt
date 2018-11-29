@@ -1,0 +1,29 @@
+离线浏览
+速度
+减少服务器负载
+
+1. 启用应用程序缓存，在<html>标签中包含manifest
+    <html manifest = "test.appcache"></html>
+    test.appcache:缓存清单文件
+    MIME:text/cache-manifest
+    CACHE MANIFEST:
+                .css .jpg .js等
+    NETWORK：
+                login.html
+    FALLBACK
+
+    windows.applicationCache.status
+    	缓存状态，获取邪猎值
+    UNCACHE
+    IDLE:
+    DOWNLOADING
+    UPDATEREADY：更新就绪
+    OBSOLETE:应用缓存
+
+    applicationCache.onchecking
+    applicationCache.onnoupdate
+    applicationCache.ondownloading
+    applicationCache.onprocess
+    applicationCache.oncached
+    applicationCache.onobsolete
+    applicationCache.onerror

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <!--
+    	autocomplete
+    		记忆用户在表单元素中输入数据的历史记录
+    		当用户在自动完成域中开始输入时浏览器应该在该域中显示填写的选项
+    	novalidate
+    		在提交表单时不应该验证form或input域
+    -->
+    <form method="get" autocomplete="on" novalidate="true"><!--此情况下不验证数据-->
+        First name:
+        <input type="text" name="fname" /><br />
+        Last name:
+        <input type="text" name="lname" /><br />
+        E-mail:
+        <input type="email" name="email" autocomplete="off" /><br />
+        <input type="submit" />
+    </form>
+    <p>
+        请填写并提交此表单，然后重载页面，来查看自动完成功能是如何工作的。
+    </p>
+    <p>
+        请注意，表单的自动完成功能是打开的，而e-mail域是关闭的。并且关闭的email验证功能
+    </p>
+
+
+
+</body>
+</html>

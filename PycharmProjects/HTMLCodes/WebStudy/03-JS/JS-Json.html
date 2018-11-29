@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON</title>
+    <script>
+        var student = {
+            "name":"Tom",
+            "age":20,
+            "sex":"男",
+            "telephone":"18862609660"
+        };
+        console.log('年龄' + student['age']);
+        var teacher = [
+            {
+            "name":"李",
+            "age":21,
+            "sex":"男",
+            "telephone":"18862609660"
+        },
+        {
+            "name":"陈",
+            "age":45,
+            "sex":"男",
+            "telephone":"18862609660"
+        },
+        {
+            "name":"王",
+            "age":45,
+            "sex":"男",
+            "telephone":"18862609660"
+        }
+        ];
+        var result =false;
+        for(var i= 0; i < teacher.length; i++){
+            if(teacher[i].name == '李'){
+                result = true;
+                console.log('找到李老师');
+            }
+        }
+        if(!result){
+            console.log('没有李老师');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

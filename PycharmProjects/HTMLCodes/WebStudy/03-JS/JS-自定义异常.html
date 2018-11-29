@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var x = prompt("请输入0-10之间的数","")
+        try {
+            if (x > 10)
+                throw{
+                    name:"Err1",
+                    message:"该值太大！"
+                }
+            else if (x < 0)
+                throw{
+                    name:"Err2",
+                    message:"该值太小！"
+                }
+            else if(isNaN(x))
+                throw{
+                        name:"Err3",
+                        message:"该值不是数字！"
+                }
+            else
+                document.write("那你输入的数字是：" + x);
+        }catch (e) {
+            alert(err.name + ":" + err.message);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

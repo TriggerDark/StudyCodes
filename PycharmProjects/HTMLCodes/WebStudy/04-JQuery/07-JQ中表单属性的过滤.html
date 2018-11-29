@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#btn1").click(function () {
+                $("div:first").css("background-color","green");
+            });
+            $("#btn2").click(function () {
+                $("div:even").css("background-color","green");
+            });
+            $("#btn3").click(function () {
+                $("div:odd").css("background-color","green");
+            });
+            $("#btn4").click(function () {
+                $("div:gt(2)").css("background-color","green");
+            });
+        });
+    </script>
+    <style type="text/css">
+        #one,#two,#three,#four{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: grey;
+        }
+        .mini{
+            width: 40px; 
+            height: 40px; 
+            border: 1px solid black;
+            margin: 4px;
+            float: left;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="过滤出所有div中第一个元素" id="btn1">
+    <input type="button" value="过滤出所有div中偶数位的div" id="btn2">
+    <input type="button" value="过滤出所有div中的奇数位的div" id="btn3">
+    <input type="button" value="过滤出所有div中索引大于2" id="btn4">
+    <br>
+    <div id="one" style="float: left">
+        <div class="mini">1-1</div>
+    </div>
+    <div id="two" style="float: left;">
+        <div class="mini">2-1</div>
+        <div class="mini">2-2</div>
+    </div>
+    <div id="three" style="float: left">
+        <div class="mini">3-1</div>
+        <div class="mini">3-2</div>
+        <div class="mini">3-2</div>
+    </div>
+    <span id="four">span</span>
+</body>
+</html>

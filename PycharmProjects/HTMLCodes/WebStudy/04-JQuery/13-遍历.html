@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        var provinces = [
+           ["深圳市", "东菀市"],
+            ["长沙市", "株洲市"],
+            ["厦门市", "福州市"]
+        ];
+        $(provinces).each(function(i, n) {
+            console.log(i + "===" + n)
+        });
+        $.each(provinces, function(i, n) {
+            console.log(i + ">>>" + n)
+        });
+    </script>
+</head>
+<body>
+    <select>
+        <option value="">---请选择---</option>
+        <option value="0">广东省</option>
+        <option value="1">湖南省</option>
+        <option value="2">福建省</option>
+    </select>
+    <select name="" id="city"></select>
+</body>
+</html>

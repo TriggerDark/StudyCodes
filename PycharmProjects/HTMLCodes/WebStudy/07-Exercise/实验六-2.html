@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font: 12px 'Lucida Sans Unicode', 'Trebuchet MS', Arial, Helvetica;
+            margin: 0;
+            background-color: #d9dee2;
+        }
+        #login {
+            background-color: #fff;
+            height: 240px;
+            width: 400px;
+            margin: -150px 0 0 -230px;
+            padding: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 0;
+            border-radius: 3px;
+            box-shadow:
+                  0 0 2px rgba(0, 0, 0, 0.2),
+                  0 1px 1px rgba(0, 0, 0, .2),
+                  0 3px 0 #fff,
+                  0 4px 0 rgba(0, 0, 0, .2),
+                  0 6px 0 #fff,
+                  0 7px 0 rgba(0, 0, 0, .2);
+        }
+        h1 {
+            text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0 2px 0 rgba(0, 0, 0, .5);
+            text-transform: uppercase;
+            text-align: center;
+            color: #666;
+            margin: 0 0 30px 0;
+            letter-spacing: 4px;
+            font: normal 26px/1 Verdana, Helvetica;
+            position: relative;
+        }
+        fieldset {
+            border: 0;
+            padding:5px;
+            margin: 0;
+        }
+        #inputs input {
+            padding: 15px 15px 15px 30px;
+            margin: 0 0 10px 0;
+            width: 353px; /* 353 + 2 + 45 = 400 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+        }
+        #inputs input:focus {
+            background-color: #fff;
+            border-color: #e8c291;
+            outline: none;
+            box-shadow: 0 0 0 1px #e8c291 inset;
+        }
+        #actions {
+            margin: 5px 50px 0px 25px;
+        }
+        #link {
+            margin: 0;
+        }
+        .submit {
+            background-color: #ffb94b;
+            border-radius: 3px;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+            float: left;
+            height: 35px;
+            padding: 0;
+            width: 120px;
+            cursor: pointer;
+            font: bold 15px Arial, Helvetica;
+            color: #8f5a0a;
+        }
+        #link a {
+            color: #3151A2;
+            float: right;
+            line-height: 35px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="login">
+        <h1>用 户 登 录</h1>
+        <fieldset id="inputs">
+            <input id="username" type="text" placeholder="用户名" autofocus required>
+            <input id="password" type="password" placeholder="密码" required>
+        </fieldset>
+        <fieldset id="actions">
+            <input type="submit" class="submit" value="确认"/>&nbsp;&nbsp;
+            <input type="cancel" class="submit" value="取消" style="float:right;text-align:center;"/>
+        </fieldset>
+        <fieldset id="link">
+            <a href="">忘记密码?</a><a href="">注册用户</a>
+        </fieldset>
+    </form>
+</body>
+</html>

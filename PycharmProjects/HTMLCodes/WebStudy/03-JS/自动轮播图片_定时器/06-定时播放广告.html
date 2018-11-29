@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+
+        function init () {
+            setTimeout("showAD();", 3000);
+        }
+        
+        function showAD () {
+            var img = document.getElementById("img1");
+            img.style.display = "block";
+            setTimeout("hideAD();", 3000);
+        }
+
+        function hideAD () {
+            var img = document.getElementById("img1");
+            img.style.display = "none";
+        }
+
+    </script>
+</head>
+<body onload="init()">
+    <img src="../../imgs/adv.JPG" alt="" id="img1" style="display: none;">
+</body>
+</html>

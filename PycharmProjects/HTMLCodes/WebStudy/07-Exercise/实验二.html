@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<fieldset>
+				<legend>1</legend>
+				Email：<input name="email" type="email" /><br />
+				URL: <input name="url" type="url" /><br />
+				Number: <input name="number" type="number" value="30" min="0" max="100" /><br />
+				Date: <input name="date" type="date" /><br />
+				Month: <input type="month" name="month" /><br />
+				Week: <input type="week" name="week" id="week" value="" /><br />
+				Time: <input type="time" name="time" /><br />
+				Datetime: <input type="datetime" name="datetime" id="datetime" value="" /><br />
+				Datetime-local: <input type="datetime-local" name="datetime-local" id="datetime-local" value="" /><br />
+				Color: <input type="color" name="color" /><br />
+			</fieldset>
+			
+			<fieldset>
+				<legend>2</legend>
+				<datalist id="url_list">
+					<option label="百度" value="http://www.baidu.com"></option>
+					<option label="谷歌" value="http://www.google.com"></option>
+				</datalist>
+				URL: <input type="url" list="url_list" name="url" autocomplete="on"/>
+			</fieldset>
+			
+			<fieldset>
+				<legend>3</legend>
+				<input type="text" id="num1" />+
+				<input type="text" id="num2" />=
+				<output id="result"></output>
+				<script>
+					window.addEventListener("input", resCalc, true);
+					function resCalc(){
+						var num_a = document.getElementById("num1").value;
+						var num_b = document.getElementById("num2").value;
+						document.getElementById("result").innerHTML = parseInt(num_a) + parseInt(num_b);
+					}
+				</script>
+			</fieldset>
+			
+			<input type="submit" value="提交"/>
+		</form>
+		
+		<form action="" method="post">
+			
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,39 @@
+translate()
+rotate()
+scale()
+skew()
+matrix()
+
+transform: translate();
+transform: rotate();
+transform: scale();
+transform: skew();
+transform: matrix();
+
+IE10/FF//Opera 支持 transform
+Chrome/Safari -webkit-tranform
+IE9 -ms-transform
+
+
+div{
+	transform: translate(50px 100px);
+	-webkit-transform: translate(50px 100px);
+	-ms-transform: translate(50px 100px);
+	
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	
+	transform: scale(2, 4);
+	-webkit-transform: scale(2, 4);
+	-ms-transform: scale(2, 4);
+	
+	transform: skew(30deg, 20deg);
+	-webkit-transform: skew(30deg, 20deg);
+	-ms-transform: skew(30deg, 20deg);
+	
+
+//skewX(30deg)
+//skewY(20deg)
+
+}

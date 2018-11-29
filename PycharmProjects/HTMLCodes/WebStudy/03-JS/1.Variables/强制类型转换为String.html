@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>强制类型转换</title>
+    <script>
+        /**
+         * 将其他数据类型转换为String
+         * 方式一：
+         *     - toString()-->不改变原来数据类型  null undefined 不可用
+         * 方式二：
+         *     - String()函数"null" "undefined"
+         * @type {Number}
+         */
+        var a = 123;
+        //a = a.toString();
+        
+
+        //a = null;
+        a = undefined
+        //a = a.toString();
+        a = String(a)
+
+        console.log(a);
+        console.log(typeof a)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

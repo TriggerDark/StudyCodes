@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="demo"></div>
+		<button onclick="getPosition()">点击获取当前经纬度</button>
+		
+		<script type="text/javascript">
+			var x = document.getElementById("demo");
+			function getPosition(){
+				if(navigator.geolocation){
+					navigator.geolocation.watchPosition(showPosition);
+					x.innerHTML = "loading ....";
+				}else{
+					x.innerHTML = "不支持";
+				}
+			}
+			
+			function showPosition(position){
+				x.innerHTML = "Latitude: " + position.coords.latitude + 
+								"<br/>Longitude:" + position.coords.longitude;
+			}
+		</script>
+		
+	</body>
+</html>

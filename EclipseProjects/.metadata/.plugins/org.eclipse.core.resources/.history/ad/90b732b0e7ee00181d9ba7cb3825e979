@@ -1,0 +1,15 @@
+package com.bwf.thread;
+
+public class demo2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class MyThread extends Thread{
+	public void run() {
+		
+	}
+}

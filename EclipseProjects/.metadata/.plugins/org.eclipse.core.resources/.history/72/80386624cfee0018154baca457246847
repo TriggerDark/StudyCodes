@@ -1,0 +1,16 @@
+package com.bwf.day4;
+
+import javax.swing.JFrame;
+
+public class demo5 extends JFrame {
+	
+	public demo5() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

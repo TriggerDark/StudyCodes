@@ -1,0 +1,65 @@
+正则表达式Regular Expression
+对文字进行模糊匹配的语言
+借助一些特殊的符号(元字符)来代表具有某种特征的一组字符以及匹配的次数，成为文本模式，可以匹配这种模式的所有文本
+
+作用：
+1.测试字符串是否匹配某种模式
+2.替换或者删除
+3.探索具有某一类特征的文本内容
+模糊搜索/匹配
+
+2.RegExp
+(1)隐式构造方法
+pattern/attributes
+(2)显式构造方法
+new RegExp(pattern, [attributes]);
+g:global全局匹配，查找所有匹配而并非找到第一个就停止
+i:ignore对大小写不敏感
+m:multiply多行匹配
+^开始位置$结束位置
+var reg=/\d{5}/;
+var reg=new RegExp("\\d{5}")
+
+3.RegRxp对象属性
+静态属性
+index
+input
+lastIndex
+lastMatch
+lastParen
+():子匹配
+leftContext
+$1...$9
+动态属性(实例属性)
+
+4.RegExp对象方法
+complie()
+exec()检索字符串汇总指定位置
+如果找到返回值，并且确定其位置
+如果没有发现匹配，返回null
+var patt1 = new RegExp("e")
+var result = patt1.exec("the")
+
+如果添加第二个参数e,并存储他的位置
+var patt2 = new RegExp("e", "g")
+do{
+    result = patt2.exec("the best")
+}while(result != null)
+patt2.complie("d")
+
+test() 返回值true/false
+
+var patt1 = new RegExp("e")
+var result = patt1.test("the")--->true
+
+toString()返回正则表达式的字符串
+
+string与正则表达式相关的方法
+search:检索和正则表达式的值
+match:找到一个或者多个RE的匹配
+replace:替换的RE匹配的值
+split:把字符串分割成字符串数组
+      分隔符可以是RE
+
+三.语法
+元字符:限定符、选择匹配符、分组组合和反向引用符

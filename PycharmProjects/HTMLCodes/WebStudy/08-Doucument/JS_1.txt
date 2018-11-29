@@ -1,0 +1,74 @@
+JS输出
+alert()
+doucment.write()
+console.log()
+console.info()
+console.warn()
+console.error()
+console.debug()
+innerHTML写到HTML元素里面
+
+JS语句
+{
+}
+大小写敏感
+getElementById()
+折行
+
+变量
+var name;
+var name="", age=""
+
+数据类型
+字符串 数字 布尔 数组 对象 null undefined
+ var x;//undefined
+ var x = 6;//数字
+ var x = "Tom";//字符串
+ //单双引号都可以
+ 数字：带小数点或者不带
+ var x1 = 56.00
+ var x2 = 123e-5
+
+ 布尔：true/false
+
+ 数组:
+ var employees = new Array("Tom", "Mary");
+ employees[0] = "Tom";
+ employees[1] = "Mary";
+ employees = ["Tom", "Mary"]
+
+ 对象
+ var employees = {
+    firstName: "Tom",
+    lastName: "Smith",
+    age: 46
+ };
+
+ new String
+ new Array
+ new Object
+ new Boolean
+ new Number
+
+
+ 函数
+ function xxx(arg1, arg2, ...){
+    return xx
+ }
+
+ 运算符
+ + - * / % ++ --
+
+输出
+alert("")
+document.write()
+console.log("")
+element.innerHTML = xxx;//<>...</>
+
+var
+字符串、数字、布尔、数组、对象、null、undefined
+employees = new Array();//同数组
+var employee = {fn:"",ln:"",age:33}
+var name = null;
+
+===(值和类型相等，全等)

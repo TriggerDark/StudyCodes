@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+        //window.setInterval("alert('123');",  200);
+        
+        
+        /**
+         * setInterval()方法可以按照指定的周期，
+         * 来调用函数或计算表达式
+         */
+        
+        //setInterval("alert('123');",  200);
+        //每隔多长时间执行一次函数
+        
+        function test() {
+            console.log("setInterval 调用了")
+        }
+        //setInterval("test();",2000)
+         
+        var ID
+        function startTime () {
+//            ID = setInterval("test();", 1000)
+            ID = setTimeout("test();", 3000)
+        }
+        function endTime () {
+//            clearInterval(ID) 
+            clearTimeout(ID)
+        }
+            
+    </script>
+</head>
+<body>
+    <input type="button" value="开启定时器" onclick="startTime()"><br/>
+    <input type="button" value="关闭定时器" onclick="endTime()"><br/>    
+</body>
+</html>

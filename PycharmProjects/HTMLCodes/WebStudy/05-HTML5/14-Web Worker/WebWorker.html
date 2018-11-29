@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p>Count number:<output id="result"></output></p>
+		<button onclick="startWorker()">Start Woker</button>
+		<button onclick="stopWorker()">Stop Worker</button>
+		
+		<script>
+			var w;
+			function startWorker(){
+				//检验Web Worker支持
+				if(typeof(Worker) !== "undefined"){
+					if(typeof(w) == "undefined"){
+						//创建外部JS文件
+						//创建Web Worker对象
+						w = new Worker("sum_worker.js");
+					}
+					w.onmessage = function(e){
+						document.getElementById("result").innerHTML = e.data;
+					}
+				}else{
+					document.getElementById("result").innerHTML = "浏览器不支持";
+				}
+			}
+			function stopWorker(){
+				//终止Web Worker
+				w.terminate();
+			}
+		</script>
+	</body>
+</html>

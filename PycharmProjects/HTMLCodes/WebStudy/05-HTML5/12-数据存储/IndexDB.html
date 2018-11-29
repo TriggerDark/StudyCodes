@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			//创建和打开数据库
+			var request = indexedDB.open("MyData");
+			var db;
+			request.onerror = function(e){
+				alter(e.target.errorCode);
+			}
+			request.onsuccess = function(e){
+				da = request.result;
+				//创建对象存储空间
+				if(!db.objectStoreNames.contains("employees")){
+					var objectStore = db.createObjectStore("employees", {keyPath: "id"});
+					objectStore.createIndex("email", "email", {unique: true});
+				}
+			}
+			var data={
+	            "id": 110,
+	            "name": "smith",
+	            "age": 13,
+	            "email": "1234@qq.com"
+        	}
+			var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+			var store = trans.objectStore("employees");
+			var request1 = store.add(data);
+			request1.onsuccess = function(e){
+				alert("成功！id=" + e.target.result);
+			}
+			
+			//查询数据
+		    var key = 110
+		    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+		    var store = trans.objectStore("employees");
+		    var req2 = trans.get(key);
+		    req2.oncsuccess=fnction(event){
+		        var emp = event.target.result;
+		        console.log(emp.name);
+		    }
+		    //更新数据
+		    var key = 110
+		    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+		    var store = trans.objectStore("employees");
+		    var req3 = trans.get(key);
+		    req3.oncsuccess = fnction(event){
+	        var emp = event.target.result;
+		        emp.age = 32;
+		        store.put(emp)
+    		}
+		    //删除数据
+		    var key = 110
+		    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+		    var store = trans.objectStore("employees");
+		    var req4 = trans.delete(key);
+		    req2.oncsuccess=fnction(event){
+		        alert("删除成功")
+		    }
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+1)通用爬虫
+Robots.txt
+工作流程：爬取网页 存储数据 内容处理 提供检索/排名服务
+搜索引擎排名
+    1.PageRank值: 根据网站流量统计(点击量/浏览量/人气)
+    2.竞价排名
+2)聚焦爬虫
+
+
+scheme：协议(http,ftp,https)
+host: 服务器的IP地址或者域名
+port: 服务器端口
+path: 访问资源路径
+query-string: 参数
+anchor: 锚点
+
+HTTP请求
+
+Get和Post请求的区别
+get：请求的url会附带参数，查询参数在QueryString中保存
+post：不带参数，查询参数在Form表单里保存
+
+AJAX方式加载的页面，数据来源一定是JSON
+    拿到JSON，就是拿到了页面的数据

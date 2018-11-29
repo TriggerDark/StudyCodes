@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        #tab{
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        /**
+         * 设置属性
+         * prop
+         * attr
+         */
+
+        $(function() {
+            $("#checkAll").click(function() {
+                // $("input[type='checkbox']:gt(0)").prop("checked", this.checked) 
+                $("table tr td input").prop("checked", this.checked)
+                //$("input").prop("checked", this.checked)
+            });
+        });
+    </script>
+</head>
+<body>
+    <table border="5px" width="100%" id="tab">
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="checkAll"></td>
+                <td>分类ID</td>
+                <td>分类名称</td>
+                <td>分类商品</td>
+                <td>分类描述</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=""></td>
+                <td>1</td>
+                <td>1</td>
+                <td>11</td>
+                <td>111</td>
+                <td><a href="#">修改</a>|<a href="#">删除</a></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=""></td>
+                <td>2</td>
+                <td>2</td>
+                <td>22</td>
+                <td>222</td>
+                <td><a href="#">修改</a>|<a href="#">删除</a></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=""></td>
+                <td>3</td>
+                <td>3</td>
+                <td>33</td>
+                <td>333</td>
+                <td><a href="#">修改</a>|<a href="#">删除</a></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=""></td>
+                <td>4</td>
+                <td>4</td>
+                <td>44</td>
+                <td>444</td>
+                <td><a href="#">修改</a>|<a href="#">删除</a></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=""></td>
+                <td>5</td>
+                <td>5</td>
+                <td>55</td>
+                <td>555</td>
+                <td><a href="#">修改</a>|<a href="#">删除</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

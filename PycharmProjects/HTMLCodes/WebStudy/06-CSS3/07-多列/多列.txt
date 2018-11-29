@@ -1,0 +1,11 @@
+columns简写属性
+column-width:设置列的宽度
+column-count:设置列数
+column-gap:设置列之间的间隔
+column-fill:设置如何填充列
+column-span:规定元素应该横跨的列数
+column-rule(
+			-color:
+			-style:
+			width
+			):设置列之间的宽度，样式和颜色规则

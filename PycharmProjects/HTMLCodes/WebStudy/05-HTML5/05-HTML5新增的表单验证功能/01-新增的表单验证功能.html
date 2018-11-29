@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        function testForm () {
+            var  email = document.getElementById("emailID");
+            if(email.value == ""){
+                alert("请输入email：");
+                return false;
+            }else if (!email.checkValidity()) {
+                alert("email格式不对");
+                return false;
+            }
+        }
+        function check () {
+            var p1 = document.getElementById("p1");
+            var p2 = document.getElementById("p2");
+            if(p1.value == ""){
+                p1.setCustomValidity("请输入密码：");
+            }else if (p1.value != p2.value) {
+                p2.setCustomValidity("两次密码输入不匹配");
+            }else{
+                p2.setCustomValidity("");
+            }
+        }
+    </script>
+</head>
+<body>
+    <!--
+    email/url进行格式检查
+    required检查是否填入内容
+    pattern检查输入域是否符合模式
+    显示进行表单验证
+    -->
+    <!--checkValidity-->
+    <form action="" id="myform" onsubmit="testForm()">
+        <input type="email" name="email" id="emailID">
+        <input type="submit" name="提交">
+    </form>
+
+    <!--特殊需求验证setCustomValidity-->
+    <form>
+        <input type="password" name="password" id="p1">
+        <input type="password" name="password" id="p2">
+        
+    </form>
+    <!--
+        ValidityState
+    -->
+
+</body>
+</html>

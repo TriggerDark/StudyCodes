@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--先写整体，再写局部,padding页边距-->
+    <meta charset="UTF-8">
+    <title>页面布局</title>
+    <style>
+      #mydiv {
+        width: 200px;
+        height: 200px;
+        background-color: #888888;
+        border: 10px solid blue;
+        border-top: 10px dashed red;
+        padding: 10px;
+      }
+      #inner{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        padding: 10px;
+      }
+      #angle{
+        width: 0;
+        height: 0;
+        border: 20px solid white;
+        border-top: 20px solid black;
+      }
+    </style>
+</head>
+<body>
+  <div id="mydiv">
+    <div id="inner"></div>
+  </div>
+  <div id="angle"></div>
+</body>
+</html>

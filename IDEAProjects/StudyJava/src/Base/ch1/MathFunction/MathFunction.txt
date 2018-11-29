@@ -1,0 +1,16 @@
+· Math.sqrt()-->平方根
+· Math.pow()--->幂运算
+· Math.abs()--->绝对值
+· Math.max(x, y)--->x,y最大值
+· Math.min(x, y)--->x,y最小值
+· Math.round()--->四舍五入
+· Math.sin()
+· Math.cos()
+· Math.tan()
+· Math.atan()
+· Math.atan2()
+· Math.log()
+· Math.exp()
+· Math.log10
+· Math.PI
+· Math.E

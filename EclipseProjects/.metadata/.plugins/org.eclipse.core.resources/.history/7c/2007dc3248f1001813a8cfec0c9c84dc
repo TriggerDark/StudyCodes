@@ -1,0 +1,47 @@
+package com.model;
+
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Toolkit;
+
+import com.view.MainFrame;
+import com.view.MyPanel;
+
+public class Player {
+	//图片的宽高
+	public int width;
+	public int height;
+	//初始坐标
+	public int x;
+	public int y;
+	public Image[] images = new Image[] {
+		Toolkit.getDefaultToolkit().getImage("src/images/player01.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player02.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player03.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player04.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player05.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player06.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player07.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player08.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player09.png"),
+		Toolkit.getDefaultToolkit().getImage("src/images/player10.png"),
+	};
+	
+	public int imagesIndex = 0;
+	public MyPanel mypanel;
+	
+	public Player(MyPanel mypanel) {
+		this.mypanel = mypanel;
+		width = 100;
+		height = 100;
+		x = (MainFrame.FrameWidth - width) / 2;
+		y = (MainFrame.FrameHeight - height) / 2;
+	}
+	
+	public void drawSelf(Graphics g) {
+		g.drawImage(images[imagesIndex], x, y, width, height, null);
+	}
+	
+	
+	
+}

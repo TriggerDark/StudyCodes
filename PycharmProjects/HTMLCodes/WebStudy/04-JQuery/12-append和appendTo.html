@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script>
+        /**
+         * append:添加子元素
+         * appendTo:把子元素添加给一个parent
+         * prepend:在元素前面加
+         * prependTo:在元素末尾加
+         * after:在后面添加一个同级的兄弟
+         * before
+         */
+
+        $(function() {
+            $("#btn").click(function() {
+                //$("#div1").append("<font size='10px'>哈哈</font>")
+                //$("#div1").prepend("<font size='10px'>哈哈</font>")
+                $("#div1").after("<font size='10px'>哈哈</font>")
+                //$("<font size='10px'>啦啦</font>").appendTo("#div1");
+                //$("<font size='10px'>啦啦</font>").prependTo("#div1");
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="button" id="btn" value="点我">
+    <div id="div1">
+        嘿嘿
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <p>Status:<span id="A1"></span></p>
+    <p>StatusText:<span id="A2"></span></p>
+    <p>ResponseText:<span id="A3"></span></p>
+    <button onclick="loadXML('example.xml');">获取XML文件</button>
+    <script>
+        function loadXML (url) {
+            xmlhttp = null;
+            if(window.XMLHttpRequest){
+                //其他浏览器
+                xmlhttp = new XMLHttpRequest();
+            } else if (window.ActiveXObject) {
+                //IE浏览器
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            //初始化HTTP请求参数
+            xmlhttp.open("GET", url, true);
+            //发送 HTTP请求
+            xmlhttp.send(null);
+            //指定相应处理函数
+            xmlhttp.onreadystatechange=stateChange;
+        }
+        function stateChange () {
+            if(xmlhttp.readyState == 4){
+                if (xmlhttp.status == 200) {
+                    document.getElementById("A1").innerHTML = xmlhttp.status;
+                    document.getElementById("A2").innerHTML = xmlhttp.statusText;
+                    document.getElementById("A3").innerHTML = xmlhttp.responseText;
+                }else{
+	                alert("获取数据时出现错误：" + xmlhttp.statusText);
+	            }
+            }
+        }
+    </script>
+</body>
+</html>

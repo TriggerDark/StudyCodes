@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 120px;
+				height: 120px;
+				background-color: yellow;
+				animation: myframes 5s;
+				-ms-animation: myframes 5s;
+				-webkit-animation: myframes 5s;
+				-o-animation: myframes 5s;
+			}
+			@-o-keyframes myframes{
+				0% {background-color: orange;}
+				25% {background-color: red;}
+				50% {background-color: blue;}
+				100% {background-color: purple;}
+			}
+			@-ms-keyframes myframes{
+				0% {background-color: orange;}
+				25% {background-color: red;}
+				50% {background-color: blue;}
+				100% {background-color: purple;}
+			}
+			@-webkit-keyframes myframes{
+				0% {background-color: orange;}
+				25% {background-color: red;}
+				50% {background-color: blue;}
+				100% {background-color: purple;}
+			}
+		</style>
+	</head>
+	<body>
+		<div>查看动画效果</div>
+	</body>
+</html>

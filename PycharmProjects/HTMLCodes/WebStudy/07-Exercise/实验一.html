@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var advInitTop=0;
+        var closeInitTop=0;
+
+        function Init( ){
+            advInitTop=document.getElementById("advLayer").style.pixelTop;
+            closeInitTop=document.getElementById("closeLayer").style.pixelTop;
+        }
+        function Move () {
+            document.getElementById("adv").style.pixelTop = advInitTop + document.documentElement.scrollTop;
+            document.getElementById("close").style.pixelTop = closeInitTop + document.documentElement.scrollTop;
+        }
+        function Close () {
+            document.getElementById("close").style.display = 'none';
+            document.getElementById("adv").style.display = 'none';
+        }
+        window.onscroll = Move;
+    </script>
+</head>
+<body onscroll="Init()">
+<div>
+    <div>
+        <img src="../imgs/close.png" style="position: absolute; top: 100px; left: 115px; z-index: 2" onclick="Close()" id="close">
+    </div>
+    <div>
+        <img src="../imgs/face.png" style="position: absolute; top: 100px; z-index: 1" id="adv">
+    </div>
+    <div style="width: 991px; height: 902px;" align="center">
+        <img src="../imgs/bg.JPG">
+        <img src="../imgs/cellphone.jpg">
+    </div>
+</div>
+</body>
+</html>

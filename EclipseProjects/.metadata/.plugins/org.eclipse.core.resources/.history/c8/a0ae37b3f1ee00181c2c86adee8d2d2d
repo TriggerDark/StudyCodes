@@ -1,0 +1,21 @@
+package com.view;
+
+import java.awt.Toolkit;
+
+import javax.swing.JFrame;
+
+public class MainFrame extends JFrame {
+	
+	//相当于java类型的身份验证，主要用版本控制
+	private static final long serialVersionUID = 11; 
+	//窗体的宽度和长度
+	public static int FrameWidth = 512;
+	public static int FrameHeight = 768;
+	
+	public MyPanel Panel;
+	
+	public MainFrame() {
+		Toolkit.getDefaultToolkit().getScreenSize();
+	}
+	
+}

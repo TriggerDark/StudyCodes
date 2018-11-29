@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<output id="msg"></output>
+		<button id="send" onclick="">发送信息</button>
+		<script type="text/javascript">
+			var socket = new WebSocket("ws://localhost:8080");
+			function sendmsg(){
+				if(window.WebSocket){
+					socket.send("MSG, 0, 0, hello");
+				}else{
+					alert("浏览器不支持");
+				}
+			}
+			socket.onopen = function(e){
+				document.getElementById("msg").value = "已建立连接";
+			}
+			socket.onmessage = function(){
+				document.getElementById("msg").value = "收到信息：" + e.data;
+			}
+			socket.onclose = function(e){
+				document.getElementById("msg").value = "连接已关闭";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>转换为Boolean</title>
+    <script type="text/javascript">
+        
+    /**
+     * Boolean()函数
+     * Number --> bool
+     *     只有 0 和 NaN --false
+     * String --> bool
+     *     空串 -->false
+     *     null和 undefined -->false
+     * Object --> bool
+     *     --true
+     */
+    
+    var a = 123;
+    a = NaN;
+    a = 0;
+    a = Infinity;
+
+    a = Boolean(a);
+
+    console.log(typeof a);
+    console.log(a)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

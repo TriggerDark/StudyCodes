@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			a{
+				text-decoration: none;
+			}
+			.clear{
+				clear: both;
+			}#containter{
+				width: 1000px;
+				font-family: "微软雅黑";
+				margin: 0 auto;
+			}
+			#top{
+				height: 270px;
+				position: relative;
+				border: 1px solid red;
+			}
+			.title{
+				height: 40px;
+			}
+			#top .title img{
+				margin-top: 10px;
+				height: 20px;
+			}
+			#top .title span{
+				position: relative;
+				top: -3px;
+			}
+			#top .board{
+				width: 996px;
+				height: 230px;
+				background-color: #f6f6f6;
+				border: 1px solid black;
+				border-radius: 5px;
+				position: relative;
+			}
+			#top .board .box{
+				margin-left: 0;
+				margin-top: 10px;
+				width: 2940px;
+				border: 1px solid green;
+				position: absolute;
+				left: 0px;
+				top: 0;
+				transform: all 1s;
+			}
+			#top .board .box a{
+				float: left;
+				margin: 5px;
+				width: 186px;
+				height: 186px;
+				display: inline-block;
+			}
+			#top .board .box a img{
+				border: 1px solid #EEEEEE;
+				border-radius: 2px;
+				width: 185px;
+				height: 185px;
+				position: relative;
+				left: 0;
+				top: 0;
+				transition: all 0.6s;
+			}
+			#top .board .box a img:hover{
+				width: 195px;
+				height: 195px;
+				top: -5px;
+				left: -5px;
+			}
+			#top .btn{
+				display: block;
+				width: 30px;
+				height: 60px;
+				overflow: hidden;
+				position: absolute;
+				top: 110px;
+			}
+			#top .btn span{
+				display: block;
+				height: 60px;
+				line-height: 58px;
+				font-family: charcoal;
+				border-radius: 50%;
+				font-size: 30px;
+				color: whitesmoke;
+				background-color: rgba(100, 100, 100, 0.6);
+			}
+			#top .btn span .leftBtn{
+				padding-left: 28px;
+				margin-left: -30px;
+				width: 32px;
+			}
+			#top .btn span .rightBtn{
+				padding-left: 8px;
+				width: 52px;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){
+				var box = document.getElementsByClassName("box")[0];
+				var btnArr = document.getElementsByClassName("btn");
+				
+				//右按钮让box向左滑动，196*5=980px
+				btnArr[1].onclick = function(){
+					if(parseInt(box.style.left) > -1960){
+						btnArr[0].style.display = "block";
+						box.style.left = parseInt(box.style.left) - 980 + "px";
+						if(parseInt(box.style.left) == -1960){
+							this.style.display = "none";
+						}
+					}
+				}
+				btnArr[0].onclick = function(){
+					if(parseInt(box.style.left)<0){
+						btnArr[1].style.display = "block";
+						box.style.left = parseInt(box.style.left) + 980 + "px";
+						if(parseInt(box.style.left) == 0){
+							this.style.display = "none";
+						}
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="containter">
+			<div id="top">
+				<div class="title">
+					<img src="../img/logo.png"/>
+					<span >推荐歌手</span>
+				</div>
+				<div class="board">
+					<div id="show" style="position: relative; margin-left: 5px; width: 985px; height: 230px;,border: 1px solid black; overflow: hidden;">
+						<div class="box" style="left: 0px;">
+							<a href="#">
+								<img src="../img/1.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/2.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/3.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/4.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/5.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/6.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/7.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/8.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/9.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/10.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/11.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/12.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/13.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/14.jpg" alt="" />
+							</a>
+							<a href="#">
+								<img src="../img/15.jpg" alt="" />
+							</a>
+							<div class="clear"></div>
+						</div>
+				</div>
+			</div>
+			<label class="btn" style="left: 0px; display: none;">
+				<span class="leftBtn">&lt;</span>
+			</label>
+			<label class="btn" style="right: 0px;">
+				<span class="rightBtn">&gt;</span>
+			</label>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        function leftselectOne () {
+            var leftselect = document.getElementById("leftselect");
+            var rightselect = document.getElementById("rightselect")
+            var options = leftselect.options;
+            for (var i = 0; i < options.length; i++) {
+                var option1 = options[i];
+                if(option1.selected){
+                    rightselect.appendChild(option1);
+                }
+            }
+        }
+        function leftselectAll () {
+            var leftselect = document.getElementById("leftselect");
+            var rightselect = document.getElementById("rightselect")
+            var options = leftselect.options;
+            for (var i = options.length - 1; i >= 0; i--) {
+                var option1 = options[i];
+                    rightselect.appendChild(option1);
+            }
+        }
+        function rightselectOne () {
+            var leftselect = document.getElementById("leftselect");
+            var rightselect = document.getElementById("rightselect")
+            var options = rightselect.options;
+            for (var i = 0; i < options.length; i++) {
+                var option1 = options[i];
+                if(option1.selected){
+                    leftselect.appendChild(option1);
+                }
+            }
+        }
+        function rightselectAll () {
+            var leftselect = document.getElementById("leftselect");
+            var rightselect = document.getElementById("rightselect")
+            var options = rightselect.options;
+            for (var i = options.length - 1; i >= 0; i--) {
+                var option1 = options[i];
+                    leftselect.appendChild(option1);
+            }
+        }
+    </script>
+</head>
+<body>
+    <table border="1px" width="400px">
+        <tr>
+            <td>分类名称</td>
+            <td><input type="text" value="手机数码"></td>
+        </tr>
+        <tr>
+            <td>分类描述</td>
+            <td><input type="text" value="这些都是手机数码"></td>
+        </tr>
+        <tr>
+            <td>分类商品</td>
+            <td>
+                <div style="float:left;">
+                    已有商品<br>
+                    <select name="" id="leftselect" multiple="multiple" ondblclick="leftselectOne();">
+                        <option value="">华为</option>
+                        <option value="">小米</option>
+                        <option value="">OPPO</option>
+                        <option value="">vivo</option>
+                    </select>
+                    <br>
+                    <a href="#" onclick="leftselectOne();">&gt;&gt;</a><br>
+                    <a href="#" onclick="leftselectAll()">&gt;&gt;&gt;</a>
+                </div>
+                <div style="float: right;">
+                    未有商品<br>
+                    <select name="" id="rightselect" multiple="multiple" ondblclick="rightselectOne()">
+                        <option value="">Apple</option>
+                        <option value="">诺基亚</option>
+                        <option value="">魅族</option>
+                        <option value="">三星</option>
+                    </select>
+                    <br>
+                    <a href="#" onclick="rightselectOne()">&lt;&lt;</a><br>
+                    <a href="#" onclick="rightselectAll()">&lt;&lt;&lt;</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="提交">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

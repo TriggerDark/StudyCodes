@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date</title>
+	<script type="text/javascript">
+		var now = new Date();
+		console.log(now);
+		console.log(now.toDateString());
+		console.log(now.getHours());
+		console.log(now.getMonth());
+		console.log(now.getDay());
+		console.log(now.getUTCHours());
+
+		var date = new Date(2008, 1, 1, 1, 1);
+		console.log(date);
+		date.setHours(2);
+		console.log(date);
+
+		var date2 = "Fri Sep 19 2008";
+		console.log(Date.parse(date2));
+	</script>
+</head>
+<body>
+
+</body>
+</html>

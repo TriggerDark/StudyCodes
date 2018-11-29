@@ -1,0 +1,22 @@
+package com.bwf.day4;
+
+import javax.swing.JFrame;
+import javax.swing.JMenuItem;
+import javax.swing.JPopupMenu;
+
+public class demo5 extends JFrame {
+	
+	public demo5() {
+		JPopupMenu popopMenu = new JPopupMenu();
+		
+		JMenuItem refreshItem = new JMenuItem("刷新");
+		JMenuItem createItem = new JMenuItem("创建");
+		JMenuItem exitItem = new JMenuItem("退出");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

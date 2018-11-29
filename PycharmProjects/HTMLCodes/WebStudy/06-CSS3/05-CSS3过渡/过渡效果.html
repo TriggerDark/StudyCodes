@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	鼠标放到紫色的div块,看过渡效果
+    	多项改变
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 120px;
+				height: 120px;
+				color: white;
+				background-color: purple;
+				transition: 2s;
+				/*-ms-transition: width 2s height 2s -ms-transform 2s;
+				-webkit-transition: width 2s height 2s -webkit-transform 2s;
+				-o-transition: width 2s height 2s -o-transform 2s;*/
+			}
+			div:hover{
+				width: 200px;
+				height: 200px;
+				transform: rotate(180deg);
+				/*-webkit-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				-o-transform: rotate(180deg);*/
+			}
+		</style>
+	</head>
+	<body>
+		<div>查看过渡效果</div>
+	</body>
+</html>

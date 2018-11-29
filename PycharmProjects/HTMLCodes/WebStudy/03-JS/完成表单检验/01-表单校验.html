@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        /**
+         * 1.确认事件：onfocus()
+         * 2.函数
+         * 3.修改审判内容
+         *
+         *onfocus():或得焦点
+         *onblur():失去焦点
+         *onkeyup():按键抬起
+         * 
+         */
+        function check (checkID, msg) {
+            var span = document.getElementById(checkID);
+            span.innerHTML = "<font color = 'red' size = '2'>"+ msg +"</font>"; 
+        }
+        function checkUsername () {
+            var span = document.getElementById("span_username");
+            var password = document.getElementById("username").value;
+            if(password.length<6){
+                span.innerHTML = "<font color = 'red' size = '2'> 名字太短</font>"; 
+                return false;
+            }else {
+                span.innerHTML = "<font color = 'red' size = '2'> 恭喜用户可用</font>"; 
+                return true;
+            }
+        }
+        function checkPassword () {
+            var span = document.getElementById("span_password");
+            var password = document.getElementById("password").value;
+            if(password.length<6){
+                span.innerHTML = "<font color = 'red' size = '2'> 密码太短</font>"; 
+                return false;
+            }else {
+                span.innerHTML = "<font color = 'red' size = '2'> 密码可用</font>"; 
+                return true;
+            }
+        }
+        function checkRpassword () {
+            var span = document.getElementById("span_rpassword");
+            var password = document.getElementById("password").value;
+            var rpassword = document.getElementById("rpassword").value;
+            if(rpassword != password){
+                span.innerHTML = "<font color = 'red' size = '2'> 两次密码不一致</font>"; 
+                return false;
+            }else {
+                span.innerHTML = "<font color = 'red' size = '2'> 密码正确</font>"; 
+                return true;
+            }
+        }
+        function checkEmail () {
+            var span = document.getElementById("span_email");
+            var email = document.getElementById("email").value;
+            var checkre = /^\w+@[a-zA-Z0-9]{2,10}(?:\.[a-z]{2,4}){1,3}$/;
+            var flag = checkre.test(email);
+            if(flag){
+                span.innerHTML = "<font color = 'red' size = '2'> 邮箱可用</font>";
+                return true;
+            }else{
+                span.innerHTML = "<font color = 'red' size = '2'> 邮箱不可用</font>";
+                return false;
+            }
+        }
+        function checkTel () {
+            var span = document.getElementById("span_tel");
+            var tel = document.getElementById("tel").value;
+            var checkreT = /^[1][34578]\d{9}$/;
+            var flag = checkreT.test(tel);
+            if(flag){
+                span.innerHTML = "<font color = 'red' size = '2'> 手机号可用</font>"
+                return true;
+            }else {
+                    span.innerHTML = "<font color = 'red' size = '2'> 手机号不可用</font>"
+                    return false;
+                }
+        }
+        function checkForm (argument) {
+            var flag = checkUsername()&&checkPassword()&&checkRpassword()&&checkEmail()&&checkTel();
+            return flag;
+        }
+    </script>
+</head>
+<body>
+    <form action="" onsubmit="return checkForm()">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" id="username" onfocus="check('span_username', '用户名不能少于6位')" onblur="checkUsername()" onkeyup="checkUsername()"></td>
+                <td><span id="span_username"></span></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td>
+                    <input type="password" id="password" onfocus="check('span_password', '密码不能少于6位')" onblur="checkPassword()" onkeyup="checkPassword()">
+                </td>
+                <td><span id="span_password"></span></td>
+            </tr>
+            <tr>
+                <td>确认密码：</td>
+                <td>
+                    <input type="password" id="rpassword" onfocus="check('span_rpassword', '两次密码要一致！')" onblur="checkRpassword()" onkeyup="checkRpassword()">
+                </td>
+                <td><span id="span_rpassword"></span></td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td>
+                    <input type="text" id="email" onfocus="check('span_email', '邮箱格式要正确')" onblur="checkEmail()" onkeyup="checkEmail()">
+                </td>
+                <td><span id="span_email"></span></td>
+            </tr>
+            <tr>
+                <td>手机号：</td>
+                <td><input type="text" id="tel" onfocus="check('span_tel','手机格式要正确')" onblur="checkTel()" onkeyup="checkTel()"></td>
+                <td><span id="span_tel"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="提交">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

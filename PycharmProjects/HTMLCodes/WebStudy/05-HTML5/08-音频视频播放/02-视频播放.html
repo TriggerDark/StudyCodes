@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>视频播放</title>
+	</head>
+	<body>
+		<button onclick="clickVedio()">播放/暂停</button>
+		<video id="vedio" controls="controls" height="240" width="320">
+			<source src="movie.ogg" type="video/ogg">
+			<source src="movie.mp4" type="video/mp4">
+			你的浏览器不支持！
+		</video>
+		<script type="text/javascript">
+			var vedio = document.getElementById("vedio");
+			function clickVedio(){
+				if(vedio.paused){
+					vedio.play();
+				}else{
+					vedio.pause();
+				}
+			}
+		</script>
+	</body>
+</html>

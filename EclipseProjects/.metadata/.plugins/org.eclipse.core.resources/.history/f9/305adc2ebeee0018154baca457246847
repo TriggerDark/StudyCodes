@@ -1,0 +1,30 @@
+package com.bwf.day4;
+
+import java.awt.BorderLayout;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class demo1 extends JFrame{
+	
+	JPanel panel;//声明用来放置三个按钮的画板
+	JPanel pallet;//用来做调色板
+	ButtonGroup group;
+	
+	public demo1(){
+		pallet = new JPanel();
+		this.add(pallet, BorderLayout.CENTER);
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

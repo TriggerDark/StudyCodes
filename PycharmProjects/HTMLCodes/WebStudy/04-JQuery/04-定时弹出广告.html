@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        function showAD() {
+            $("#img1").slideDown(2000)
+            setTimeout("hideAD()", 5000)
+        }
+        function hideAD() {
+            $("#img1").slideUp(2000) 
+        }
+        $(function() {
+            setTimeout("showAD()", 5000);
+        })
+    </script>
+</head>
+<body>
+    <img src="../imgs/adv.JPG" alt="" id="img1" style="display: none;">
+</body>
+</html>

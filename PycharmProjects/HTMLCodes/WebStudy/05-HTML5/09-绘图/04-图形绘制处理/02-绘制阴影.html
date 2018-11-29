@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.addEventListener("load",  draw, true);
+			function draw(){
+				var canvas = document.getElementById("canvas");
+				var context = canvas.getContext("2d");
+				context.fillStyle="#EEEEEE";
+				context.fillRect(0, 0, 500, 500);
+				context.shadowOffsetX = 20;//倒影的横向偏移
+				context.shadowOffsety = 20;//纵向偏移
+				context.shadowColor = "rgba(100, 100, 100, 0.5)";//控制倒影的颜色
+				context.shadowBlur = 3.5;//倒影的模糊程度，数值越高越模糊
+				
+				context.translate(0, 50);
+				for(var i=0; i<3; i++){
+					context.translate(50, 50);
+					createFiveStar(context);
+					context.fill();
+				}
+			}
+			function createFiveStar(context){
+				var dx = 100;
+				var dy = 0;
+				var s = 50;
+				context.beginPath();
+				context.fillStyle="rgba(255, 0, 0, 0.5)";
+				var x = Math.sin(0);
+				var y = Math.cos(0);
+				var dig = Math.PI/5*4;
+				for(var i=0; i<5; i++){
+					var x = Math.sin(i*dig);
+					var y = Math.cos(i*dig);
+					context.lineTo(dx+x*s, dy+y*s);
+				}
+				context.closePath();
+			}
+		</script>
+	</head>
+	<body>
+		<!--
+			shadowOffsetx
+			shadowOffsety
+			shadowColor
+			shadowBlur
+		-->
+		<canvas id="canvas" width="500" height="500"></canvas>
+	</body>
+</html>

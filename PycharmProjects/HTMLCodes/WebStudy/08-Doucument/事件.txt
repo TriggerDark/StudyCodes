@@ -1,0 +1,53 @@
+1.把一个函数赋值给一个事件处理程序属性
+<iput type="button" id="btn1" value="c">
+<script>
+	var bin = document.getElementById("btn1")
+	btn1.onclick = function(){
+		alert("Clicked");
+	}
+</script
+
+2.为一个元素添加多个事件处理程序
+用于处理指定和删除事件的方法
+addEventListener()
+removeEventListener()
+para1:要处理的事件名
+para2:处理事件的函数名
+para3:布尔值，是否在捕获阶段处理事件
+	  默认false
+
+function showMessage(){
+	alert("Clicked");
+}
+btn.addEvebtListener("click", showMessage)
+一般在冒泡阶段处理事件在各个浏览器中兼容性较好
+removeXXX参数要和addXXX参数一致
+
+3.IE
+attachEvent()
+detachEvent()
+只有两个参数
+para1：事件名
+para2:时间处理函数名
+IE只支持冒泡阶段
+
+4.常用事件
+onclick
+onload和onunload：用后进入或者离开页面时
+onchange:结合输入字段验证
+ommouseover/onmouseout
+onmousedown/onmouseup/onclick:所有的鼠标点击事件
+onsubmit
+
+document.getElementById("id").value;
+document.formName.userName.value;
+
+二.操作HTML元素
+1、创建新的HTML元素
+document.createElement("p")
+var div1 = document.getElement("div")
+div1.appendChild(p)
+<div id="div1"></div>
+
+insertBefore(p, a);
+insertAfter(p, a);

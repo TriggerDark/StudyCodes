@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+        <style>
+            body{
+                background-color: grey;
+                border: 2px solid white;
+                margin: 5px auto;
+            }
+            h2{
+                text-align: center;
+            }
+            header{
+                background-color: darkmagenta;
+                text-align: center;
+            }
+            #header>nav>ul>li{
+                display: inline;
+            }
+            #header>nav>ul{list-style: none;}
+            header>h2{
+                color: white;
+            }
+            #section{
+                clear: both;
+                width: 70%;
+                float: left;
+                background-color: dodgerblue;
+            }
+            .post{
+                height: 100%;
+                background-color: #eeeeee;
+            }
+            nav, article, aside {
+                margin: 5px;
+                padding: 5px;
+                display: block;
+            }
+            h2>header>h3{background-color: #268abc}
+            #sidebar{
+                width: 20%;
+                height: 300px;
+                float: right;
+                background-color: #268abc;
+                display: block;
+                margin-right: 15px;
+            }
+            #sidebar>header>h3{background-color: #e0a0b0}
+            body>footer{
+                clear: both;
+                background-color: #e0a0b0;
+                color: white;
+            }
+            article>header{
+                text-align: center;
+                background-color: #268abc;
+            }
+            article>aside{
+                float: right;
+                text-align: center;
+                width: 200px;
+                height: 100px;
+                background-color: #e0a0b0;
+            }
+            p{color: red}
+            article>footer{
+                clear: both;
+                text-align: center;
+                background-color: #268abc;
+            }
+        </style>
+	</head>
+	<body>
+        <h2>Body</h2>
+        <header id="header">
+            <h2>Header</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">First</a></li>
+                    <li><a href="#">Second</a></li>
+                    <li><a href="#">Third</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section">
+            <h2>Section</h2>
+            <article class="post">
+                <h2>Article</h2>
+                <header><h3>Article Header</h3></header>
+                <aside><h3>Article Aside</h3></aside>
+                <p>Article contents</p>
+                <footer><h3>Article Footer</h3></footer>
+            </article>
+        </section>
+        <section id="sidebar">
+            <h2>Section</h2>
+            <header>
+                <h3>SideBar Header</h3>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="2018/04">April 2018</a></li>
+                    <li><a href="2018/03">March 2018</a></li>
+                    <li><a href="2018/02">February 2018</a></li>
+                    <li><a href="2018/01">January 2018</a></li>
+                </ul>
+            </nav>
+        </section>
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+	</body>
+</html>

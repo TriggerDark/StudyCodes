@@ -1,0 +1,10 @@
+package com.model;
+
+import com.view.MyPanel;
+
+public class Item01 extends Item {
+	
+	public Item01(MyPanel mypanel) {
+		
+	}
+}

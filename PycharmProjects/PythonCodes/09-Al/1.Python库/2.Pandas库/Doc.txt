@@ -1,0 +1,3 @@
+<class 'pandas.core.frame.DataFrame'>
+<class 'pandas.core.series.Series'>
+<class 'numpy.ndarray'>

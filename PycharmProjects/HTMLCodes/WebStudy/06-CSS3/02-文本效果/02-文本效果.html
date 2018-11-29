@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#hp{
+				text-shadow: 6px 6px 6px #0f0;
+			}
+			p{
+				width: 150px;
+				border: 1px solid black;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			#overflow-visible{
+				text-overflow: initial;
+			}
+			#overflow-clip{
+				text-overflow:clip;
+			}
+			#overflow-ellipsis{
+				text-overflow: ellipsis;/*省略号*/
+			}
+			#overflow-string{
+				text-overflow: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="hp">文本阴影</h1>
+		<p id="overflow-visible">段落1段落1段落1段落1段落1段落1段落1段落1段落1</p>
+		<p id="overflow-clip">段落1段落1段落1段落1段落1段落1段落1段落1段落1</p>
+		<p id="overflow-ellipsis">段落1段落1段落1段落1段落1段落1段落1段落1段落1</p>
+		<p id="overflow-string">段落1段落1段落1段落1段落1段落1段落1段落1段落1段落1</p>
+	</body>
+</html>

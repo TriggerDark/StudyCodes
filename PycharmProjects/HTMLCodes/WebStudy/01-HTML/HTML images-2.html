@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Html image</title>
+		<meta name = "viewport" content = "width = device - width, inital-scale = 1.0">
+	</head>
+	<body style = "background-image:url('img/img_girl.jpg')">
+		<img src = "../imgs/img_girl.jpg" alt= "A girl!" style = "width:100px; heigh: 100px;"></img>
+		<img src = "../imgs/smiley.gif" alt = "Smiley face" style="width:42px;height:42px;border:10;"></img>
+		<a href = "https://www.baidu.com" target = "_blank">
+			<img src = "../imgs/img_girl.jpg" alt= "A girl!" style = "width:100px; heigh: 100px;border: 0"></img>
+		</a>
+		<img src="../imgs/programming.gif" alt="Computer man" style="width:48px;height:48px;">
+		<p>
+			<img src = "../imgs/smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;"></img>
+			A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+		</p>
+		<p>
+			<img src = "../imgs/smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;"></img>
+			A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+		</p>
+		<p style = "background-image:url('../imgs/share_png.jpg')">
+			A paragraph with a background image.<br>
+			A paragraph with a background image.<br>
+		</p>
+		<img src = "../imgs/workplace.jpg" alt = "workplace" usemap = "#workmap"></img>
+		<map name = "workmap">
+			<area shape = "rect" coords = "34,44,270,350" alt = "computer" href = "computer.html" target = "_blank">
+			<area shape = "rect" coords = "290,172,333,250" alt = "ipone" href = "iphone.html">
+			<area shape = "circle" coords = "337,300,44" alt = "coffee" href = "coffee.html">
+		</map>
+		<picture>
+			<source media = "(min-width:650px)" srcset = "../imgs/img_white_flower.jpg">
+			<source media = "(min-width:450px)" srcset = "../imgs/img_orange_flowers.jpg">
+			<img src = "../imgs/img_orange_flowers.jpg" alt="Flowers" style="width:auto;"></img>
+		</picture>
+	</body>
+</html>

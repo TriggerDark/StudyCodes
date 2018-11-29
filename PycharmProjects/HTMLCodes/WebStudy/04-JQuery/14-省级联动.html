@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script>
+        var provinces = [
+            ["深圳市", "东菀市"],
+            ["长沙市", "株洲市"],
+            ["厦门市", "福州市"]
+        ];
+        $(function() {
+            $("#province").change(function() {
+                var cities  = provinces[this.value]//得到省下面的城市的值
+                $("#city").empty()
+                $(cities).each(function(i, city) {
+                    $("#city").append("<option>" + city + "</option>")
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <select id="province">
+        <option value="">---请选择---</option>
+        <option value="0">广东省</option>
+        <option value="1">湖南省</option>
+        <option value="2">福建省</option>
+    </select>
+    <select name="" id="city"></select>
+</body>
+</html>

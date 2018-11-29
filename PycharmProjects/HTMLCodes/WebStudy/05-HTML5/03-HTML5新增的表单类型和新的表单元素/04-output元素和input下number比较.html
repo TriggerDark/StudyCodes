@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function Cal () {
+            var num_a = document.getElementById("num1").value;
+            var num_b = document.getElementById("num2").value;
+            document.getElementById("result").value = parseInt(num_a) + parseInt(num_b);
+        }
+    </script>
+</head>
+<body>
+    <form action="" oninput="Cal()">
+        <input type="text" id="num1">+
+        <input type="text" id="num2">=
+        <output id="result"></output>
+    </form>
+
+    <script>
+        function add(){
+            var num3 = document.getElementById("num3").valueAsNumber;
+            var num4 = document.getElementById("num4").valueAsNumber;
+            document.getElementById("result1").valueAsNumber = num3 + num4;
+        }
+    </script>
+
+    <form>
+        <input type="number" id="num3">
+        +
+        <input type="number" id="num4">
+        =
+        <input type="number" id="result1">
+        <input type="button" onclick="add()" value="计算">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+E:\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1197480349.index
+\NewsProject\src
+E:\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2921588591.index
+\NewsProject\src

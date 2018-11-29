@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大佬云集</title>
+    <style>
+        ul{
+            list-style-type: none;
+            width: 600px;
+            height: 430px;
+            border: 1px solid #ccc;
+        }
+        li{
+            width: 120px;
+            text-align: center;
+            color: #ccc;
+            float: left;
+            margin-right: 10px;
+        }
+        li img{
+            width: 120px;
+            height: 140px;
+        }
+    </style>
+    <script>
+        var gods = [
+            {"name":"马云","face":"imgs/mayun.jpg","info":"阿里巴巴"},
+            {"name":"马化腾","face":"imgs/mahuateng.jpg","info":"腾讯"},
+            {"name":"刘强东","face":"imgs/liuqiangdong.jpg","info":"京东"},
+            {"name":"雷军","face":"imgs/leijun.jpg","info":"小米"},
+            {"name":"王健林","face":"imgs/wangjianlin.jpg","info":"万科"},
+            {"name":"李彦宏","face":"imgs/liyanhong.jpg","info":"百度"},
+        ];
+        window.onload = function() {
+            var ul =document.getElementById('myGods');
+            var html = '';
+            for (var i = 0; i < gods.length; i++){
+                html += '<li>\n' +
+                '<img src="'+gods[i]['face']+'" alt="">\n' +
+                '<a href>'+gods[i]['name']+'</a>\n' +
+                '<p>'+gods[i]['info']+'</p>\n' +
+                '</li>';
+            }
+            ul.innerHTML = html;
+        }
+    </script>
+</head>
+<body>
+    <ul id="myGods"></ul>
+</body>
+</html>

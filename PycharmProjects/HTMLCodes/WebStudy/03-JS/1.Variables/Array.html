@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+    <script>
+        /*var arr = new Array();
+        arr[0] = 11;
+        arr[1] = 12;
+        var arr2 = [11, 12, 13]
+        var arr3 = new Array("0", "1", "2");
+        for(x in arr3){
+            console.log(arr3[x])
+        }*/
+        var arr = new Array("a", "b", "c");
+        arr.push("d");//在数组末尾插上d
+        arr.unshift("e");//在数组开头插入e
+        arr.shift();//去掉开头的e
+        arr.pop();//出栈
+        arr.splice(1, 1);//从第一个数组元素开始，删除一个数组元素
+        var arr1 = [1, 2, 3];
+        var arr2 = [4, 5, 6];
+        var arr3 = arr1.concat(arr2)
+        console.log(arr1.reverse());
+
+        var arr4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+        console.log(arr4[1][2]);
+
+        var arr5 = [
+            {name: "lucy", age: 31},
+            {name: "Mike", age: 26},
+            {name: "Tom", age: 52}
+        ];
+        console.log(arr5[0].name);
+        console.log(arr5[2].age);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

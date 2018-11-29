@@ -1,0 +1,14 @@
+package com.bwf.thread;
+
+public class demo4 {
+
+	/***
+	 * 	假设售票厅有四个售票窗口，票买100张
+	 * 	
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

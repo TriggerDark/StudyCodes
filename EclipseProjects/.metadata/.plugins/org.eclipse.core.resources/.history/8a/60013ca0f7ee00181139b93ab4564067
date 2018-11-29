@@ -1,0 +1,20 @@
+package com.thread;
+
+import com.view.MyPanel;
+
+public class DrawableThread extends Thread {
+
+	public MyPanel mypanel;
+	
+	public DrawableThread(MyPanel mypanel) {
+		this.mypanel = mypanel;
+	}
+	
+	public void run() {
+		while(true) {
+			mypanel.repaint();
+			Thread.currentThread().sleep(millis);
+		}
+	}
+
+}

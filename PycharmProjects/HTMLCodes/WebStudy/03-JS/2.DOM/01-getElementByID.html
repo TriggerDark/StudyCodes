@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM操作</title>
+    <script>
+        window.onload = function(){
+            var oldimg = document.getElementById('myimg');
+            console.log(oldimg.src);
+            var button = document.getElementById('btnChange');
+            button.onclick = function(){
+                oldimg.src = '../imgs/bg.JPG';
+                //oldimg.setAttribute('src','../imgs/bg.JPG')
+            }
+        }
+    </script>
+</head>
+<body>
+    <img id="myimg" src="../imgs/adv.JPG" alt="">
+    <form>
+        <input id="btnChange" type="button" value="改变图片">
+    </form>
+</body>
+</html>

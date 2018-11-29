@@ -1,0 +1,2 @@
+while -->先判断后执行，和for一样
+do while -->先执行后判断，必while多做一次

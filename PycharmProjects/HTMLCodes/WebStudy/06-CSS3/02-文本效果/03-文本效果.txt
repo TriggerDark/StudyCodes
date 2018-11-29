@@ -1,0 +1,12 @@
+· 文本阴影
+	text-shadow:
+		h-shadow
+		v-shadow
+		blur
+		color
+· 自动换行
+	word-wrap:
+		break-word 
+		
+· 文本溢出
+	text-overflow:

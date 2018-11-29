@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>table</title>
+	</head>
+	<body>
+		<table border="1px" align="center" width="400px" height="200px"
+			cellspacing="10px" cellpadding="10px" bgcolor="antiquewhite">
+			<caption>学生成绩</caption>
+			<tbody>
+				<tr bgcolor="aquamarine">
+					<th>学号</th>
+					<th>姓名</th>
+					<th bgcolor="red">成绩</th>
+					<th>平均成绩</th>
+				</tr>
+				<tr align="center">
+					<td>01</td>
+					<td>小明</td>
+					<td>90</td>
+					<td rowspan="2">85</td>
+				</tr>
+				<tr align="center">
+					<td>02</td>
+					<td>小红</td>
+					<td>80</td>
+				</tr>
+				<tr align="center">
+					<th>总计</th>
+					<td colspan="3">总共两个学生,分数为：<font color="red">170分</font></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

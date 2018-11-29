@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        /**
+         * 1.基本选择器
+         *     ID选择器
+         *     类选择器
+         *     元素选择器
+         *     通配符选择器
+         *     选择器，选择器： 选择器1，选择器2
+         */
+        $(function() {
+            $("#btn1").click(function() {
+                $("#two").css({
+                    "background-color": "green"
+                });
+            });
+            $("#btn2").click(function() {
+                $(".mini").css({
+                    "background-color": "green"
+                });
+            });
+            $("#btn3").click(function() {
+                $("div").css({
+                    "background-color": "green"
+                });
+            });
+            $("#btn4").click(function() {
+                $("*").css({
+                    "background-color": "green"
+                });
+            });
+            $("#btn5").click(function() {
+                $(".mini, span").css({
+                    "background-color": "green"
+                });
+            });
+        });
+    </script>
+    <style type="text/css">
+        #one,#two,#three,#four{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: grey;
+        }
+        .mini{
+            width: 40px; 
+            height: 40px; 
+            border: 1px solid black;
+            margin: 4px;
+            float: left;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="找出ID为two的元素" id="btn1">
+    <input type="button" value="找出ID为mini的元素" id="btn2">
+    <input type="button" value="找出所有div的元素" id="btn3">
+    <input type="button" value="通配符选择器" id="btn4">
+    <input type="button" value="选出mini类和span元素" id="btn5">
+    <div style="clear: both"></div>
+    <div id="one" style="float: left">
+        <div class="mini">1-1</div>
+    </div>
+    <div></div>
+    <div id="two" style="float: left;">
+        <div class="mini">2-1</div>
+        <div class="mini">2-2</div>
+    </div>
+    <div id="three" style="float: left">
+        <div class="mini">3-1</div>
+        <div class="mini">3-2</div>
+        <div class="mini">3-2</div>
+    </div>
+    <span id="four">span</span>
+</body>
+</html>

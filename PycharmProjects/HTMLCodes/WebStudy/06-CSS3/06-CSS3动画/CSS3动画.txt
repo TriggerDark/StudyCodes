@@ -1,0 +1,11 @@
+规则@keyframes用于创建动画
+animation:
+用法
+@keyframes animation{
+	keyframes-selector{css-styles;}
+}
+keyframes-selector:动画时长的百分比
+css-styles：一个或者多个合法的CSS样式属性
+
+animation:animationname;
+简写属性，包含八个动画属性

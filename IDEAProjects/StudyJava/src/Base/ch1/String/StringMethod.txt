@@ -1,0 +1,37 @@
+1. 子串
+    str.substring([start,] end)--->子串，相当于切片
+
+2. 拼接
+    +   str1+str2
+    String.join("", str1, str2...)
+
+3. 检测字符串是否相等
+    equals
+    equalsIgnoreCase()
+    ==
+
+4. 长度
+    length()
+
+5. 删除原始字符串头部和尾部的空格
+    trim()
+
+6. 大小写
+    toLowerCase()
+    toUpperCase()
+
+7. 替换
+    replace()
+
+8. 以...开头/结尾
+    endswith()
+    startswith()
+
+9. 索引
+    indexOf()
+    lastindexOf()
+
+10. splite()
+11. str.charAt(int index)
+    返回一个char类型的str[index]
+12. compareTo()

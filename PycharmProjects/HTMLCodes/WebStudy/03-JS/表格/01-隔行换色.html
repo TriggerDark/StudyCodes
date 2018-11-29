@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        #tab{
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function init () {
+             var tab = document.getElementById("tab");
+             var rows = tab.rows;
+             for (var i = 1; i < rows.length; i++) {
+                 var row = rows[i]
+                 if(i%2 == 0){
+                    row.style.backgroundColor = 'yellow';
+                 }else {
+                    row.style.backgroundColor = 'red';
+                 }
+             }
+        }
+    </script>
+</head>
+<body onload="init()">
+    <table border="5px" width="100%" id="tab">
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>分类ID</td>
+            <td>分类名称</td>
+            <td>分类商品</td>
+            <td>分类描述</td>
+            <td>操作</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>1</td>
+            <td>1</td>
+            <td>11</td>
+            <td>111</td>
+            <td><a href="#">修改</a>|<a href="#">删除</a></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>2</td>
+            <td>2</td>
+            <td>22</td>
+            <td>222</td>
+            <td><a href="#">修改</a>|<a href="#">删除</a></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>3</td>
+            <td>3</td>
+            <td>33</td>
+            <td>333</td>
+            <td><a href="#">修改</a>|<a href="#">删除</a></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>4</td>
+            <td>4</td>
+            <td>44</td>
+            <td>444</td>
+            <td><a href="#">修改</a>|<a href="#">删除</a></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name=""></td>
+            <td>5</td>
+            <td>5</td>
+            <td>55</td>
+            <td>555</td>
+            <td><a href="#">修改</a>|<a href="#">删除</a></td>
+        </tr>
+    </table>
+</body>
+</html>

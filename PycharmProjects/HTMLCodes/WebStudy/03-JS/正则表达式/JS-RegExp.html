@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+    <script type="text/javascript">
+        var src = "xxa1b01c001yya2b02c002zz";
+        var re =/a(\d)b(\d{2})c(\d{3})/gi;
+        var arr, count = 0;
+        while((arr = re.exec(src)) != null){
+            displayResult();
+        }
+        function displayResult () {
+            document.write("<p>" + re.source 
+                + "<br>" + RegExp.input 
+                + "进行第" + (++ count) 
+                + "次搜索结果：<br/>");
+            document.write("" + RegExp.lastIndex + "<br/>");
+            document.write("" + RegExp.lastMatch + "<br/>");
+            document.write("" + RegExp.lastParen + "<br/>");
+            document.write("" + RegExp.leftContext + "<br/>");
+            document.write("" + RegExp.rightContext + "<br/>");
+            document.write("" + RegExp.$1 + "<br>");
+            document.write("" + arr.length + "<br>");
+
+            document.write("------------------------")
+
+             for (var i = 0; i < arr.length; i ++) {
+                 if(i < arr.length - 1){
+                     document.write(arr[i] + ",");
+                 }else {
+                    document.write(arr[i] + "</p>");
+                 }
+             }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

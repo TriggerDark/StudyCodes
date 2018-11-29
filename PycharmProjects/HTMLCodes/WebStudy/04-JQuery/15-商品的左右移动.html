@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script>
+        $(function() {
+            $("#a1").click(function() {
+                $("#select2").append($("#select1 option:selected"))
+            });
+            $("#a2").click(function() {
+                $("#select2").append($("#select1 option"))
+            });
+            $("#a3").click(function() {
+                $("#select1").append($("#select2 option:selected"))
+            });
+            $("#a4").click(function() {
+                $("#select1").append($("#select2 option"))
+            });
+        });
+    </script>
+</head>
+<body>
+    <table border="1px" width="400px">
+        <tr>
+            <td>分类名称</td>
+            <td><input type="text" value="手机数码"></td>
+        </tr>
+        <tr>
+            <td>分类描述</td>
+            <td><input type="text" value="这些都是手机数码"></td>
+        </tr>
+        <tr>
+            <td>分类商品</td>
+            <td>
+                <div style="float:left;">
+                    已有商品<br>
+                    <select multiple="multiple" id="select1">
+                        <option value="">华为</option>
+                        <option value="">小米</option>
+                        <option value="">OPPO</option>
+                        <option value="">vivo</option>
+                    </select>
+                    <br>
+                    <a href="#" id="a1">&gt;&gt;</a><br>
+                    <a href="#" id="a2">&gt;&gt;&gt;</a>
+                </div>
+                <div style="float: right;">
+                    未有商品<br>
+                    <select multiple="multiple" id="select2">
+                        <option value="">Apple</option>
+                        <option value="">诺基亚</option>
+                        <option value="">魅族</option>
+                        <option value="">三星</option>
+                    </select>
+                    <br>
+                    <a href="#" id="a3">&lt;&lt;</a><br>
+                    <a href="#" id="a4">&lt;&lt;&lt;</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="提交">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

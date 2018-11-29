@@ -1,0 +1,18 @@
+package com.bwf.thread;
+
+public class demo5 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class MyRunnable implements Runnable{
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

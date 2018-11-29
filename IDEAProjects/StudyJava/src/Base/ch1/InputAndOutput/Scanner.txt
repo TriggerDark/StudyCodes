@@ -1,0 +1,9 @@
+1.引入头文件
+    import java.util.Scanner
+2.定义
+    Scanner input = new Scanner(System.in)
+3.类型
+    String: input.next()
+            input.nextLine()
+    int: input.nextInt()
+    double: input.nextDouble()

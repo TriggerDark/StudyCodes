@@ -1,0 +1,97 @@
+1.MVC框架(model view controller)
+    核心思想:解耦
+    m用于对数据库层的封装
+    v用于向用户展示结果
+    c用于处理请求，获取数据，返回结果
+
+2.MVT框架(model view template)
+
+    t 负责呈现内容到浏览器
+
+
+设计介绍
+完成图书-英雄信息的维护
+图书表结构设计：
+    · 表名：BookInfo
+    · 图书名称：btitle
+    · 图书发布时间：bpub_date
+
+英雄表设计结构：
+    · 表名： HeroInfo
+    · 英雄名称： hname
+    · 性别：hgender
+    · 英雄简介： hcontent
+    · 所属图书： hbook
+
+图书-英雄的关系为一对多
+
+1.创建Django项目
+    Django-admin startproject firstDjango
+
+    firstDjango/
+        settings.py     包含所有的网站设置
+        urls.py         定义了网站url到view的映射
+        wsgi.py         帮助Django应用和网络服务器间的通讯
+    manage.py           脚本可以创建应用，和数据库通讯，启动开发用网络服务器
+
+
+2.在当前创建的firstDjango里面创建应用
+    python manage.py startapp bookInfo
+
+    firstDjango/
+    manage.py
+    firstDjango/
+    bookInfo/
+        admin.py        网站管理设置
+        apps.py         注册应用
+        models.py       模型
+        tests.py        测试
+        views.py        视图函数
+        __init__.py
+        migrations/     (数据迁移)自动升级数据库
+
+
+3.在models.py中配置模板
+4.运行应用
+    python manage.py runserver 8080
+5.生成偏移:根据你当前的模型类，去生成你选择的数据库特定的SQL语句
+    在setting.py中INSTALLED_APPS列表添加bookInfo
+    python manage.py makemigrations
+6.执行偏移文件
+    python manage.py migrate
+
+7.测试数据
+    python manage.py shell
+    In [1]: from booktest.models import *
+
+    In [2]: b = BookInfo()
+
+    In [3]: b.btitle = "abc"
+
+    In [4]: from datetime import datetime
+
+    In [5]: b.bpub_date = datetime(year=1990, month=1, day=12)
+
+    In [6]: b.save()
+    D:\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py:1421: RuntimeWarning: DateTim
+    eField BookInfo.bpub_date received a naive datetime (1990-01-12 00:00:00) while time zone suppor
+    t is active.
+      RuntimeWarning)
+
+    In [7]: BookInfo.objects.all()
+    Out[7]: <QuerySet [<BookInfo: BookInfo object (1)>]>
+
+8.注册模型
+    在admin.py中从.models引入models.py中的类名
+    并通过admin.site.register(类名)进行注册
+
+9.创建超级用户
+    python manage.py createsuperuser
+    Username: lirongwei
+    Email address: 2413044193@qq.com
+    Password:
+    Password (again):
+    Superuser created successfully.
+
+
+

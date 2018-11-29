@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script>
+        function changeJS () {
+            var div = document.getElementById("div1");
+            //div.innerHTML = "js成功修改内容";
+            $("div").html("JS转化JQ对象成功！");
+        }
+        $(function () {
+            $("#but2").click(function() {
+                //$("#div1").html("JQ成功修改的内容");
+                var $div = $("#div1");
+                var jsDiv = $div[0];
+                jsDiv.innerHTML="JQ转化JS对象成功";
+
+            });
+        })
+    </script>
+</head>
+<body>
+    <input type="button" value="JS修改div前的内容" onclick="changeJS()">
+    <input type="button" value="JQ修改div前的内容" id="but2">
+    <div id="div1">
+        这里的内容被js改掉
+    </div>
+</body>
+</html>

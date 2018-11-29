@@ -1,0 +1,25 @@
+package com.bwf.day4;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+
+public class demo4 extends JFrame {
+
+	public demo4() {
+		JMenuBar menuBar = new JMenuBar();
+		this.setJMenuBar(menuBar);
+		
+		JMenu menu = new JMenu("弹出窗口");
+		menuBar.add(menu);
+		
+		JMenu item1 = new JMenu("弹出窗口");
+		JMenu item2 = new JMenu("关闭");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.thread;
+
+import com.view.MyPanel;
+
+public class DrawableThread extends Thread {
+
+	public MyPanel mypanel;
+	
+
+}

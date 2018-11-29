@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			/**
+			 * LinearGradient
+			 * 		创建对象
+			 * 		ctx.createLinearGradient(xstart, ystart, xend, yend);
+			 * 		addColorStop(offset, color)
+			 */
+			
+			window.addEventListener("load", drawLine, true);
+			function drawLine(){
+				var canvas = document.getElementById("myCanvas");
+				var ctx = canvas.getContext("2d");
+//				var grd = ctx.createLinearGradient(0, 0, 0, 300);
+//				grd.addColorStop(0, "#FF0000");
+//				grd.addColorStop(1, "#00FF00");
+//				ctx.fillStyle = grd;
+//				ctx.fillRect(0, 0, 400, 400);
+			
+				var g2 = ctx.createLinearGradient(0, 0, 0, 300);
+				g2.addColorStop(0, "rgba(0, 0, 255, 0.5)");
+				g2.addColorStop(1, "rgba(255, 0, 0, 0.5)");
+				for(var i=0; i<=10; i++){
+					ctx.beginPath();
+					ctx.fillStyle=g2;
+					ctx.arc(i*25, i*25, i*10, 0, Math.PI*2, true);
+					ctx.closePath();
+					ctx.fill();
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="myCanvas" height="400" width="400" style="border: 1px solid black">
+			不支持
+		</canvas>
+	</body>
+</html>

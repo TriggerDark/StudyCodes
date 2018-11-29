@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+  <style>
+    /**
+     * clear属性
+     *    both:两边都不允许浮动;
+     *    left:左边不允许浮动;
+     *    right:右边边不允许浮动;
+     */
+    div{
+      width: 100px;
+      height: 100px;
+    }
+    #d1, #d2, #d3{float: left;}
+    #d1{ background: red;}
+    #d2{ background: blue;}
+    #d3{ background: green;}
+  </style>
+</head>
+<body>
+  <div id="container" style="overflow: hidden; width:300px">
+    <div id="d1">d1123</div>
+    <div id="d2">d2456</div>
+    <div id="d3">d3789</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+HTML DOM
+定义了访问和操作HTML文档的标准方法树
+标签 元素element
+层级：父parent 子child 兄弟sibling
+DOM：可编程
+借助可编程的DOM，JS有能力创建动态的HTML
+HTML元素
+HTML属性
+CSS样式
+对页面事件作响应
+
+1.查找HTML元素
+(1)根据ID
+document.getElementsById("div1");
+<div id = "div1"></div>
+(2)根据name
+document,getElemnetByName("gender");
+(3)根据标签名
+document,getElementsByTagName("p")
+<p id = "p1"></p>
+<p id = "p2"></p>
+<p id = "p3"></p>
+(4)根据类名
+<style>
+	.center:{text-align:center;}
+</style>
+<p id = "p1" class = "center"></p>
+<p id = "p2"></p>
+<p id = "p3" class = "center"></p>
+var x = document.getElementsByClassName("center")
+
+2.改变HTML内容
+(1)document.write(Date());
+(2)element.innerHTML = new HTML；
+
+<p id  = "p1">Old Text!</p>
+<h1 id = "h1">Old Heading</h1>
+document.getElementById("p1").innerHTML = "new Text"
+document.getElementById("h1").innerHTML = "new Heading"
+
+(3)element.attribute = new value;
+<img id = "img1" src = "oldPic.jpg">
+document.getElementById("img1").src = "newPic.jpg";
+
+3.改样式
+<div id = "div1" style = "color:red"></div>
+element.style.property = new style;
+document.getElementById("div1").style.color = "blue";
+document.getElementById("div1").style.textAlign = "left";
+element.style.visibility = "hidden";
+element.style.visinility = "visible";
+
+4.DOM事件
+点击鼠标click
+网页/图像加载load
+鼠标移动到元素上mouseover/mouseout
+输入字段改变change
+表单提交submit
+按键的过程mousedown/mouseup/click
+获得焦点focus/blur
+
+捕获阶段、目标阶段、冒泡阶段
+捕获阶段：从根节点逐层向下传递，流经各个DOM节点(建立路径的过程)
+目标阶段：事件已经到达目标节点
+冒泡阶段：事件在目标节点上触发后，不会终止，会一层一层向上冒泡，回溯到根节点
+event.stopPropagation()
+终止事件冒泡

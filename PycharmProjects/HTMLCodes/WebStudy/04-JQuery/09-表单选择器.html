@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript">
+        /**
+         * :input
+         * :password
+         * :text
+         * ......
+         */
+        $(function() {
+            $(":text").css("background-color", "red");
+            $("#btn1").click(function () {
+               $("option:selected").css("background-color", "grey");
+            });
+        });
+    </script>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="Input button"><br>
+        <input type="checkbox"><br>
+        <input type="file"><br>
+        <input type="hidden"><br>
+        <input type="img"><br>
+        <input type="password"><br>
+        <input type="radio"><br>
+        <input type="reset"><br>
+        <input type="submit"><br>
+        <input type="text"><br>
+        <select multiple="muyiple">
+            <option>Option1</option>
+            <option>Option2</option>
+            <option>Option3</option>
+        </select><br>
+        <input type="button" value="点我" id="btn1">
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <button>button</button>
+    </form>
+</body>
+</html>

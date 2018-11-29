@@ -1,0 +1,38 @@
+(一)
+1)数值型
+1.整型
+    · int: 4个字节
+        · 二进制   Ob/OB
+        · 八进制
+        · 十进制
+        · 十六进制
+    · short: 2个字节
+    · long: 8个字节
+    · byte: 1个字节
+
+2.浮点类型
+    · float: 4个字节
+    · double: 8个字节
+            - NaN: (不是一个数字)
+            - Double.isNaN(double)
+            - Double.NaN
+
+2)非数值型
+1.char类型:
+    · 特殊字符类型
+        \b:     退格
+        \t:     制表
+        \n:     换行
+        \r:     回车
+        \":     双引号
+        \':     单引号
+        \\:     反斜杠
+
+2.Boolean类型
+    ·boolean bool = true/false;
+3.String类型
+    ·String s = "string"
+
+(二)常量
+· final：
+      一旦赋值，不可改变

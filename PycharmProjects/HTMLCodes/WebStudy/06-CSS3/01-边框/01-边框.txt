@@ -1,0 +1,17 @@
+1)CSS3边框
+	· 圆角边框 border-radius: lem/5em
+		border-top-left-radius
+		border-top-right-radius
+		border-bottom-right-radius
+		border-bottom-left-radius
+		
+	· 边框阴影 box-shadow
+		h-shadow
+		v-shadow
+		blur
+		spread
+		color
+		inset
+	
+	· 图形绘制边框border-image
+		border-image:url(https://mdn.mozillademos.org/files/4127/border.png)

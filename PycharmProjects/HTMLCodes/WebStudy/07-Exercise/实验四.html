@@ -1,0 +1,69 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script
+            src="http://api.map.baidu.com/api?v=2.0&ak=134db1b9cf1f1f2b4427210932b34dcb">
+    </script>
+    <title>Title</title>
+    <style>
+        body, html,#allmap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    </style>
+</head>
+<body>
+    <div id="allmap"></div>
+    <script>
+        var x=120.52;
+        var y=32.02;
+        window.onload = function () {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(locationSuccess, locationError,{
+                    enableHighAcuracy: true,
+                    timeout: 5000,
+                    maximumAge: 3000
+                });
+            }else{
+                alert("Your browser does not support Geolocation!");
+            }
+        }
+        function locationError(error){
+            switch(error.code) {
+                case error.TIMEOUT:
+                    alert("A timeout occured! Please try again!");
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    alert("We can't detect your location. Sorry!");
+                    break;
+                case error.PERMISSION_DENIED:
+                    alert("Please allow geolocation access for this to work.");
+                    break;
+                case error.UNKNOWN_ERROR:
+                    alert("An unknown error occured!");
+                    break;
+            }
+        }
+        function locationSuccess() {
+            var map = new BMap.Map("allmap");
+            var point = new BMap.Point(x,y);
+            map.centerAndZoom(point,12);
+            var geolocation = new BMap.Geolocation();
+            navigator.geolocation.getCurrentPosition(function(r) {
+                if(this.getStatus() == BMAP_STATUS_SUCCESS) {
+                var mk = new BMap.Marker(r.point);
+                map.addOverlay(mk);
+                map.panTo(r.point);
+                } else {
+                    alert('failed'+this.getStatus());
+                }
+            },{enableHighAccuracy: true})
+                return;
+        };
+    </script>
+</body>
+</html>

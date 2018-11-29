@@ -1,0 +1,7 @@
+package listener;
+
+import java.awt.event.MouseMotionListener;
+
+public class FrameMouseMotionListener implements MouseMotionListener {
+	
+}

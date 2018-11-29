@@ -1,0 +1,19 @@
+package com.bwf.day4;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+
+public class demo4 extends JFrame {
+
+	public demo4() {
+		JMenu menuBar = new JMenu();
+		this.setMenuBar(menuBar);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

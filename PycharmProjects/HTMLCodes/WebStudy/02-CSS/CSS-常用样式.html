@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用CSS样式</title>
+    <style>
+      ul{
+        list-style-type: none;
+      }
+      li:hover{
+        background-color: #aaa;
+        cursor: pointer;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover{
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p{
+        text-align: center;
+        line-height: 20px;
+      }
+      span {
+        color: red;
+        font-size: 20px;
+        font-family: 宋体;
+        font-style: italic;
+        font-width: bold;
+      }
+      .myp{
+        width: 600px;
+        height: 400px;
+        background-image: url("../imgs/cellphone.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    </style>
+</head>
+<body>
+  <p>我是一段<span>重要</span>的文字</p>
+  <a href="#">更多内容</a>
+  <ul>
+    <li>张学友</li>
+    <li>刘德华</li>
+    <li>黎明</li>
+    <li>猪大头</li>
+  </ul>
+  <p class="myp">我的老哥</p>
+</body>
+</html>

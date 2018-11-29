@@ -1,0 +1,19 @@
+· background-img:url();
+· background-size:
+	auto|长度值|百分比|cover|contain
+	长度值：成对出现200px 50px
+	百分比：0%-100%
+	cover：覆盖填满整个容器
+	contain：容纳
+· background-origin:
+	规定背景图片的定位区域
+	border-box
+	padding-box
+	content-box
+	
+· background-clip:
+	裁切属性
+	border-box
+	padding-box
+	content-box
+	no-clip

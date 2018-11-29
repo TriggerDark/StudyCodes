@@ -1,0 +1,9 @@
+transition
+	property
+	duration
+	timing-function
+	delay
+transition-property
+transition-duration
+transition-timing-function
+transition-delay

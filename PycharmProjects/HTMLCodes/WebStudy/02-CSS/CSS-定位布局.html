@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位布局</title>
+    <style>
+      div{
+        width: 100px;
+        height: 100px;
+      }
+      #d1{background: red;}
+      #d2{
+        /*相对位置是参考自身原本位置，
+        不影响其他元素的位置*/
+        /*position: relative;
+        top: 10px;
+        left: 10px;*/
+        /*绝对定位的元素脱离标准文档流，
+        参考点是窗口的基准点*/
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: blue;
+      }
+      #d3{background: green;}
+      #adv{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 120px;
+        height: 40px;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid black;
+      }
+      body{
+        height: 3000px;
+      }
+    </style>
+</head>
+<body>
+  <div id="container" style="position:relative;width: 500px;height: 400px;margin: 0 auto;border: 1px solid red;">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+  </div>
+  <!--固定定位脱离标准文档流-->
+  <div id="adv">广而告知</div>
+  <div style="border: 1px solid blue;">最后的区块</div>
+</body>
+</html>

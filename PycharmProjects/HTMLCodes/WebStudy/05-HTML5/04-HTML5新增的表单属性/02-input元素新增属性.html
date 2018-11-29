@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <!--
+    autocomplete
+    novalidate
+    
+    min：规定输入域所允许的最大值
+    max：规定输入域所允许的最大值
+    step：规定输入域合法的数字间隔
+    <input type="number" min="0" max="10" step="2">
+    
+    required
+    #不能为空
+    <input type="text" name="title" required>
+    
+    placeholder
+    <input type="text" name="title" placehoder="职位">
+
+    pattern
+    <input type="text" name="country_code" pattern="[A-z]{6}">
+
+    autofocus--页面加载时，自动或得焦点，
+    <input type="text" name="userName" autofocus>
+
+    multiple
+    <input type="file" multiple>
+
+    form:规定输入域所属的重一个或多个表单
+    formaction -写表单的action属性
+    formenctype - 重写表单的enctype属性
+
+    formenctype="text/plain"---表单数据中的空格被转化为+号，但不会对表单数据中的特殊字符进行编码
+    formenctype="multipart/form-data"---不对字符进行编码，在使用包含文件上传空间的表单时，必须使用该值
+    formenctype="application/x-www-form-urlencoded"---在发送前编码所有字符(当action为get)
+
+    formmethod - 重写表单的method属性get/post
+    formnovalidate - 重写表单的novalidate属性
+    formtarget - 重写表单的target属性---指定在何处打开所需加载的页面
+                _blank
+                _self
+                _parent
+                _top
+                framename
+    -->
+
+    <input type="text" autofocus><br>
+    <input type="text"><br>
+    <input type="text"multiple><br>
+    <input type="text" name="country_code" pattern="[A-z]{6}">
+    <form>
+        <input type="text" name="username" required="required"><br>
+        <input type="text" name="title" placeholder="职位">
+        <br>
+        <input type="submit" value="提交">
+    </form>
+
+    <form action="xx.jsp">
+        <input type="text" formaction="xx.jsp">
+    </form>
+</body>
+</html>

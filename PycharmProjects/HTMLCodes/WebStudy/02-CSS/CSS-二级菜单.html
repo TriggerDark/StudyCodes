@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级菜单</title>
+    <style>
+        .ul_menu{
+            display: none;
+        }
+        /*ul{
+            list-style-type: none;
+        }*/
+        /*li{
+            color: #555;
+            font-size: 20px;
+            font-weight: bold;
+        }*/
+        li:hover .ul_menu {
+            display: block;
+        }
+        /*.ul_menu li:hover{
+            color: aqua;
+            cursor: pointer;
+        }*/
+    </style>
+</head>
+<body>
+  <div style="text-align: center; background-color: red;">
+      <ul>
+        <li style="float: left;">手机
+          <ul class="ul_menu">
+              <li class="li_menu">苹果</li>
+              <li class="li_menu">华为</li>
+              <li class="li_menu">三星</li>
+          </ul>
+        </li>
+        <li style="float: left;">衣服
+          <ul class="ul_menu">
+              <li>李宁</li>
+              <li>耐克</li>
+              <li>阿迪</li>
+          </ul>
+        </li>
+        <li style="float: left;">咖啡
+            <ul class="ul_menu">
+              <li>拿铁</li>
+              <li>卡布奇诺</li>
+              <li>猫屎</li>
+          </ul>
+        </li>
+    </ul>
+  </div>
+</body>
+</html>

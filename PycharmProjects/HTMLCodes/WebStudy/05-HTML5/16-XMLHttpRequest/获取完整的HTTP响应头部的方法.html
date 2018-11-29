@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="p1">演示getResponseHeader()方法的实现</p>
+		<button onclick="loadXML('example.xml')">获取xml文件最后修改日期</button>
+		<script>
+	        function loadXML (url) {
+	            xmlhttp = null;
+	            if(window.XMLHttpRequest){
+	                //其他浏览器
+	                xmlhttp = new XMLHttpRequest();
+	            } else if (window.ActiveXObject) {
+	                //IE浏览器
+	                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	            }
+	            //初始化HTTP请求参数
+	            xmlhttp.open("GET", url, true);
+	            //发送 HTTP请求
+	            xmlhttp.send(null);
+	            //指定相应处理函数
+	            xmlhttp.onreadystatechange = stateChange;
+	        }
+	        function stateChange () {
+	            if(xmlhttp.readyState == 4){
+	                if (xmlhttp.status == 200) {
+	                    document.getElementById("p1").innerHTML ="XML文件的最后修改日期：" + 
+	                    								xmlhttp.getResponseHeader('Last-Modified');
+	                }else{
+	                	alert("获取数据时出现错误：" + xmlhttp.statusText);
+	                }
+	            }
+	        }
+    	</script>
+	</body>
+</html>

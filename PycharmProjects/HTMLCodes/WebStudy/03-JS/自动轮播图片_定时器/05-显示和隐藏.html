@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        
+    function hideImg () {
+        var img = document.getElementById("img1");
+        img.style.display = "none";
+    }
+
+    function showImg () {
+        var img = document.getElementById("img1");
+        img.style.display = "block";
+    }
+
+    </script>
+</head>
+<body>
+    <input type="button" value="显示" onclick="showImg()">
+    <input type="button" value="隐藏" onclick="hideImg()"><br/>
+    <img src="../../imgs/adv.JPG" id="img1" style="display: none;">
+</body>
+</html>

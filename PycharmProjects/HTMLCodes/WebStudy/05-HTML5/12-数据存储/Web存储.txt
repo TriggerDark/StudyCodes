@@ -1,0 +1,123 @@
+ 两种在客户端存储数据的新方法
+    localStorage: 没有时间限制
+    sessionStorage: 针对一个session对话数据存储
+    Cookies
+
+    H5使用JS存储和访问数据
+
+1.localStorage
+	属性：length
+    setItem()/getItem()
+    removeItem(key)
+    clear()
+    localStorage.setItem("name", "smith");
+    localStorage.getItem("name");
+    localStorage.key(1);
+    
+	除了存储字符串，还可以存储JSON格式的数据
+    var userData={//定义JSON格式对象
+        name: "Smith"
+        account: "saving"
+        level: 1;
+        disable: true;
+    }
+    localStorage.setItem("userData", JSON.stringify(userData);
+    localStorage.removeItem("userData");
+    var newUserDate = JSON.parse(localStorage.getItem("userData"));
+
+2.sessionStorage
+    1->Server->Session->User with SessionId—>Client->2(with SessionId)->Server->
+    findUserInfoBySessionId->Welcome
+
+    sessionStorage.setItem("name", "Smith");
+    sessionStorage.getItem("name");
+
+3. Web Sql Database
+	SQLite
+
+IndexedDB：是一个事务性的数据库系统
+		      是一个基于JS面向对象的数据库
+
+ 异步API:仅仅在Web Worker内部使用
+ 同步API:在Web Worker内部和外部都可以使用
+ 
+1）创建和打开数据库
+	var request = windows.indexedDB.open();
+	不是调用方法就立即返回结果，而是一种请求相应模式
+	
+	IDBOpenDBRequest有几个重要的属性
+	onerror: 请求失败的回调函数句柄
+	onsuccess: 请求成功的回调函数句柄
+	onupgardeneeded: 请求数据库版本变化句柄
+    <script>
+        var db;
+        var request = window.indexedDB.open("MyData");
+        request.onerror=function(event){}
+        request.onsuccess=function(event){}
+    </script>
+
+2)创建对象存储空间ObjectStore
+    不适用
+    指定一个字段键值keyPath
+    都使用
+    request.onsuccess=function(event){
+        db = request.result;
+        //创建一个对象空间employees
+        if(!db.objectStoreNames.contains("employee")){
+            var objectStore = db.createObjectStore("employees", {keyPath:"ID"});
+            objectStore.createIndex("email", "email", {unique:true});
+        }
+    }
+3)事物
+在对新数据库做任何事情之前，需要开始一个事物
+只读: IDBTransaction.READ_ONLY
+读写: IDBTransaction.READ_WRITE
+版本变更: IDBTransaction.VERSION_CHANGE
+	向"employees"插入数据
+   	request.onsuccess=function(event){
+        db.request.result;
+        //创建一个对象空间employees
+        if(!db.objectStoreName.contains("employee")){
+            var objectStore = db.createObjectStore("employees", {keyPath:"ID"});
+            objectStore.createIndex("email", "email", {unique:true});
+        }
+        var data={
+            "id": 110,
+            "name": "smith",
+            "age": 13,
+            "email": "1234@qq.com"
+        }
+        var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+        var store = trans.objectStore("employees");
+        var request1 = store.add(data)
+        request1.onsuccess=function(event){
+            alert("插入成功，id=" + event.target.result)
+        }
+    }
+    //查询数据
+    var key = 110
+    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+    var store = trans.objectStore("employees");
+    var req2 = trans.get(key);
+    req2.oncsuccess=fnction(event){
+        var emp = event.target.result;
+        console.log(emp.name);
+    }
+    //更新数据
+    var key = 110
+    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+    var store = trans.objectStore("employees");
+    var req3 = trans.get(key);
+    req3.oncsuccess=fnction(event){
+        var emp = event.target.result;
+        emp.age = 32;
+        store.put(emp)
+    }
+    //删除数据
+    var key = 110
+    var trans = db.transaction("employees", IDBTransaction.READ_WRITE);
+    var store = trans.objectStore("employees");
+    var req4 = trans.delete(key);
+    req2.oncsuccess=fnction(event){
+        alert("删除成功")
+    }

@@ -1,0 +1,27 @@
+package com.bwf.day4;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class demo2 extends JFrame {
+
+	JLabel label;
+	JCheckBox italic;
+	JCheckBox bold;
+	JPanel panel;
+	
+	ActionListener listener = new ActionListener()
+	
+	public void demo2() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

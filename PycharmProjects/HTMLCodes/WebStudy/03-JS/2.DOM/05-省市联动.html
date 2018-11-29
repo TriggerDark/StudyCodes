@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        var provinces = [
+            ["深圳市", "东菀市"],
+            ["长沙市", "株洲市"],
+            ["厦门市", "福州市"]
+        ]; 
+        function selProvince () {
+            var cityselect = document.getElementById("city");
+            var province = document.getElementById("province");
+            value = province.value
+            var cities = provinces[value];
+            cityselect.options.length = 0;//option
+            for (var i = 0; i < cities.length; i++) {
+                var cityText = cities[i]
+                var textNode = document.createTextNode(cityText);
+                var option_add = document.createElement("option");
+                option_add.appendChild(textNode);
+                cityselect.appendChild(option_add);    
+            }
+        }
+    </script>
+</head>
+<body>
+    <select id="province" onchange="selProvince()">
+        <option value="">---请选择---</option>
+        <option value="0">广东省</option>
+        <option value="1">湖南省</option>
+        <option value="2">福建省</option>
+    </select>
+    <select name="" id="city"></select>
+</body>
+</html>

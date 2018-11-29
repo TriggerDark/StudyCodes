@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c1e02d4-936e-4eca-ac6e-d6d4401905d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/DOM/01-getElementByID.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/01-getElementByID.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/DOM/02-getElementsByTagName.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/02-getElementsByTagName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/DOM/05-省市联动.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/05-省市联动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/DOM/06-左右选择.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/06-左右选择.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-document-write.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/Array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/Boolean.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/Boolean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/NullAndUndefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/NullAndUndefined.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/Number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/Object.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/Object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/String.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/String.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/其他进制的数字.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/其他进制的数字.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/强制类型转换为Number.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/强制类型转换为Number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/强制类型转换为String.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/强制类型转换为String.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/Variables/转换为Boolean.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/1.Variables/转换为Boolean.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PycharmProjects$01_.coverage" NAME="01-算法引入 Coverage Results" MODIFIED="1543319923888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1543319439586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$03_.coverage" NAME="03-条形图个散点图 Coverage Results" MODIFIED="1543237182209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$04_.coverage" NAME="04-柱形图和盒图 Coverage Results" MODIFIED="1543239278358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$05_.coverage" NAME="05-盒图 Coverage Results" MODIFIED="1543240027824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$02_.coverage" NAME="02-子图操作 Coverage Results" MODIFIED="1543160240390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PythonCodes/07-爬虫/01-urllib库基础用法/01-urllib.request_urlopen.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验三.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验三.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document.txt" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/01-折线绘制.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/css.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六.html" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/03-条形图个散点图.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/02-子图操作.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/04-柱形图和盒图.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-locationStorage2.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-2.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-2.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/sum_worker.js" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/WebWorker.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/demo.appcache" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.php" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-2.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/01-基本实现.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/style.css" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.css" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/index.html" />
+        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/01-算法引入.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/index.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/logo.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/cover.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/css/cover.css" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="336" />
+    <option name="y" value="106" />
+    <option name="width" value="1344" />
+    <option name="height" value="831" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonCodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/matplotlib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject\css" />
+      <recent name="E:\PycharmProjects\PythonCodes\09-Al\1.Python库\3.Matplotlib库" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\07-Exercise\images" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\07-Exercise" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject\js" />
+      <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\05-HTML5\19-bootstrap" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.01-算法引入">
+    <configuration name="01-算法引入" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/01-算法引入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03-条形图个散点图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/03-条形图个散点图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04-柱形图和盒图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\PycharmProjects\PythonCodes\09-Al\1.Python库\3.Matplotlib库\04-柱形图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05-盒图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01-算法引入" />
+        <item itemvalue="Python.binary_search" />
+        <item itemvalue="Python.05-盒图" />
+        <item itemvalue="Python.04-柱形图和盒图" />
+        <item itemvalue="Python.03-条形图个散点图" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1e02d4-936e-4eca-ac6e-d6d4401905d9" name="Default Changelist" comment="" />
+      <created>1542903883608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542903883608</updated>
+      <workItem from="1542903891431" duration="1132000" />
+      <workItem from="1542935646813" duration="2857000" />
+      <workItem from="1542948902945" duration="189000" />
+      <workItem from="1543139678735" duration="530000" />
+      <workItem from="1543145282953" duration="49000" />
+      <workItem from="1543145362211" duration="4805000" />
+      <workItem from="1543155208473" duration="4946000" />
+      <workItem from="1543221709718" duration="15256000" />
+      <workItem from="1543242309613" duration="5197000" />
+      <workItem from="1543294578746" duration="1060000" />
+      <workItem from="1543304781170" duration="3080000" />
+      <workItem from="1543312309264" duration="7773000" />
+      <workItem from="1543390418360" duration="4441000" />
+      <workItem from="1543422455489" duration="421000" />
+      <workItem from="1543456038056" duration="3129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54865000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="224" y="71" width="896" height="554" extended-state="0" />
+    <layout>
+      <window_info auto_hide="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" weight="0.29116946" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.47058824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11083123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3085339" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32936507" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" visible="true" weight="0.2529859" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.47111112" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20696722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3085339" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.asp" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3079" column="42" selection-start-line="3079" selection-start-column="36" selection-end-line="3079" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/css.css" />
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/test.html" />
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/fandango_scores.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/02-子图操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/03-条形图个散点图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="5" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/01-折线绘制.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/04-柱形图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/IndexDB.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-locationStorage2.py" />
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/sum_worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/WebWorker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/cache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/demo.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/应用程序缓存.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/17-WebSocket/socket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.php" />
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/01-基本实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/02-CSS/盒子模型/02-外边距.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/02-CSS/盒子模型/01-内边距.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="5" column="253" lean-forward="true" selection-start-line="5" selection-start-column="253" selection-end-line="5" selection-end-column="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/01-算法引入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18722" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/css/cover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/cover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-document-write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Math对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/Project/h1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+  </component>
+</project>

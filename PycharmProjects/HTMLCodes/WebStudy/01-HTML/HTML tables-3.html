@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Border-spacing</title>
+  <style>  
+    table,th,td{
+      border:1px solid black;
+      padding:5px;
+    }
+    table{
+      border-spacing:5px;
+    }
+    th,td{
+      text-align:center;
+    }
+    table#t01 tr:nth-child(even){
+      background-color:#eee;
+    }
+    table#t01 tr:nth-child(odd){
+      background-color:#fff;
+    }
+    table#t01 th{;
+      width:100%;
+      background-color:black;
+      color:white;
+    }
+  </style>
+</head>
+<body>
+  <table  style = "width:100%">
+    <caption>information</caption>
+    <tr>
+      <th>name</th>
+      <th>nianling</th>
+      <th colspan="2">sex</th>
+    </tr>
+    <tr>
+      <td>chen</td>
+      <td>9</td>
+      <td>nan</td>
+      <td>nv</td>
+    </tr>
+  </table>
+  <table id = "t01">
+    <tr>
+      <th>name</th>
+      <td>chen</td>
+    </tr>
+    <tr>
+      <th rowspan="2">tel</th>
+      <td>43545</td>
+    </tr>
+    <tr>
+      <td>43545</td>
+    </tr>
+  </table>
+</body>
+</html>

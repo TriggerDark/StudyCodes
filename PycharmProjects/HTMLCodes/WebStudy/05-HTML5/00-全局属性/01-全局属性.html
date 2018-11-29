@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h2>可编辑列表</h2>
+    <!--
+    contenteditable属性
+    designMode属性---整个页面是否可编辑，只能在js脚本中修改编辑 on/off
+    hidden属性
+    spellcheck属性
+    tabindex属性
+    -->
+    <ul contenteditable="true">
+        <li>列表一</li>
+        <li>列表二</li>
+        <li>列表三</li>
+    </ul>
+    <ul hidden="">
+        <li>列表一</li>
+        <li>列表二</li>
+        <li>列表三</li>
+    </ul>
+    <input type="text" spellcheck>
+    <br>
+    <a href="#" tabindex="1">hello</a>
+    <a href="#" tabindex="3">hello</a>
+    <a href="#" tabindex="2">hello</a>
+    <ul tabindex="4">
+        <li>1</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+package com.bwf.day4;
+
+import javax.swing.JFrame;
+
+public class demo4 extends JFrame {
+
+	public demo4() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

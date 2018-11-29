@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        /*a[title=aaa]{
+            color: green;
+        }*/
+        /*a[href][title]{
+            color: yellow;
+        }*/
+        a[title^=aa]{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#" title="aaa">aaa</a>
+        <a href="#">bbb</a>
+        <a href="#" title="aac">ccc</a>
+    </div>
+</body>
+</html>

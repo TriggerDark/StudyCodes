@@ -1,0 +1,62 @@
+1.循环
+for
+for in
+while
+do...while
+
+<input type="radio" name="sex" value="male" checked>male
+<input type="radio" name="sex" value="female">female
+var items = document.getElementByName("gender")
+for (i = 0; i < items.length; i ++){
+    alter(items[i])
+}
+
+var num = 0
+        outer:
+        for(var i = 0; i < 10; i++){
+            for(var j = 0; j < 10; j++){
+                if(i == 5 && j == 5){
+                document.write("break outer");
+                break outer;
+                }
+            }
+            num ++;
+        }
+        console.log(num)
+
+<script>
+    var txt = "";
+    function message(){
+        try{
+            addddlert("welcome");
+        }catch(err){
+            txt = "本页存在错误。\n\n";
+            txt += "错误描述：" + err.message + "\n\n"
+
+        }finally{
+            doucument.write("错误与否都会执行" + "<br/>")
+        }
+    }
+    var x = prompt("请输入0-10之间的数","")
+    try{
+    if (x > 10)
+        throw{
+                name:"Err1",
+                message:"该值太大！"
+        }
+    else if (x < 0)
+        throw{
+                name:"Err2",
+                message:"该值太小！"
+        }
+    else if(isNaN(x))
+        throw{
+                name:"Err3",
+                message:"该值不是数字！"
+        }
+    else
+        document.write("那你输入的数字是：" + x);
+    }catch(err){
+        alert(err.name + ":" + err.message);
+    }
+</sctipt>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>播放音频</title>
+	</head>
+	<body>
+		<button onclick="clickAudio()">播放/暂停</button>
+		<audio src="1.mp3" controls="controls" id="audio">您的浏览器不支持</audio>
+		<script>
+			var audio = document.getElementById("audio");
+			function clickAudio(){
+				//判断当前音频是否在播放当中
+				if(audio.paused){
+					audio.play();
+				}
+				else{
+					audio.pause();
+				}
+			}
+		</script>
+	</body>
+</html>

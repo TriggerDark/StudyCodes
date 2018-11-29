@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+        
+        var index = 0;
+        function changeImg () {
+            var img = document.getElementById("img1")
+            var curIndex = index%6 + 1;
+            img.src = "../../../HTML_Project_M/imgs/picture"+ curIndex +".jpg";
+            index += 1;
+        }
+
+
+        function init () {
+            setInterval("changeImg();", 1000)
+        }
+    </script>
+</head>
+<body onload="init()">
+    <img src="../../../HTML_Project_M/imgs/picture1.jpg" id="img1">
+</body>
+</html>
