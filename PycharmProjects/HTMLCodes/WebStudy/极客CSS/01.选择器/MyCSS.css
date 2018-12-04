@@ -1,0 +1,39 @@
+/*1.元素选择器*/
+h3{color: red}
+
+/*2.类选择器*/
+.pclass1{color: blue;}
+/*结合元素选择器*/
+p.pclass2{font-size: 30px;}
+/*多类选择器*/
+.pclass1.pclass2{font-style: italic;}
+
+/*3.id选择器*/
+#pID{color: blueviolet;}
+#divID{color: red;}
+
+/*4.属性选择器*/
+[title]{color: #6f42c1;}
+[title='p2']{color: red;}
+[title~='title']{
+    font-style: italic;
+}
+a[href="http://www.baidu.com"]{
+    font-size: 20px;
+}
+
+/*5.后代选择器*/
+p strong{color: yellow;}
+#pID a{color: green;}
+#divID p{color: blue;}
+
+/*6.子元素选择器*/
+p>strong{
+    color: red;
+}
+
+/*7.相邻兄弟选择器*/
+li+li{
+    font-size: 50px;
+    color: #721c24;
+}

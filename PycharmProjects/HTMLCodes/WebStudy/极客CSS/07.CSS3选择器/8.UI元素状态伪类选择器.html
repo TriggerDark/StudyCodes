@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*hover、focus、active*/
+        input[type='text']:hover{
+            background-color: red;
+        }
+        input[type='text']:focus{
+            background-color: lime;
+        }
+        input[type='text']:active{
+            background-color: grey;
+        }
+        input[type='checkbox']:checked{
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        Name:<input type="text" name="name" />
+        <br>
+        Age:<input type="text" name="age" />
+        <br>
+        <input type="checkbox">游戏
+        <input type="checkbox">运动
+        <input type="checkbox">小说
+        <input type="checkbox">旅游
+    </form>
+</body>
+</html>

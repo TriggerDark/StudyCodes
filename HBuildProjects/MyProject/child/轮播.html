@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				list-style: none;
+			}
+			body{
+				background: #000000;
+				text-align: center;
+				font: "微软雅黑" 12px;
+			}
+			#box{
+				position: relative;
+				width: 492px;
+				height: 172px;
+				background: #ffffff;
+				border-radius: 5px;
+				border: 8px solid #ffffff;
+				margin: 10px auto;
+			}
+			#box .list{
+				position: relative;
+				width: 490px;
+				height: 170px;
+				overflow: hidden;
+				border: 1px solid #CCCCCC;
+			}
+			#box .list li{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 490px;
+				height: 170px;
+				opacity: 0;
+			}
+			
+			#box .list li.current{
+				opacity: 1;
+			}
+			
+			#box .count{
+				position: absolute;
+				right: 0;
+				bottom: 5px;
+			}
+			#box .count li{
+				color: #FFFFFF;
+				float: left;
+				height: 20px;
+				width: 20px;
+				cursor: pointer;
+				margin-right: 5px;
+				overflow: hidden;
+				background: #ff0900;
+				opacity: 0.6;
+				border-radius: 20px;
+			}
+			#box .count li.current{
+				color: #FFFFFF;
+				opacity: 1;
+				font-weight: bold;
+				background-attachment: #ff60;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){
+				var oBox = document.getElementById("box");
+				var aUl = document.getElementsByTagName('ul');
+				var aImg = aUl[0].getElementsByTagName("li");
+				var aNum = aUl[1].getElementsByTagName("li");
+				var timer = null;//计时器用以图片的渐变效果
+				var play = null;//计时器用以图片的自动播放
+				var num = 0;//当前播放第几张
+				
+				for(var i = 0; i < aNum.length; i++){
+					aNum[i].index = i;
+					aNum[i].onmouseover = function(){
+						show(this.index);
+						num = this.index;
+					}
+				}
+				
+				function autoPlay(){
+					play = setInterval(function(){
+						num ++;
+						if(num >= aImg.length){
+							num = 0;
+						}
+						show(num);
+					}, 2000);
+				}
+				autoPlay();
+				
+				//当鼠标进入box容器时，关闭自动播放
+				oBox.onmouseover = function(){
+					clearInterval(play);
+				}
+				//当鼠标离开box容器时，打开自动播放
+				oBox.onmouseout = function(){
+					autoPlay();
+				}
+				
+				function show(a){
+					var tmp = a;
+					var alpha = 0;
+					clearInterval(timer);
+				
+					for(var i = 0; i < aNum.length; i++){
+						aNum[i].className = "";
+						aImg[i].style.opacity = 0;
+					}
+					aNum[a].className = "current";
+					
+					//将选中的数字所代表的图片置为选中状态
+					//    选中图片没20毫秒不透明度+20% 直到100%
+					timer = setInterval(function(){
+						alpha += 2;
+						if(alpha > 100){alpha = 100;}
+						aImg[tmp].style.opacity = alpha/100; 
+						if(alpha == 100){clearImmediate(timer);}
+					},20);
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<ul class="list">
+				<li class="current">
+					<img src="../img/advertisment/01.jpg" width="490px" height="170px" />
+				</li>
+				<li >
+					<img src="../img/advertisment/02.jpg" width="490px" height="170px" />
+				</li>
+				<li>
+					<img src="../img/advertisment/03.jpg" width="490px" height="170px" />
+				</li>
+				<li>
+					<img src="../img/advertisment/04.jpg" width="490px" height="170px" />
+				</li>
+				<li>
+					<img src="../img/advertisment/05.jpg" width="490px" height="170px" />
+				</li>
+			</ul>
+			
+			<ul class="count">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+			
+		</div>
+	</body>
+</html>

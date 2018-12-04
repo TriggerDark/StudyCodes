@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #tb,tr,td,th{
+            border: 1px solid black;
+            text-align: left;
+            background: aqua;
+            padding: 5px;
+        }
+        #tb{
+            width: 400px;
+            border-collapse: collapse;/*折叠边框*/
+        }
+        #tb tr.alt td{
+            color: #000;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<table id="tb">
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+    </tr>
+    <tr>
+        <td>小王</td>
+        <td>20</td>
+        <td>男</td>
+    </tr>
+    <tr class="alt">
+        <td>小王</td>
+        <td>20</td>
+        <td>男</td>
+    </tr>
+    <tr class="alt">
+        <td>小王</td>
+        <td>20</td>
+        <td>男</td>
+    </tr>
+</table>
+</body>
+</html>

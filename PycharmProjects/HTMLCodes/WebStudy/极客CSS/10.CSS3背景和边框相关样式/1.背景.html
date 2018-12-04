@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div1,.div2,.div3{
+            background-color: black;
+            border: 15px dashed green;
+            padding: 30px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            background-image: url("bg.jpg");
+            background-repeat: no-repeat;
+        }
+        .div1{
+            background-origin: border-box;
+            background-clip: border-box;
+        }
+        .div2{
+            margin-top: 40px;
+            background-origin: padding-box;
+            background-clip: padding-box;
+        }
+        .div3{
+            margin-top: 40px;
+            background-origin: content-box;
+            background-clip: content-box;
+        }
+        .div4{
+            background-image: url("bg.jpg"),url("1.jpg");
+            background-repeat: repeat-x,no-repeat;
+            background-position: 100%,100%,center,center;
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">示例1</div>
+    <div class="div2">示例2</div>
+    <div class="div3">示例2</div>
+    <div class="div4"></div>
+</body>
+</html>

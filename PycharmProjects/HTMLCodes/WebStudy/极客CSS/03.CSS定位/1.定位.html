@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+    <style>
+        /*position:static/relative/absolute/fixed*/
+        #position1{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            /*position: relative; 相对布局*/
+            position: absolute;/*绝对布局*/
+            /*position: fixed; 固定布局*/
+            /*position: static; 静态布局下偏移量不起作用如下面left和top*/
+            left: 20px;
+            top: 20px;
+            z-index: 3;/*越大呈现的越靠前*/
+        }
+        #position2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            z-index: 2;
+        }
+        #position3{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="position1"></div>
+    <div id="position2"></div>
+    <div id="position3"></div>
+    <script>
+        for(var i=0; i<100; i++){
+            document.write(i + '<br />');
+        }
+    </script>
+</body>
+</html>

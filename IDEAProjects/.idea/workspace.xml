@@ -2,42 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ab6761-0d1c-45c3-90b8-0ca5f6827e9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PycharmProjects/PythonCodes/05-数据结构与算法/1-算法/02-代码执行时间测试模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/0/40632753bdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/17/50678dab77ee00181edacb1c11b448d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/44/e0c7772bbdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/67/e0e12c5f88ee00181de4a9b5e66cbf63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/cd/60d9aa43bdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/d1/905a857677ee00181edacb1c11b448d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/23.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/1790278703.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/1790278703.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/01.选择器/MyCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/01.选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/1.背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/2.文本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/3.字体.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/4.列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/5.表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/6.链接.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/7.轮廓.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/02.CSS样式/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/1.定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/2.浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/3.浮动应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/1.内边距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/2.边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/3.外边距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/4.外边距合并.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/5.应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/04.盒子模型/style_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/1.导航栏-按列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/1.导航栏-按行.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/2.图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/3.对齐.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/4.尺寸.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/5.分类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/1.动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/2.瀑布流效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/3.多列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/4.过渡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/5.2D3D转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/1.属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/10.通用兄弟元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/2.伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/3.结构性伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/4.(first last nth)-child选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/5.nth-of-type选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/6.nth-child(n)选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/7.only-child选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/8.UI元素状态伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/9.enabled和disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.文字阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/3.修改文字种类保持字体尺寸不变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/Tensentype-PaoPaoF.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/1.盒子类型(inline-block).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/2.盒子模型(inline-table).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/3.盒子模型(list-item).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/4.overflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/5.盒子阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/6.盒子大小.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/2.圆角边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/3.图像边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/1.Transitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/2.Animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/3.实现动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/12.CSS3布局属性/1.弹性盒模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/1.HTMLAndCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/2.首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/3.播放界面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/learnCourseVideoTop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/test/chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/test/jwjwjw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PycharmProjects/test/testwrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/EmployeeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/JavaTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/JavaTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/studentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/studentInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticMethod/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/StudentsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/StudentsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/TestSeachStuinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/TestSeachStuinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/EmployeeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/StudentsInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/TestSeachStuinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudyJava/Base/ch2/studentInfo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PycharmProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/01-HTML/HTML tables-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/01-HTML/HTML tables-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-BMIjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/2.文本自动换行.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-自定义异常.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS-自定义异常.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS_Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/03-JS/JS_Date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/BMI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/JSone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/boolean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/join.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/join.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PycharmProjects/HTMLCodes/WebStudy/js/myfirst.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +133,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/CalcTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/ConstructorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,26 +200,33 @@
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch1/array/array2.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/DataStructure/SortAndSearch/selectSort.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/DataStructure/SortAndSearch/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Printer.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java" />
-        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/testSeachStuinfo.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/StudentsInfo.java" />
         <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/TestSeachStuinfo.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/StudentsInfo.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/staticMethod/Student.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticMethod/Student.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/Employee.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/FactoryMethod/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/CalcTest.java" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt" />
+        <option value="$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/ConstructorTest.java" />
       </list>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="JDK1101" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="87" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="321" />
+    <option name="y" value="93" />
     <option name="width" value="1134" />
-    <option name="height" value="878" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -155,6 +267,14 @@
               <item name="Base" type="462c0819:PsiDirectoryNode" />
               <item name="ch2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IDEAProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+              <item name="Overloading" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543505003801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543931552827" />
     <property name="last_opened_file_path" value="D:/Eclipse/Java/jdk1.8.0_192" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,16 +310,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSeachStuinfo">
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CalcTest">
+    <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch2.Employee" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.Overloading.CalcTest" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="PATTERN" value="Base.ch2.Overloading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.CreateClass.Employee" />
+      <module name="StudyJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Base.ch2.CreateClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +346,12 @@
     <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch2.EmployeeTest" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.CreateClass.EmployeeTest" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="PATTERN" value="Base.ch2.CreateClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,31 +359,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch2.Printer" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.FactoryMethod.FactoryMethod" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.ch2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch2.Student" />
-      <module name="StudyJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="PATTERN" value="Base.ch2.FactoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +378,12 @@
     <configuration name="TestSeachStuinfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JDK1101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Base.ch2.TestSeachStuinfo" />
+      <option name="MAIN_CLASS_NAME" value="Base.ch2.CreateClass.TestSeachStuinfo" />
       <module name="StudyJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.ch2.*" />
+          <option name="PATTERN" value="Base.ch2.CreateClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalcTest" />
+        <item itemvalue="Application.FactoryMethod" />
         <item itemvalue="Application.TestSeachStuinfo" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Printer" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -313,16 +433,21 @@
       <workItem from="1543496857026" duration="533000" />
       <workItem from="1543499579475" duration="2885000" />
       <workItem from="1543502693268" duration="2731000" />
+      <workItem from="1543507054513" duration="535000" />
+      <workItem from="1543820839033" duration="1311000" />
+      <workItem from="1543927732278" duration="3803000" />
+      <workItem from="1543932572827" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42344000" />
+    <option name="totallyTimeSpent" value="48751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="58" width="756" height="585" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.37965617" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.33954155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +456,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780847" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58498895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28854626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch8/simpleFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -635,73 +753,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Printer.java">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticTest.java" />
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-14">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/TestSeachStuinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="378">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Student.java">
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/StudentsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/FactoryMethod/FactoryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticMethod/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/CreateClass/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/CalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Overloading/ConstructorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/TestSeachStuinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJava/src/Base/ch2/StudentsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>

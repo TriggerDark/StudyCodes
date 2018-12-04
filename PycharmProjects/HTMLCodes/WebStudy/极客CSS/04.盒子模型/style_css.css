@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.top_context{
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: blue;
+}
+.body{
+    margin: 20px auto;
+    width: 75%;
+    height: 1500px;
+    background-color: #6f42c1;
+}
+.body_image{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+.body_context{
+    width: 100%;
+    height: 1100px;
+    background-color: red;
+}
+.body_no{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.footing{
+    width: 75%;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #005cbf;
+}
+.footing_content{
+    width: 100%;
+    height: 330px;
+    background-color: #268abc;
+}
+.footing_menu{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}

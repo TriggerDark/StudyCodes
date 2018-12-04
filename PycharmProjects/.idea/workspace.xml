@@ -2,25 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1e02d4-936e-4eca-ac6e-d6d4401905d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/02-代码执行时间测试模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/0/40632753bdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/17/50678dab77ee00181edacb1c11b448d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/44/e0c7772bbdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/67/e0e12c5f88ee00181de4a9b5e66cbf63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/cd/60d9aa43bdee00181095fafd03b908c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/d1/905a857677ee00181edacb1c11b448d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/17/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/23.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HBuildProjects/MyProject/child/放大镜.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/MyCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/1.背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/2.文本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/3.字体.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/4.列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/5.表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/6.链接.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/7.轮廓.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/1.定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/2.浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/3.浮动应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/03.CSS定位/img/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/1.内边距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/2.边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/3.外边距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/4.外边距合并.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/5.应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/04.盒子模型/style_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/1.导航栏-按列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/1.导航栏-按行.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/2.图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/3.对齐.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/4.尺寸.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/5.分类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/1.动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/2.瀑布流效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/3.多列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/4.过渡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/5.2D3D转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/1.属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/10.通用兄弟元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/2.伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/3.结构性伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/4.(first last nth)-child选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/5.nth-of-type选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/6.nth-child(n)选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/7.only-child选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/8.UI元素状态伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/9.enabled和disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.文字阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/3.修改文字种类保持字体尺寸不变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/Tensentype-PaoPaoF.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/1.盒子类型(inline-block).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/2.盒子模型(inline-table).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/3.盒子模型(list-item).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/4.overflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/5.盒子阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/6.盒子大小.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/2.圆角边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/3.图像边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/1.Transitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/2.Animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/3.实现动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/12.CSS3布局属性/1.弹性盒模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/1.HTMLAndCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/2.首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/3.播放界面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/learnCourseVideoTop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/touxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jwjwjw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testwrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IDEAProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/doc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/01-HTML/HTML tables-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/01-HTML/HTML tables-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-BMIjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/2.文本自动换行.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-自定义异常.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-自定义异常.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS_Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS_Date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/BMI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/JSone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/boolean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/join.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/join.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/js/myfirst.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +121,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PycharmProjects$jwjwjw.coverage" NAME="jwjwjw Coverage Results" MODIFIED="1543888831203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$01_.coverage" NAME="01-算法引入 Coverage Results" MODIFIED="1543319923888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
     <SUITE FILE_PATH="coverage/PycharmProjects$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1543319439586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1543915064977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$03_.coverage" NAME="03-条形图个散点图 Coverage Results" MODIFIED="1543237182209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
     <SUITE FILE_PATH="coverage/PycharmProjects$04_.coverage" NAME="04-柱形图和盒图 Coverage Results" MODIFIED="1543239278358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$chrome.coverage" NAME="chrome Coverage Results" MODIFIED="1543890702362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$05_.coverage" NAME="05-盒图 Coverage Results" MODIFIED="1543240027824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
     <SUITE FILE_PATH="coverage/PycharmProjects$02_.coverage" NAME="02-代码执行时间测试模块 Coverage Results" MODIFIED="1543498577008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
   </component>
@@ -51,14 +146,33 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/3.播放界面.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -68,49 +182,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonCodes/07-爬虫/01-urllib库基础用法/01-urllib.request_urlopen.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验三.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验三.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document.txt" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/01-折线绘制.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/css.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六.html" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/03-条形图个散点图.py" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/02-子图操作.py" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/04-柱形图和盒图.py" />
-        <option value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-locationStorage2.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-2.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-2.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/sum_worker.js" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/WebWorker.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/demo.appcache" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.php" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-2.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/01-基本实现.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/style.css" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.css" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/index.html" />
-        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py" />
-        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/01-算法引入.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/index.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/logo.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/cover.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/HTMLProject/css/cover.css" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html" />
-        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/02-代码执行时间测试模块.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05-CSS常见操作/4.分类.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05-CSS常见操作/4.尺寸.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05-CSS常见操作/5.分类.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/index.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/1.动画.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/2.瀑布流效果.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/3.多列.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/4.过渡.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/5.2D3D转换.html" />
+        <option value="$PROJECT_DIR$/test/jwjwjw.py" />
+        <option value="$PROJECT_DIR$/test/chrome.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/01-getElementByID.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/HTMLAndCSS.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/1.属性选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/2.结构性伪类选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/3.结构性伪类选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/3.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/4.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/5.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/6.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/7.only-child选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/8.UI元素状态伪类选择器.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/8.UI元素状态伪类选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/9.enable和disable.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/9.enabled和disabled.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07-CSS3选择器/10.通用兄弟元素选择器.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/MyCSS.css" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.文字阴影.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/2.文本自动换行.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/3.修改文字种类保持字体尺寸不变.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/1.盒子类型.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/2.盒子模型.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/3.盒子模型(list-item).html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/4.盒子装不下内容.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/5.盒子阴影.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/6.盒子大小.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.背景.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/2.圆角边框.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/3.图像边框.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/1.Transitions.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/2.Animations.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/3.实现动画.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/12.CSS3布局属性/1.弹性盒模型.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/2.index.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/2.播放界面.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/common.css" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/3.播放界面.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
-    <option name="y" value="93" />
-    <option name="width" value="1344" />
-    <option name="height" value="995" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="367" />
+    <option name="y" value="94" />
+    <option name="width" value="1182" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -118,14 +248,13 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="true" />
-      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <showExcludedFiles Scope="false" ProjectPane="false" />
       <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource ProjectPane="false" />
       <sortByType ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,39 +265,68 @@
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="05-数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="极客CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="极客CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="13.HTMLAndCSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="极客CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="13.HTMLAndCSS" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/matplotlib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/10.jpg" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/img/10.jpg" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\10.CSS3背景和边框相关样式" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\08.CSS3文字和字体" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\06.CSS动画\img" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\05-CSS常见操作" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\13.HTMLAndCSS\img" />
+      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\极客CSS\13.HTMLAndCSS" />
+      <recent name="E:\PycharmProjects\test" />
       <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject\css" />
       <recent name="E:\PycharmProjects\PythonCodes\09-Al\1.Python库\3.Matplotlib库" />
-      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\07-Exercise\images" />
-      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\07-Exercise" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject\js" />
-      <recent name="E:\PycharmProjects\HTMLCodes\HTMLProject" />
-      <recent name="E:\PycharmProjects\HTMLCodes\WebStudy\05-HTML5\19-bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02-代码执行时间测试模块">
+  <component name="RunManager" selected="Python.test">
     <configuration name="01-算法引入" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +386,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04-柱形图和盒图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,12 +394,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\PythonCodes\09-Al\1.Python库\3.Matplotlib库\04-柱形图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/chrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +408,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05-盒图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jwjwjw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,12 +416,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/jwjwjw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,7 +430,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,12 +438,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py" />
+      <option name="SCRIPT_NAME" value="E:\PycharmProjects\PythonCodes\07-爬虫\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,11 +454,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.chrome" />
+        <item itemvalue="Python.jwjwjw" />
         <item itemvalue="Python.02-代码执行时间测试模块" />
         <item itemvalue="Python.01-算法引入" />
-        <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.05-盒图" />
-        <item itemvalue="Python.04-柱形图和盒图" />
       </list>
     </recent_temporary>
   </component>
@@ -331,21 +489,33 @@
       <workItem from="1543456038056" duration="3129000" />
       <workItem from="1543478414146" duration="632000" />
       <workItem from="1543497489927" duration="2705000" />
+      <workItem from="1543547185924" duration="98000" />
+      <workItem from="1543801792016" duration="4858000" />
+      <workItem from="1543810373098" duration="2597000" />
+      <workItem from="1543814199639" duration="3519000" />
+      <workItem from="1543818572757" duration="7312000" />
+      <workItem from="1543832934556" duration="17082000" />
+      <workItem from="1543885879522" duration="1719000" />
+      <workItem from="1543887641788" duration="3541000" />
+      <workItem from="1543891251035" duration="9075000" />
+      <workItem from="1543905308263" duration="9676000" />
+      <workItem from="1543918269776" duration="9320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58202000" />
+    <option name="totallyTimeSpent" value="126999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="62" width="896" height="663" extended-state="0" />
+    <frame x="141" y="73" width="788" height="648" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" auto_hide="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" visible="true" weight="0.29116946" />
+      <window_info auto_hide="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" weight="0.6068493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.47058824" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23917137" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.46899223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33001658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,7 +525,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.247505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,321 +565,365 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.asp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="3079" column="42" selection-start-line="3079" selection-start-column="36" selection-end-line="3079" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/css.css" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/test.html" />
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/fandango_scores.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/02-子图操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/Document">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/03-条形图个散点图.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="5" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/01-折线绘制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/04-柱形图.py">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/05.CSS常见操作/2.图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库/05-盒图.py">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/2.瀑布流效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/IndexDB.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-locationStorage2.py" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/02-sessionStorage-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/12-数据存储/01-localStorage-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/sum_worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/14-Web Worker/WebWorker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/cache.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/3.多列.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/demo.appcache">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/5.2D3D转换.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="325">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/13-webCache/应用程序缓存.txt">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/06.CSS动画/4.过渡.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/17-WebSocket/socket.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/06-CSS3/03-2D转化/02-matrix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/jwjwjw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+          <folding>
+            <element signature="e#127#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/2.DOM/01-getElementByID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/1.属性选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.php" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.asp">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/3.结构性伪类选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/15-服务器发送事件/demo_sse.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/2.伪元素选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="118">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/6.nth-child(n)选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state>
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/5.nth-of-type选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-2.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/4.(first last nth)-child选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        <state relative-caret-position="161">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/01-基本实现.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/7.only-child选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="7" lean-forward="true" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/10.通用兄弟元素选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/9.enabled和disabled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/07.CSS3选择器/8.UI元素状态伪类选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/01.选择器/MyCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/1.Numpy库/02-array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/1.Numpy库/03-dtype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/1.Numpy库/document/基本知识.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/1.Numpy库/01-genfromtxt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="33" />
+          <folding>
+            <element signature="e#127#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#67#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/1.文字阴影.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/style.css">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/2.文本.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/02-CSS/盒子模型/02-外边距.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="115">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/02-CSS/盒子模型/01-内边距.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/3.修改文字种类保持字体尺寸不变.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/08.CSS3文字和字体/2.文本自动换行.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/18-响应式布局/index01.css">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/02.CSS样式/5.表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/1.盒子类型(inline-block).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/3.盒子模型(list-item).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/2.盒子模型(inline-table).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/index.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/5.盒子阴影.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/4.overflow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/09.CSS3盒子相关样式/6.盒子大小.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/1.背景.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/2.圆角边框.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/19-bootstrap/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/10.CSS3背景和边框相关样式/3.图像边框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="5" column="253" lean-forward="true" selection-start-line="5" selection-start-column="253" selection-end-line="5" selection-end-column="253" />
+        <state relative-caret-position="115">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找/binary_search.py">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/06-CSS3/01-边框/01-边框阴影.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="115">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/01-算法引入.py">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/1.Transitions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="161">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/2.Animations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="276">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/cover.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/11.CSS3动画/3.实现动画.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="141">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/HTMLProject/index.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/12.CSS3布局属性/1.弹性盒模型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="60" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-document-write.html" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Math对象.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/1.HTMLAndCSS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/Project/h1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/03-JS/JS-Mouse-1.html">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/2.首页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
+        <state relative-caret-position="230">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法/02-代码执行时间测试模块.py">
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/3.播放界面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/极客CSS/13.HTMLAndCSS/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
