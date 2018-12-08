@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img src="04.jpg" id="imgID" alt="" >
+    <a id="aID" href="http://wwwi.baidu.com/">百度</a>
+    <p>hello</p>
+    <p id="pID">HELLO</p>
+    <button onclick="demo()">按钮</button>
+    <script>
+        function demo() {
+            document.getElementById('pID').innerHTML = "world";
+            document.getElementsByTagName("p")[0].innerHTML = "WORLD";
+            document.getElementById("aID").href = "http://www.geogle.com/"
+            document.getElementById("imgID").src = "05.jpg";
+        }
+    </script>
+</body>
+</html>

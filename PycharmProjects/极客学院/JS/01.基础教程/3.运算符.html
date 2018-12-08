@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #fff3cd;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        /*算数运算符*/
+        var i = 19;
+        var j = 10;
+        document.write(i+j);document.write('<br>');
+        document.write(i-j);document.write('<br>');
+        document.write(i*j);document.write('<br>');
+        document.write(i/j);document.write('<br>');
+        document.write(i%j);document.write('<br>');
+        document.write(i++);document.write('<br>');
+        document.write(++i);document.write('<br>');
+        document.write(i--);document.write('<br>');
+        document.write(--i);document.write('<br><hr>');
+
+        /*赋值运算符*/
+        var num1 = 10;
+        var num2 = num1;
+        document.write(num2);document.write('<br>');
+        num2 += num1;
+        document.write(num2);document.write('<br>');
+        num2 -= num1;
+        document.write(num2);document.write('<br>');
+        num2 *= num1;
+        document.write(num2);document.write('<br>');
+        num2 /= 9;
+        document.write(num2);document.write('<br>');
+        num1 %= 9;
+        document.write(num1);document.write('<br><hr>');
+
+        /*字符串操作*/
+        var k = 5;
+        var l = "5";
+        document.write(k+l);document.write('<br><hr>');
+
+        /*比较运算符*/
+        var i1 = "10";
+        var j1 = 10;
+        document.write(i1==j1);document.write('<br>');
+        document.write(i1===j1);document.write('<br>');
+        document.write(i1!=j1);document.write('<br>');
+        document.write(i1!==j1);document.write('<br>');
+        var i1 = 10;
+        document.write(i1>j1);document.write('<br>');
+        document.write(i1>=j1);document.write('<br>');
+        document.write(i1<j1);document.write('<br>');
+        document.write(i1<=j1);document.write('<br><hr>');
+
+        /*逻辑运算符*/
+        document.write(i1>10&&j1==10);document.write('<br>');
+        document.write(i1>10||(j1==10));document.write('<br>');
+        document.write(!(i1>10&&j1==10));document.write('<br><hr>');
+
+        /*条件运算符*/
+        var num = 11;
+        document.write(num>10?"num大于10":"num小于或等于10");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="file" name="Files[]" id="Files" multiple />
+		<div id="div"></div>
+		<button onclick="check()">检验</button>
+		
+		<script type="text/javascript">
+			//检验浏览器是否支持File API
+//			function check(){
+//				if(window.File && window.FileList && window.FileReader && window.Blob){
+//					alert("浏览器支持File API");
+//				}else{
+//					alert("浏览器不支持File API");
+//				}
+//			}
+
+
+			window.addEventListener("change", selectFile, false);
+			function selectFile(e){
+				e = e||window.event;
+				//e.g. files[0].name = earth.png
+				files = e.target.files;
+				var output = [];
+				for (var i = 0, f = files[i]; i < files.length; i++){
+					output.push("<li><strong>" + f.name + "</strong>(" +
+					+ f.type + ")-"+f.size + "bytes</li>");
+				}
+				document.getElementById('div').innerHTML = "<ul>" + output.join("")+"</ul>";
+			}
+		</script>
+		
+	</body>
+</html>

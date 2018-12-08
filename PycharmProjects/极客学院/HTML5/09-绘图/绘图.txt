@@ -1,0 +1,12 @@
+5.H5 Canvas绘图
+
+<canvas id="myCanvas" width="200" height="100">浏览器不支持</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+//context对象，绘图环境，拥有各种绘制方法
+var ctx = canvas.getContext("2d")
+//绘制一个蓝色实心的矩形
+ctx.fillStyle="#00f";
+cts.fillRect(0, 0 , 160, 80);
+</script>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="stopTime()">stop</button>
+    <p id="ptime"></p>
+    <script>
+        var mytime = setInterval(function () {
+            getTime();
+        }, 1000);
+        function getTime() {
+            var d = new Date();
+            var t = d.toLocaleTimeString();
+            document.getElementById("ptime").innerHTML = t;
+        }
+        var win;
+        function mywin() {
+            alert("hello");
+            win = setTimeout(function () {
+                mywin();
+            }, 3000);
+        }
+        mywin();
+        function stopTime() {
+            clearInterval(mytime);
+            clearTimeout(win);
+        }
+    </script>
+</body>
+</html>

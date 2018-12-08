@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html manifest = "demo.appcache">
+<head>
+    <meta charset="utf-8">
+    <title>当前时间</title>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+	<p>
+		The time is:
+		<ouput id="test"></ouput>
+	</p>
+	<button onclick="update()">更新缓存</button>
+	<output id="msg"></output>
+	<script type="text/javascript">
+		function update(){
+			if(window.applicationCache){
+				window.applicationCache.update();
+			}else{
+				alert("浏览器不支持");
+			}
+		}
+		
+		applicationCache.onchecking = function(){
+			document.getElementById("msg").value = "检查manifest文件是否存在";
+		};
+		
+		applicationCache.onnoupdate = function(){
+			document.getElementById("msg").value = "检测出manifest文件没有更新";
+		};
+		
+		applicationCache.ondownloading = function(){
+			document.getElementById("msg").value = "发现更新并且正在取资源";
+		};
+		
+		applicationCache.onprogress = function(){
+			document.getElementById("msg").value = "正在下载manifest文件中的需要缓存的资源";
+		};
+		
+		applicationCache.oncached = function(){
+			document.getElementById('msg').value = "下载结束";
+		};
+		
+		applicationCache.onobsolete = function(){
+			document.getElementById('msg').value = "未找到文件";
+		};
+		
+		applicationCache.onerror = function(){
+			document.getElementById('msg').value = "出现错误";
+		};
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="startTime()">
+    <script>
+        var date = new Date();
+        document.write(date + "<br>");
+        document.write(date.getFullYear() + "<br>");
+        document.write(date.getTime() + "<br>")
+        date.setFullYear(2019, 10, 1);
+        document.write(date + "<br>");
+
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+
+            m = checkTime(m);
+            s = checkTime(s);
+
+            document.getElementById("timetxt").innerHTML = h + ":" + m + ":" + s;
+            setTimeout(startTime, 2000);
+        }
+
+        function checkTime(i) {
+            if(i < 10){
+                i = "0" + i;
+            }
+            return i;
+        }
+    </script>
+    <div id="timetxt"></div>
+</body>
+</html>

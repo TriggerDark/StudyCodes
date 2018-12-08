@@ -1,0 +1,15 @@
+package com.bwf.day1;
+
+public class TestA {
+	public static void main(String[] args) {
+		int a = 10;
+		numTest(a);
+		System.out.println(a);
+	}
+	public static void numTest(int num) {
+		num = 100;
+	}
+	public static void arrayText(int[] arr) {
+		
+	}
+}

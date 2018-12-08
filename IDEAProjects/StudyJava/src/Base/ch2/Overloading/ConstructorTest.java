@@ -2,7 +2,24 @@ package Base.ch2.Overloading;
 
 import java.util.Random;
 
+/**
+ * this用法
+ *      引用隐式参数
+ *      调用该类其他的构造器
+ */
+
 public class ConstructorTest {
+    public static void main(String[] args) {
+        Employee[] staff = new Employee[3];
+        staff[0] = new Employee("Harry", 4000);
+        staff[1] = new Employee(60000);
+        staff[2] = new Employee();
+
+        for (Employee e : staff){
+            System.out.println("name=" + e.getName() + ",id=" +
+                    e.getId() + ",salary=" + e.getSalary());
+        }
+    }
 }
 class Employee{
     private static int nextID;

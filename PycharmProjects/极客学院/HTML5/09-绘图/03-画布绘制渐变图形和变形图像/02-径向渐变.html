@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			window.addEventListener("load", draw, true);
+			function draw(){
+				var canvas = document.getElementById("mycanvas");
+				var ctx = canvas.getContext('2d');
+				var grd = ctx.createRadialGradient(400, 100, 0, 400, 0, 400);
+				grd.addColorStop(0, "rgb(255, 255, 0)");
+				grd.addColorStop(0.5, "rgb(255, 0, 255)");
+				grd.addColorStop(1, "rgb(0, 255, 255)");
+				ctx.fillStyle=grd;
+				ctx.fillRect(0, 0, 500, 400);
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="mycanvas" width="500" height="500">不支持</canvas>
+	</body>
+</html>

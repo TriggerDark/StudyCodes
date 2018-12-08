@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div{
+            width: 100px;
+            height: 100px;
+            background-color: #fff3cd;
+        }
+    </style>
+</head>
+<body>
+    <div class="div" onmouseout="onOut(this)" onmouseover="onOver(this)"></div>
+    <script>
+        function onOver(ooj) {
+            ooj.innerHTML = "hello";
+        }
+        function onOut(ooj) {
+            ooj.innerHTML = "world";
+        }
+    </script>
+</body>
+</html>

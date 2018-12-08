@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        /*people = new Object();
+        people.name = '季';
+        people.age = 21;
+        document.write("name: " + people.name +
+                        ", age: " + people.age);*/
+
+        /*people = {name: "季", age: 22};
+        document.write("name: " + people.name +
+                        ", age: " + people.age);*/
+        function people(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        son = new people("季", 21);
+        document.write("name: " + son.name +
+                        ", age: " + son.age);
+    </script>
+</body>
+</html>

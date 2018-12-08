@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <!--
+
+    email:在提交时，自动验证email的值
+    url:URL地址，会自动验证
+    number:数值的输入域，对数字做限定
+    tel:输入电话号码
+    range:包含一定范围内数字值的输入域
+    date:年/月/日
+    month:年/月
+    week:年/周
+    time:时间
+    datetime:年/月/日(UTC时间)
+    datetime-local:年/月/日(本地时间)
+    color:颜色
+    search:
+
+    -->
+
+    <form action="">
+        Email:
+        <input type="email" value="123@example.com"><br>
+        URL:
+        <input type="url" value="http://www.baidu.com"><br>
+        number:
+        <input type="number" min="1" max="100" value="3" step="5"><br>
+        Tel:
+        <input type="tel" name="usertel"><br>
+        Range:
+        <input type="range" name="range" value="25" max="100" min="0" step="5"><br>
+        date:
+        <input type="date"><br>
+        <input type="month"><br>
+        <input type="week"><br>
+        <input type="time"><br>
+        <input type="datetime" name="datetime"><br>
+        <input type="datetime-local"><br>
+        
+        Color:
+        <input type="color"
+               onchange="document.body.style.backgroundColor =
+               document.getElementById('currentColor').textContent = this.value;">
+        <span id="currentColor"></span>
+        <br>
+        <input type="search">
+
+    </form>
+</body>
+</html>

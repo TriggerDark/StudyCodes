@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="pID">Hello</p>
+    <button id="btn">按钮</button>
+    <script>
+        var x = document.getElementById('btn');
+        x.addEventListener('click', demo);
+        x.addEventListener('click', change);
+        x.removeEventListener('click', demo);
+        function demo() {
+            document.getElementById('pID').style.background = "yellow";
+        }
+        function change() {
+            alert("黄色");
+        }
+    </script>
+</body>
+</html>

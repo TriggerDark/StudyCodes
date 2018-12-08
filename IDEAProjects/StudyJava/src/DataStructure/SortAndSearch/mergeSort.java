@@ -3,32 +3,43 @@ package DataStructure.SortAndSearch;
 import java.util.Arrays;
 
 public class mergeSort {
-    public static int[] mergeSort(int[] arr, int start, int end){
-        if (end == 1)
-            return arr;
-
-        int mid = end/2;
-        mergeSort(arr, start, mid);
-        mergeSort(arr,mid + 1, end);
-        int[] result = new int[100];
-
-        int i = start, j = mid + 1, k = start;
-        while(i <= mid && j <= end){
-            if(arr[i] < arr[j]) result[k++] = arr[i++];
-            else result[k++] = arr[j++];
+    public static void sort(int[] arr, int start, int end, int[] sorted){
+        if(start < end){
+            int mid = (start + end) / 2;
+            sort(arr, start, mid, sorted);
+            sort(arr,mid + 1, end, sorted);
+            merge(arr, start, mid, end, sorted);
         }
-        while(i <= mid)
-            result[k++] = arr[i++];
-        while(j <= end)
-            result[k++] = arr[j++];
+    }
 
-        return result;
+    public static void merge(int[] arr, int start, int mid, int end, int[] sorted){
+        int fStart = start, lStart = mid + 1, index = 0;
+
+        while(fStart <= mid && lStart <= end){
+            if(arr[fStart] <= arr[lStart]){
+                sorted[index++] = arr[fStart++];
+            }else{
+                sorted[index++] = arr[lStart++];
+            }
+        }
+        while(fStart <= mid){
+            sorted[index++] = arr[fStart++];
+        }
+        while(lStart <= end){
+            sorted[index++] = arr[lStart++];
+        }
+        index = 0;
+        while (start <= end){
+            arr[start ++] = sorted[index ++];
+        }
     }
 
     public static void main(String[] args){
         int[] arr = new int[]{54, 26, 93, 17, 31, 44, 55};
-        int[] result = mergeSort(arr, 0, arr.length);
-        System.out.print(Arrays.toString(result));
+        System.out.println(Arrays.toString(arr));
+        int[] sorted = new int[arr.length];
+        sort(arr, 0, arr.length-1, sorted);
+        System.out.println(Arrays.toString(sorted));
     }
 
 }

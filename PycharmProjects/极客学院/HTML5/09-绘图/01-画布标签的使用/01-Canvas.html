@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        window.addEventListener("load", draw, true);
+        function draw() {
+            var canvas = document.getElementById("myCanvas");
+            //创建context对象，绘图环境，拥有各种绘制方法
+            var ctx = canvas.getContext("2d")
+            //填充色为蓝色
+            ctx.fillStyle="#00f";
+            //160*80的矩阵fillRect(x, y, width, height)
+            ctx.fillRect(0, 0, 160, 80);
+        }
+
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="100">浏览器不支持</canvas>
+</body>
+</html>

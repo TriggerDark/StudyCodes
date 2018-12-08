@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.addEventListener("load", drawline, true);
+			function drawline(){
+				var canvas = document.getElementById("myCanvas");
+				var ctx = canvas.getContext("2d");
+				ctx.beginPath();
+				ctx.moveTo(25, 275);//起始坐标(60, 180);
+				ctx.lineTo(60, 180);
+				ctx.lineTo(150, 130);
+				ctx.lineTo(170, 250);
+				ctx.stroke();
+				ctx.beginPath();
+				ctx.moveTo(25, 275);
+				ctx.bezierCurveTo(60, 180, 150, 130, 170, 250);
+				ctx.stroke();
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="myCanvas" height=500 width=600>不支持</canvas>
+	</body>
+</html>

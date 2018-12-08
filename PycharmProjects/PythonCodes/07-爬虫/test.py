@@ -31,6 +31,7 @@ def login():
     sleep(1)
     browser.find_element_by_xpath('//input[@type="checkbox"]').click()
     browser.find_element_by_class_name('input_submit').click()
+    sleep(1)
 
 
 # 浏览商品
@@ -56,8 +57,9 @@ def browser_products():
 def search_product():
     browser.find_element_by_name('word').send_keys(u'索尼（SONY）KDL-50W700B 50英寸全高清LED液晶电视（银色）')
     browser.find_element_by_class_name('search_submit').click()
-    sleep(2)
+    sleep(1)
     browser.find_element_by_xpath('//section[2]/section/section[2]/ul/li[1]').click()
+    sleep(1)
 
 
 def shopping():
@@ -67,10 +69,12 @@ def shopping():
     # 窗口切换，切换为新打开的窗口
     browser.switch_to_window(handles[-1])
     # 加入购物车
+    sleep(1)
     browser.find_element_by_id('joinCarButton').click()
     sleep(1)
 
 
+# 购物信息
 def accounts():
     global browser
     # 点击购物车图标
@@ -78,30 +82,39 @@ def accounts():
     element.click()
     # 去结算
     browser.find_element_by_link_text(u'去结算').click()
+    sleep(1)
     # 添加收货地址
     browser.find_element_by_xpath("//*[@id='addressBox']/div/ul/li/label/a").click()
+    sleep(1)
 
     browser.switch_to_frame('OpenaddressWindow')
     # 填写信息
     browser.find_element_by_xpath("//input[@name='accept_name']").send_keys("张三")
     m = browser.find_element_by_xpath("//select[@name='province']")
     m.find_element_by_xpath("//option[@value='110000']").click()
-
+    sleep(1)
     x1 = browser.find_element_by_xpath("//select[@name='city']")
     x1.find_element_by_xpath("//option[@value='110100']").click()
-
+    sleep(1)
     x2 = browser.find_element_by_xpath("//select[@name='area']")
     x2.find_element_by_xpath("//option[@value='110102']").click()
-
     sleep(1)
 
     browser.find_element_by_xpath("//input[@name='address']").send_keys("北京大学")
     browser.find_element_by_xpath("//input[@name='mobile']").send_keys("15162609660")
     browser.find_element_by_xpath("//input[@name='telphone']").send_keys("0516-88888888")
     browser.find_element_by_xpath("//input[@name='zip']").send_keys("110000")
+    sleep(1)
 
     browser.switch_to.default_content()
     browser.find_element_by_xpath("//button[@type='button']").click()
+    sleep(1)
+
+    browser.find_element_by_xpath('//*[@id="deliveryBox"]/div/table/tbody/tr[2]/th/label').click()
+    sleep(1)
+    browser.find_element_by_xpath("//section[2]/form/label").click()
+    sleep(2)
+    browser.quit()
 
 
 def main():

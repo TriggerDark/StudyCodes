@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--
+        	selectNode：选择的是元素的开始和结束
+        	selectNodeContents：选择的是元素中内容的开始和结束
+        	deleteContents：删除内容
+        -->
+	</head>
+	<body>
+		<div id="div" style="background-color: #e0a0b0; width: 300px; height: 50px;">
+			元素中的内容
+		</div>
+		<button onclick="deleteRangeContent(true)">删除内容</button>
+		<button onclick="deleteRangeContent(false)">删除元素</button>
+		<script>
+			function deleteRangeContent(OnlyContent){
+				var div = document.getElementById('div');
+				//创建Range对象
+				var rangeObj = document.createRange();
+				if(OnlyContent){
+					//当前节点的内容
+					rangeObj.selectNodeContents(div);
+					rangeObj.deleteContents();
+				}else{
+					//当前的节点
+					rangeObj.selectNode(div);
+					rangeObj.deleteContents();
+				}
+			}
+		</script>
+	</body>
+</html>

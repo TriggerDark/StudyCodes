@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+CACHE:
+http://localhost/HTMLCodes/Web_Study/05-HTML5/13-webCache/test.css
+http://localhost/HTMLCodes/Web_Study/05-HTML5/13-webCache/test.js
+
+NETWORK
+*
+
+FALLBACK
+http://localhost/HTMLCodes/Web_Study/05-HTML5/13-webCache/cache.html

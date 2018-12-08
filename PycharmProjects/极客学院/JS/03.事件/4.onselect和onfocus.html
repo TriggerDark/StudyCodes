@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" onselect="onSelect(this)" onfocus="onFocus(this)">
+    </form>
+    <script>
+        function onSelect(bg) {
+            bg.style.background = "red";
+        }
+        function onFocus(bg) {
+            bg.style.background = "yellow";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var str = "Hello world";
+        document.write("str字符串的长度：" + str.length + '<br>');
+        //查看字符串中是否有world，有返回开始的索引，没有返回-1
+        document.write(str.indexOf("world") + '<br>');
+        //内容匹配,匹配到直接返回匹配的值，没匹配到就返回null
+        document.write(str.match("hll"));
+        //替换
+        document.write(str.replace("world", "百度") + "<br>");
+        //大小写
+        document.write(str.toLowerCase() + "<br>");
+        document.write(str.toUpperCase() + "<br>");
+        //分割
+        var s = str.split(" ");
+        document.write(s[0] + "<br>");
+        //切割
+        document.write(str.substring(3) + "<br>");
+    </script>
+</body>
+</html>

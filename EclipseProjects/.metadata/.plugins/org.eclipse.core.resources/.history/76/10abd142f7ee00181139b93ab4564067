@@ -1,7 +1,0 @@
-package com.thread;
-
-public class DrawableThread extends Thread {
-
-	public MyPanel mypanel;
-
-}

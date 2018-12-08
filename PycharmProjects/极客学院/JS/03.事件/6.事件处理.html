@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="id">
+        <button id="btn">按钮</button>
+    </div>
+    <!--
+    <script>
+        var btn = document.getElementById("btn");
+        btn.onclick = function () { alert("DOM0级事件处理程序0");};
+        btn.onclick = function () { alert("DOM0级事件处理程序1");};
+        btn.onclick = function () { alert("DOM0级事件处理程序2");};
+        /*缺点：覆盖了之前的function*/
+    </script>
+    -->
+    <!--
+    <script>
+        var btn = document.getElementById("btn1");
+        btn.addEventListener('click', demo1, true);
+        btn.addEventListener('click', demo2, false);
+        btn.addEventListener('click', demo3, false);
+        /*true: 代表事件捕获  false: 代表事件冒泡*/
+        function demo1() {
+            alert("DOM2级事件处理程序1");
+        }
+        function demo2() {
+            alert("DOM2级事件处理程序2");
+        }
+        function demo3() {
+            alert("DOM2级事件处理程序3");
+        }
+        btn.removeEventListener('click', demo2);
+    </script>
+    -->
+    <script>
+        var btn = document.getElementById("btn");
+        if(btn.addEventListener){
+            btn.addEventListener("click", demo);
+        }else if (btn.attachEvent){
+            btn.attachEvent('onclick', demo);
+        }
+        function demo() {
+            alert("DOM2级事件处理程序1");
+        }
+    </script>
+</body>
+</html>

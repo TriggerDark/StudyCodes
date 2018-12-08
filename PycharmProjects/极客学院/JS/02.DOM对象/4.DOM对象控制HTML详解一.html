@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a id="aID" title="a的标签属性" >hello</a>
+    <ul><li></li><li></li><li></li></ul>
+    <script>
+        function getAndSetAttr() {
+            var anode = document.getElementById("aID");
+            var attr = anode.getAttribute("id");
+            anode.setAttribute('href', 'http://www.baidu.com');
+            alert(attr);
+        }
+        function getChildNode() {
+            var childNode = document.getElementsByTagName('ul')[0].childNodes;
+            alert(childNode.length);
+            alert(childNode[0].nodeType);
+        }
+        //getAndSetAttr();
+        getChildNode()
+    </script>
+</body>
+</html>

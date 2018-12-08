@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			window.onload=function(){
+				if(window.FileReader&&window.Blob&&window.FileList&&window.File){
+					document.getElementById("file").addEventListener("change", fileSelect, false);
+				}else{
+					document.write("不支持");
+				}
+			}
+			function fileSelect(e){
+				e = e||window.event;
+				var files = e.target.files;
+				var file = files[0];
+				if(/image\/\w+/.test(file.type)){
+				//if(/\.(jpe?g|png|gif)$/.test(file.name)){
+					var reader = new FileReader();
+					reader.readAsDataURL(file);
+					reader.onload = function(file){
+						document.getElementById("result").innerHTML = '<img src='+ this.result +' alt="太阳">';
+					}
+				}else{
+					alert("需要图片");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<input type="file" name="file" id="file" />
+		<div id="result"></div>
+	</body>
+</html>

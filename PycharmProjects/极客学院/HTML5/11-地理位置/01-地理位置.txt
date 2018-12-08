@@ -1,0 +1,38 @@
+Geolocation API
+1.getCurrentPosition
+	获得用户位置的经纬度
+	参数1：successCallback(position)
+	参数2：errorCallback(positionError)
+	参数3：positionOption配置参数
+	JSON数据格式
+
+1)position
+	coords:包含地理位置信息的corrdinates对象
+	包含七个属性
+		coords.latitude ---->精度
+		coords.longitude --->纬度
+		coords.accuracy ---->精确度
+		coords.altitude
+		coords.altitudeAccuracy
+		coords.heading
+		coords.speed
+		timestamp:获取地理位置信息的时间
+		
+2)positionError
+	code：整数，错误编码
+	message：错误描述
+	positionOptions
+	{
+	    enableHighAccuracy:true;
+	    timeout:超时时间，整数,ms
+	    maximumAge:整数，浏览器重新获得地理位置信息的时间间隔
+	}
+	
+3)在地图上显示结果
+	Google API
+	百度API
+4)监听和跟踪用户
+	watchPosition:继续返回用户移动
+5)更新位置
+	watchPosition(successCallback, errorCallback, options)
+	clearWatch():停止watchPosition()方法

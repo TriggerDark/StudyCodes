@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn" onclick="getLoc()">按钮</button>
+    <p id="ptime"></p>
+    <script>
+        function getLoc() {
+            //返回web主机的域名
+            //document.getElementById("ptime").innerHTML = window.location.hostname;
+            //返回当前页面的路径和文件名
+            //document.getElementById("ptime").innerHTML = window.location.pathname;
+            //返回web主机的端口
+            //document.getElementById("ptime").innerHTML = window.location.port;
+            //返回所使用的web协议
+            //document.getElementById("ptime").innerHTML = window.location.protocol;
+            //返回当前页面的URL
+            //document.getElementById("ptime").innerHTML = window.location.href;
+            //加载新的文档
+            location.assign("http://www.baidu.com/");
+        }
+    </script>
+</body>
+</html>

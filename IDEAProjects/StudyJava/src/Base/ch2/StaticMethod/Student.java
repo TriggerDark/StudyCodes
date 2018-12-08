@@ -2,7 +2,17 @@ package Base.ch2.StaticMethod;
 
 /**
  * final修饰符修饰的对象不可改变
+ *
+ * 类名.静态变量(类变量)
  * 类名.静态方法
+ * 静态代码块：只要构造类的对象，块就会被执行
+ *
+ * 静态方法不能使用this和super
+ *      不能直接访问所属类的实例变量和实例方法
+ *      可直接访问类的静态变量和静态方法
+ *
+ * 在方法中不能定义静态变量
+ *
  */
 
 public class Student {
@@ -21,8 +31,8 @@ public class Student {
 
 }
 class studentInfo{
-    static String schoolName;
-    private int number1 = 1;
+    static String schoolName;//静态变量
+    private int number1 = 1;//实例变量
     private static int number2 = 2;
 
     public studentInfo() {

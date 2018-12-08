@@ -1,0 +1,59 @@
+1.视频
+1)标签
+	<video> 定义声音
+	<source> 规定多媒体资源，可以多个
+2)支持类型
+	Ogg
+	MPEG 4 H.264 AAC
+	WebM
+3)control(控制器)
+	control属性攻添加播放、暂停和音量控件
+4)实例
+	<video src="movie.ogg" controls="controls"
+		height="240 width="320" autoplay="autoplay"
+		muted="muted">浏览器不支持video元素
+ 	</video>
+
+2.音频
+1)标签
+<audio>  定义声音
+<source> 规定多媒体资源，可以多个
+2)支持的类型
+Ogg Vorbis
+MP3
+Wav
+3)实例
+<audio>
+浏览器不支持audio元素
+video元素
+</audio>
+
+3.H5拖放
+拖：Drag
+放：drop
+(1)拖放事件
+拖放一个对象时，会触发一系列事件
+属性          		描述                  	作用对象
+dragstart   开始拖动对象           	被拖动对象
+drag        被拖动时触发           	被拖动对象
+dragenter   第一次进入目标的对象   当前目标对象
+dragover    盘旋                  		当前目标对象
+dragleave   离开先前的目标对象     	先前目标对象
+drop        对象被放开            		当前目标对象
+dragend     松开被拖动对象        	被拖动对象
+
+
+(2)拖放实例
+被拖动图像：image
+目标对象：div层
+1)设置元素可拖放
+2)拖动开始：ondragstart
+	调用一个函数drag(event),他规定了被拖放的数据
+3)设置拖动数据
+	event.dataTransfer.setDate()：设置被拖放数据的数据类型和值
+4)放入位置
+	事件ondragover
+	修改元素的默认处理方式->不允许其他元素放置
+5)放置
+	事件ondrop
+	首先阻止默认动作

@@ -1,7 +1,0 @@
-package com.model;
-
-public class Item01 extends Item {
-	public Item01(MyPanel mypanel) {
-		
-	}
-}

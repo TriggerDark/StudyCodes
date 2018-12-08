@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div">
+        <p id="pID">hello</p>
+    </div>
+    <script>
+        function getParentNode() {
+            var p = document.getElementById("pID");
+            alert(p.parentNode.nodeName);
+        }
+        //getParentNode();
+        function createNode1() {
+            var body = document.body;
+            var input = document.createElement("input");
+            input.type = 'button';
+            input.value = '按钮';
+            body.appendChild(input);
+        }
+        //createNode1();
+        function createNode2() {
+            var body = document.body;
+            var h1 = document.createElement('h1');
+            text = document.createTextNode("createTextNode");
+            h1.appendChild(text);
+            body.appendChild(h1);
+        }
+        createNode2();
+        function addNode() {
+            var div = document.getElementById("div");
+            var node = document.getElementById("pID");
+            var newNode = document.createElement('p');
+            newNode.innerText = "添加p元素";
+            div.insertBefore(newNode, node);
+        }
+        //addNode();
+        function removeNode() {
+            var div = document.getElementById("div");
+            var p = div.removeChild(div.childNodes[1]);
+        }
+        //removeNode();
+        function getSize1() {
+            var width = document.documentElement.offsetWidth||document.body.offsetWidth;
+            var heigth = document.documentElement.offsetHeight||document.body.offsetHeight;
+            alert(width + ", " + heigth);
+        }
+        //getSize1();
+        function getSize2() {
+            var width = document.documentElement.scrollWidth||document.body.scrollWidth;
+            var heigth = document.documentElement.scrollHeight||document.body.scrollHeight;
+            alert(width + ", " + heigth);
+        }
+        //getSize2()
+    </script>
+</body>
+</html>

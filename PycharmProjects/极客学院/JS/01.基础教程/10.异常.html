@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="txt">
+        <input type="button" id="btn" onclick="demo()" value="按钮">
+    </form>
+    <script>
+        /*function demo() {
+            try {
+                alert(str);
+            }catch (e) {
+                alert(e);
+            }
+        }
+        demo();*/
+        function demo() {
+            try {
+                var e = document.getElementById("txt").value;
+                if(e == "")
+                    throw "请输入";
+            }catch (e) {
+                alert(e);
+            }
+        }
+    </script>
+</body>
+</html>

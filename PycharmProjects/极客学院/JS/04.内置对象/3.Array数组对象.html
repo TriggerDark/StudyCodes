@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var a = ["hello", "world"];
+        var b = ["iwen", "wee"];
+        var c = a.concat(b);
+        document.write("拼接concat()<br>" + c + "<br><hr>");
+
+        var d = ["a", "c", "h", "e", "b"];
+        var e = ["a", "c", "b"];
+        document.write("排序<br>" + "sort: " + d.sort() + "<br>");
+        document.write("reverse: " + e.reverse() + "<br>");
+        document.write("sort.reverse: " + d.sort().reverse() + "<br><hr>");
+
+        var arr = ["a", "b"];
+        document.write("增删<br>" + arr + "<br>");
+        arr.push("c");//在末尾插入c
+        document.write("push: " + arr + "<br>");
+        arr.unshift("e");//在数组开头插入e
+        document.write("unshift: " + arr + "<br>");
+        arr.pop();//出栈
+        document.write("pop: " + arr + "<br>");
+        arr.splice(1, 1);//从第一个数组元素开始，删除一个数组元素
+        document.write("splice: " + arr + "<br>");
+
+    </script>
+</body>
+</html>

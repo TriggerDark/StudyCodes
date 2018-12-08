@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Range对象基本概念</title>
+	</head>
+	<body>
+		<script>
+			function rangeTest(){
+				var html;
+				showRangeDiv = document.getElementById('showRange');
+				selection = document.getSelection();
+				if(selection.rangeCount > 0){//获取选取的内容区域数
+					html = "您选取了>" + selection.rangeCount + "<内容><br/>";
+					for (var i = 0; i < selection.rangeCount; i++) {
+						//谷歌上不支持多选
+						//火狐上支持
+						var range = selection.getRangeAt(i);//相对应i段的内容
+						html += "第" + (i + 1) + "段的内容为：" + range + "<br/>";	
+					}
+					showRangeDiv.innerHTML = html;
+				}
+			}
+		</script>
+		Selection对象与Range对象的使用<br />
+		<input type="button" value="点击我" onclick="rangeTest()" />
+		<br />
+		<div id="showRange"></div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	moveTo：将光标移动到指定的坐标点
+    	lineTo：光标坐标到线指定坐标的直线
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.addEventListener("load", drawline, true);
+			function drawline(){
+				var canvas = document.getElementById("myCanvas");
+				var ctx = canvas.getContext("2d");
+				ctx.beginPath();//开始绘制路径
+				ctx.moveTo(10, 10);//A坐标为(10, 10)
+				ctx.lineTo(10, 100);//B坐标为(10, 100),AB=90
+				ctx.lineTo(100, 100);//C坐标为(100, 100),BC=90
+				ctx.lineTo(10, 10);//斜边为AC
+				ctx.strokeStyle='red';
+				ctx.stroke();
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="myCanvas" height=500 width=600">不支持</canvas>
+	</body>
+</html>
