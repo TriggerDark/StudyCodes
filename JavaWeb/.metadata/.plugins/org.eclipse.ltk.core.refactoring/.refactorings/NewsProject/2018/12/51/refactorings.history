@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;addCal.html, attr.html, demo.html, element.html, jquery-3.3.1.min.js, JQuery.html, NewFile.html, style.html&apos; to &apos;JQuery&apos;" description="Move 8 resources to &apos;JQuery&apos;" destination="WebContent/JQuery" element1="WebContent/addCal.html" element2="WebContent/attr.html" element3="WebContent/demo.html" element4="WebContent/element.html" element5="WebContent/jquery-3.3.1.min.js" element6="WebContent/JQuery.html" element7="WebContent/NewFile.html" element8="WebContent/style.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="8" stamp="1545012793856" updateReferences="true"/>
+</session>

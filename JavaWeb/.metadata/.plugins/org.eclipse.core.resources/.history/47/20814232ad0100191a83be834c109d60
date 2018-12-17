@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+	$(function(){
+		$("#myspan").hover(function(e){
+			$("<div id='tooltip' style='background: gray; width: 100px; height: 30px; position: absolute;'>我是提示</div>").insertAfter(this);
+			$("#tooltip").css({"dispaly": "block", "left": e.pageX, "top": e.pageY + 18px});
+		}, function(){});
+	})
+</script>
+</head>
+<body>
+<span id="myspan">这是一段文字</span>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+var id;
+$(document).ready(function(){
+	$("#btn").attr("disable", true);
+	id=setInterval("countDown()", 1000);
+});
+
+var leftSeconds=10;
+function countDown(){
+	if(leftSeconds<=0){
+		
+	}
+	leftSeconds--;
+	$("#btn").val("仔细请阅读"+leftSeconds)
+}
+</script>
+</head>
+<body>
+<input type="button" id="btn" value="同意">
+</body>
+</html>

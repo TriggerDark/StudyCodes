@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+	
+</script>
+<style>
+	.waiting{
+		color: gray;
+	}
+</style>
+</head>
+<body>
+<input type="text" id="kw">
+</body>
+</html>

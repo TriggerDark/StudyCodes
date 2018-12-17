@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+	$(function(){
+		$("#kw").val("请输入关键字").addClass("waiting").focus(function(){
+			if($(this).val("").removeClass("waiting"))
+		})
+	});
+</script>
+<style>
+	.waiting{
+		color: gray;
+	}
+</style>
+</head>
+<body>
+<input type="text" id="kw">
+</body>
+</html>

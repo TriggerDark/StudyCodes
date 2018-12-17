@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.day{background-color: white;}
+		.night{background-color: black;}
+	</style>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+	</script>
+</head>
+<body>
+	<input type="button" value="开关灯" id="btn" />
+</body>
+</html>

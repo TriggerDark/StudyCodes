@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>加法计算器</title>
+	<script src="jquery-3.3.3.min.js"></script>
+	<script>
+	</script>
+</head>
+<body>
+	<input type="text" id="txt1">+<input type="text">
+	<input type="button"><input type="text">
+</body>
+</html>

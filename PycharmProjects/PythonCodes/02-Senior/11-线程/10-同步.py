@@ -28,12 +28,12 @@ class Task3(Thread):
                 lock1.release()
 
 
-#使用Lock创建出的锁默认没有"锁上"
+# 使用Lock创建出的锁默认没有"锁上"
 lock1 = Lock()
-#创建另外一把锁,并且"锁上"
+# 创建另外一把锁,并且"锁上"
 lock2 = Lock()
 lock2.acquire()
-#创建另外一把锁,并且"锁上"
+# 创建另外一把锁,并且"锁上"
 lock3 = Lock()
 lock3.acquire()
 

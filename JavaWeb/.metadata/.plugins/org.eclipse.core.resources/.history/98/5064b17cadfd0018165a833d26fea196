@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	/*过滤 first() last() eq() filter()*/
+	$(function(){
+		
+	});
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>姓名</td>
+			<td>成绩</td>
+		</tr>
+		<tr>
+			<td>季</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>海</td>
+			<td>11</td>
+		</tr>
+	</table>
+</body>
+</html>

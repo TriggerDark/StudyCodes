@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script>
+	/*
+	遍历 $.each()
+	遍历祖先 parent() parents() parentUntil()
+	遍历后代 children()直接子元素 find()
+	遍历同胞 next() nextAll() nextUntil() prev() prevAll() prevUntil() siblings()所有同胞
+	*/
+		$(document).ready(function(){
+			$('#ratings td').html("<img src='img/starEmpty.jpg'>").mouseOver(function(){
+				$(#ratings).html('"<img src='img/starFill.jpg'>"');
+				$(this).html("");
+			});
+		});
+	</script>
+</head>
+<body>
+	<table id="ratings">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

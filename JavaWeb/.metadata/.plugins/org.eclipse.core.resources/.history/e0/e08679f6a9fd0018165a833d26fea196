@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script>
+	/*$.each()
+	遍历祖先
+	parent()
+	parents()
+	parentUntil()
+	遍历后代
+	*/
+	</script>
+</head>
+<body>
+
+</body>
+</html>

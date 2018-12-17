@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#selAll").click(function(){
+			$("#container :checkbox").attr("checked", true);
+		});
+	});
+	$(function(){
+		$("#unselAll").click(function(){
+			$("#container :checkbox").prop("checked", false);
+		});
+	});
+	$(function(){
+		$("#reverse").click(function(){
+			$("#container :checkbox").each(function(){
+				$(this).prop("checked", !$(this).attr("checked"));
+			});
+		});
+	});
+</script>
+</head>
+<body>
+<div id="container">
+	<input type="checkbox">歌曲1<br>
+	<input type="checkbox">歌曲2<br>
+	<input type="checkbox">歌曲3<br>
+	<input type="checkbox">歌曲4<br>
+	<input type="checkbox">歌曲5<br>
+	<input type="checkbox">歌曲6<br>
+	<input type="checkbox">歌曲7<br>
+	<input type="checkbox">歌曲8<br>
+	<input type="checkbox">歌曲9<br>
+</div>
+<input type="button" id="selAll" value="全选"><br>
+<input type="button" id="unselAll" value="全不选"><br>
+<input type="button" id="reverse" value="反选"><br>
+</body>
+</html>

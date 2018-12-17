@@ -21,7 +21,6 @@ class Employee {
 
     //构造方法
     //1.没有返回值 2.方法名必须和类名一样 3.每个类都一个默认无参构造方法
-    //
     public Employee(String name, double salary, int year, int month, int day){
         this.name = name;
         this.salary = salary;
