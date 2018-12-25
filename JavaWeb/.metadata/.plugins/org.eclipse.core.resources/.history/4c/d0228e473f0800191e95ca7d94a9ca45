@@ -1,0 +1,12 @@
+package com.demo.Servlet;
+
+import javax.servlet.http.HttpServlet;
+
+public class AjaxServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6432768403306483774L;
+	
+}

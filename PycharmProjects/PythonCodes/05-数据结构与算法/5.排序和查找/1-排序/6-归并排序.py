@@ -22,6 +22,7 @@ def mergeSort(arr):
 
     return result
 
+
 arr = [54, 26, 93, 17, 31, 44, 55]
 mergeSort(arr)
 print(arr)

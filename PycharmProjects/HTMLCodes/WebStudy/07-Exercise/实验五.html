@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function loadXmlDoc(url) {
+            var xmlHttp;
+            if (window.XMLHttpRequest) {
+                 xmlHttp = new XMLHttpRequest();
+            } else if (window.ActiveXObject) {
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("div").innerHTML = xmlHttp.getAllResponseHeaders();
+                }
+            };
+            xmlHttp.open("GET", url, true);
+            xmlHttp.send();
+        }
+    </script>
+</head>
+<body>
+    <div id="div"></div>
+    <button onclick="loadXmlDoc('http://localhost:8080/NewsProject/example.xml')">HTTP响应头部</button>
+</body>
+</html>

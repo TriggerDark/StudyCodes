@@ -2,230 +2,632 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1e02d4-936e-4eca-ac6e-d6d4401905d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/1.基础语法/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/1.基础语法/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/1-selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/1-selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/2-EventMethod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/2-EventMethod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/3-bindEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/3-bindEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/4-EventTarget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/4-EventTarget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/5-CustomEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/5-CustomEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/addContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/addContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/removeContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/removeContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/3.HTML-捕获设置元素添加和删除/setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/fade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/fade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/slide.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JS/07-面向对象/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JS/07-面向对象/app1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JS/07-面向对象/app2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/极客学院/JS/07-面向对象/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验五.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/51/f0f33892e0f3001810d8ef139714c59f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/0/00e5477006f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/1c/b090df5e06f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/3/709370bb05f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/49/e07e6a03fff800181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/62/803c43f0fef800181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/65/006a682506f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/6b/80cd5ee4fef800181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/81/10b7f406fff800181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/95/a04a59d205f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/ae/a033710afff800181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/cb/10dc967906f900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.history/f0/f0431fd40df900181368ed4ad52e1f75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.indexes/e4/5d/history.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/Java基础/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/fly/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.indexes/e4/81/b1/15/history.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/27.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.projects/博为峰/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.root/28.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/3485791903.index" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/3485791903.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EclipseProjects/.metadata/version.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IDEAProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/Enum/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/EnumClass/EnumMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/Enum/Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/Enum/Week.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/BigIntegerAndBigDecimal/bigDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/BigIntegerAndBigDecimal/bigDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/BigIntegerAndBigDecimal/bigInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/BigIntegerAndBigDecimal/bigInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/BigIntegerAndBigDecimal/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/BigIntegerAndBigDecimal/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/Break.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/Break.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/IF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/IF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/ControlStatement/while和do-while区别.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/ControlStatement/while和do-while区别.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/DataType/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/DataType/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/DataType/DataType.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/DataType/DataType.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/EnumClass/EnumMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/EnumClass/EnumMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/EnumClass/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/EnumClass/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/InputAndOutput/Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/InputAndOutput/Printf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/InputAndOutput/Scanner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/InputAndOutput/Scanner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/InputAndOutput/console.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/InputAndOutput/console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/InputAndOutput/scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/InputAndOutput/scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/MathFunction/MathFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/MathFunction/MathFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/MathFunction/MathFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/MathFunction/MathFunction.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/Operation/Operation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/Operation/Operation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/EndStartwithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/EndStartwithMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/EqualsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/EqualsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/IndexMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/IndexMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/JoinMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/JoinMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/MoreMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/MoreMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/RepalceMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/RepalceMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/SplitMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/SplitMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/StringMethod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/StringMethod.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/SubstringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/SubstringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/ToLowerUpperCaseMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/ToLowerUpperCaseMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/String/TrimMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/String/TrimMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/Args.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/Args.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/ArraysMethods/ArraysMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/ArraysMethods/ArraysMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/ArraysMethods/CopyOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/ArraysMethods/CopyOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/ArraysMethods/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/ArraysMethods/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/define.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/define.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch1/array/foreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch1/array/foreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/CreateClass/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/CreateClass/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/CreateClass/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/StudentsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/CreateClass/StudentsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/CreateClass/TestSeachStuinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/CreateClass/TestSeachStuinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/FactoryMethod/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/FactoryMethod/FactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/Overloading/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/Overloading/CalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/Overloading/ConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/Overloading/ConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/StaticMethod/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/StaticMethod/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/StaticMethod/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/StaticMethod/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/StaticMethod/VoterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/StaticMethod/VoterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch2/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch2/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Abstract/AbsTractMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Abstract/AbsTractMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Abstract/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Abstract/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Abstract/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Abstract/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Abstract/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Abstract/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Abstract/doc" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Abstract/doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/CreateInherit/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/CreateInherit/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/CreateInherit/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/CreateInherit/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/CreateInherit/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/CreateInherit/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/CreateInherit/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/CreateInherit/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/ObjectTest/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/objecttest/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/ObjectTest/EqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/objecttest/EqualsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/ObjectTest/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/objecttest/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/ObjectTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/objecttest/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Polymorphism/BlackPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Polymorphism/BlackPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Polymorphism/ColorPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Polymorphism/ColorPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Polymorphism/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Polymorphism/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Polymorphism/PrinterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Polymorphism/PrinterInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Polymorphism/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Polymorphism/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch3/Reflection/反射" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch3/Reflection/反射" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Door/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Door/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Door/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Door/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Door/TakePhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Door/TakePhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Door/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Door/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Door/TheftProofDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Door/TheftProofDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Employee/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Employee/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/CommonPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/CommonPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/Handset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/Handset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/IntellectPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/IntellectPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/NetWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/NetWorking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/Playing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/Playing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/TakePhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/TakePhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/Phone/TestPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/Phone/TestPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/UsbInterFace/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/UsbInterFace/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/UsbInterFace/Usb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/UsbInterFace/Usb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/UsbInterFace/UsbDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/UsbInterFace/UsbDisk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/UsbInterFace/UsbFan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/UsbInterFace/UsbFan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch4/Interfaces/doc" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch4/Interfaces/doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch5/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch5/ExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch5/GenderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch5/GenderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch5/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch5/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch5/Throws.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch5/Throws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Base/ch8/simpleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/base/ch8/simpleFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/bubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/insertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/insertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/quickSortF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/quickSortF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/quickSortT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/quickSortT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/selectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/selectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/DataStructure/SortAndSearch/shellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/dataStructure/SortAndSearch/shellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Exercise/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/exercise/demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/Exercise/demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/StudyJava/src/exercise/demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/BigIntegerAndBigDecimal/bigDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/BigIntegerAndBigDecimal/bigDecimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/BigIntegerAndBigDecimal/bigInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/BigIntegerAndBigDecimal/bigInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/Break.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/Break.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/DoWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/DoWhile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/For.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/For.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/IF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/IF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/Switch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/Switch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/While.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/ControlStatement/While.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/DataType/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/DataType/DataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/EnumMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/EnumMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/EnumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/EnumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/Size.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/Size.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/Week.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/EnumClass/Week.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/Printf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/Printf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/console.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/console.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/InputAndOutput/scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/MathFunction/MathFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/MathFunction/MathFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/EndStartwithMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/EndStartwithMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/EqualsMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/EqualsMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/IndexMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/IndexMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/JoinMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/JoinMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/MoreMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/MoreMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/RepalceMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/RepalceMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/SplitMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/SplitMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/SubstringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/SubstringMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/ToLowerUpperCaseMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/ToLowerUpperCaseMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/TrimMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/String/TrimMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/Args.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/Args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/ArraysMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/ArraysMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/CopyOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/CopyOf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/ArraysMethods/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/array2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/array2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/define.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/define.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/foreach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch1/array/foreach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/ArrayListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/BlackPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ColorPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/PrinterInfor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/StudentsInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/StudentsInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/TestSeachStuinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/CreateClass/TestSeachStuinfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/FactoryMethod/FactoryMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/FactoryMethod/FactoryMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/CalcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/CalcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/ConstructorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/ConstructorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/Overloading/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/Voter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/Voter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/VoterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/VoterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/studentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch2/StaticMethod/studentInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/AbsTractMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/AbsTractMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Abstract/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/JavaTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/JavaTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/ManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/teacherInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/CreateInherit/teacherInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/EqualsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/EqualsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/ObjectTest/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/BlackPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/BlackPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/ColorPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/ColorPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/PrinterInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/PrinterInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch3/Polymorphism/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Door.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Door.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Lock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Lock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/TakePhoto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/TakePhoto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/TheftProofDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Door/TheftProofDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Employee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Employee/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Employee/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Employee/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/CommonPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/CommonPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/Handset.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/Handset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/IntellectPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/IntellectPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/NetWorking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/NetWorking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/Playing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/Playing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/TakePhoto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/TakePhoto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/TestPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/Phone/TestPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/Usb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/Usb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/UsbDisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/UsbDisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/UsbFan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch4/Interfaces/UsbInterFace/UsbFan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/ExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/ExceptionHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/GenderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/GenderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/Throws.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch5/Throws.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch8/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch8/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch8/simpleFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Base/ch8/simpleFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/bubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/bubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/insertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/insertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/mergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/mergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/quickSortF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/quickSortF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/quickSortT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/quickSortT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/selectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/selectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/shellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/DataStructure/SortAndSearch/shellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Exercise/demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Exercise/demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Exercise/demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEAProjects/out/production/StudyJava/Exercise/demo2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2f/50747dbbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/42/800779bbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/49/00227fbbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7e/803341d1b8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/91/c03277bbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c2/b0ed7bbbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d8/10a0a6fbb8f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e4/0091bf0bb9f0001814d097678bf10acc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f2/004df5f6b8f0001814d097678bf10acc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/0/a0c0983bac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/11/00818936aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/11/20a040d6a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/11/d0776655a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/11/e07041a0a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/12/80d0bd91a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/12/90cec2f0a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/13/106ce233a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/14/90776062ad0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/15/50f68a63a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/15/e0306ef7ab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/16/707ef00ca50100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/16/90506a8da40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/16/e014979ea6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/17/001b0efaa90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/18/50efa92fa4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/18/8095b0a8a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/18/901236daa10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/18/e0b79771a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/19/1027936dadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/19/6041bee4ab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/19/d0aa9f8da6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1a/9018d99ca3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1b/90474d6aa20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1c/505a17b2a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1c/b04755a9a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1d/208749c1a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1d/50f6dddba8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1d/e0a21eb2aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1e/d056263aaa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1f/40268645a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/1f/60759e9aa4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2/b0fa23d2a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/20/103034aba7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/20/60e6a051ad0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/21/00e5b9cbacfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/21/40e91c2caafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/24/20727ed1a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/25/c0294d05aefd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2a/00b2df7fac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2b/70b67a91a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2b/d09fca9fac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2c/f02a16faa10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2d/0075e9d9a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2d/200e0885acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2e/30509201a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2e/702ba6c8a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2e/70e04d3eaa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2e/c02be738a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2f/604ce4d9acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/2f/d0637b3baafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3/804ce84ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3/9047ec5fadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/30/30ea6508a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/30/b078e893a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/31/100d6fd4acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/32/10d17cfca90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/33/00459e62a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/33/5097633fa6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/33/e023a980a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/35/503de8cba40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/35/c044ce26aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/36/3015b2a9adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/36/6089c12caa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/38/e0c1e82da5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/39/10dc33b3adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/39/70a9746fac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/39/f0247cffa4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3a/a0ee8ca8a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3b/00314ee5a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3b/7020b219a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3b/d05c2a67a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3d/f016776ea90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3f/0088c388a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/3f/80f6005ea6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4/505506f1a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/40/70ee2f90adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/40/d052e5e5a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/41/e0f90647a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/41/f047c2c3a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/43/502d2b73a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/43/a0b4a493a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/44/203eae5caefd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/44/e0676199acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/47/20814232ad0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/47/50957efda6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/47/60cb4b59a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/48/40fdf378a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/49/c0b70c87acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/49/e0603de9ab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4a/90f965eca4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4b/d0be3673acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4d/90480100a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4d/d06bb86aaa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4e/9002317ba20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/4e/a00f55b9a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/50/d0ede7e1a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/52/20b49246a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/52/50f07bc4a10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/52/70ad6d31a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/52/80f55f86a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/53/508afd96a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/53/80335075adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/54/306f55c8aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/54/703e413da4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/55/305f9ddbab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/55/a0ffd6e0ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/56/408bad54a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/56/70e6b348a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/57/50337a1faafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/57/e072b641a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/58/b030946caa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/59/80b252c6a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/59/f02e0acbaafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5a/3053e9beaafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5a/30af5d27aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5b/b0763d66a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5c/10e00abaa40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5e/d00eb48ba3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5e/e02077fba90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5e/f0e712e6a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/5f/b0c8ae8fac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6/3041e79da90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/60/70d14814ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/60/e074a94aa20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/61/30ab2deba5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/61/f08c271ba8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/62/00d47c69a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/62/50713e25ad0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/65/b0229457a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/66/406395efa40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/66/a01e0427a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/66/d0445fe5a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/67/30cedf38a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6a/50474f8aa6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6b/80430602abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6b/d08d9561aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6c/207d0595a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6c/904bc264abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6d/3051682ba8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6d/6010794fa7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6d/c05580d1a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6d/d09ef211aefd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6e/50b75246a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6f/109ca8caacfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6f/307f4dd3a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/6f/d0d9ff0ba8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7/c0f982aaadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/71/c091f8c0a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/73/10d3fbf6a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/75/00fddad4a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/75/700c3993a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/79/3034a767aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/79/90be48bea90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/79/b090bbd2acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7a/6025b00eabfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7a/8096a5a0ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7d/90b0950aaafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/7f/f0d0a765a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8/1097ceddab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/82/20db975eadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/82/e0e08880a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/84/2061dc5aaafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/84/30fc370ba90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/84/805ef3ffa9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/85/702209a2acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/86/603ade4ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/88/e0267b28a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/89/4094511ca90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/89/b032ed1fa5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/89/e069687cacfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8a/00971721a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8b/50d844a8a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8b/9041eb94a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8b/c07ffdc1a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8c/800bd741aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8d/e0d3b171a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/8f/e027586ba20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/91/105adcdda80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/93/10ee95eda4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/93/9002e64ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/93/d09d44e6ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/94/70e19dd2aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/94/e0471cd6acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/95/90109032aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/98/102f852aa6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/98/5064b17cadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/98/e0ed0926abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/99/a0ddf03baa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/99/f06d488ea6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9a/b06a9bfcab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9c/20a860a8a10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9c/80dc0550a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9d/4046f051aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9d/e068a9d4aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9d/f03cd926aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9e/f06628f5a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/9f/1036be7ea40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a0/509e8771a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a2/00c32ae5a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a2/703e56b2ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a3/70b64521a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a4/407d2aebadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a4/802df8ebadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a4/f0d7fbffa40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a7/b06e915cabfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a8/60490b02a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/a9/b09e9b71a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/aa/505664b0a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ab/207d3f45a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ab/b08c81bfa90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ac/00ba1b07a50100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ac/90aabcc8acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ac/b0b7d222abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ad/00d8f04ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/af/207a0f06a50100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/af/50d3a3fca40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b1/3089d3b6ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b3/20c9a311ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b3/50be2335abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b6/40e6da90a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b6/b0eb7aeca5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b7/901003ecab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b7/90d772b7a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/b8/50b61004a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ba/0029ab9aa90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ba/00745ddaacfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bb/0096618ba90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bb/107206e8ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bd/50db13e1abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bd/50f4bf05a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bf/20e14caca9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bf/3000b9a4acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/bf/800158f2ab0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c/20bac7aea40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c/a01aedb2a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c0/006508e0ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c0/60fdcd06aefd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c0/c0a0ce55abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c1/708320c7a10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c2/00aca3e7a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c2/e08bc2a3a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c4/e06d7824aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c5/9008bc10a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c5/901153afa10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c7/60ad3c7ba7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c7/70f868cca6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/c9/e0706425a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ca/805a8804abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cb/907cff85a3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cc/60204c68a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cd/60df41d4a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cd/90647737a6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ce/60a36c77a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ce/9042f2b3a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cf/d01e407ea6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/cf/f0746d75acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d/60006549a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d0/f0d879a9a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d1/c02831d5a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d1/c051a76aadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d1/f0911fd8acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d1/f0e23c81aa0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d3/80507c0aad0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d3/f02e653ca7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d4/a0728de7a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d5/b074f233a50100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d6/603b2bf2a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d6/b05ffaf0adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d6/e08142e1aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d6/e0c694eba4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d7/709806dfa6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/d8/f026918ba80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/da/c0a035aca80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/db/a01e5188acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/dc/20e94599a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/dc/e0f0071fa7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/de/20ddc75babfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/de/f0311aa2a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/df/10faac45a7fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e0/b03ccbcca6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e0/e08679f6a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e2/f064f1a9a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e3/30985fbda5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e4/104f2d1ca6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e5/80ee5fe4aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e5/a062b106a90100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e6/3000f256adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e6/c07caa50adfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e8/50f142b8a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e8/70ceb54fabfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e9/70c0215daefd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/e9/e0e3e14ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ea/4003ef4ea10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ea/4054ec27a20100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ea/5069b234a50100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ea/70001c31a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ed/10dd8e06a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ee/e0aaf2d7a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ef/80714ba5a40100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ef/c03652e3a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f/20783d8fadfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f0/508fd9d6aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f1/a0305a15aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f2/2038d121a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f3/f0a501c6a10100191040f4577f515ea6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f4/2032450ca6fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f4/90857ab1a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f4/c0a2c602aafd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f4/d0b553e6a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f6/70a888c1a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f7/004d6eefa3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f7/30eb75d5abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f7/d0c7b0e9a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f8/c086aba0a80100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f9/20ad1db3ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/f9/905ca4f5a9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fa/50369fc1a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fb/30f68501ac0100191a83be834c109d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fb/e00dc3a0acfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fc/60e88ae4a5fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fd/907c89eca3fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/fe/60995452a4fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ff/a0a1ccb5a8fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ff/a0e4e5d8abfd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.history/ff/b006316da9fd0018165a833d26fea196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/5b/62/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/5b/62/history.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/5b/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/5b/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/.indexes/history.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/NewsProject/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/34/history.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.root/7.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.web.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.web.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.debug.core/.launches/_pages_newsDetail.jsp.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.debug.core/.launches/_JQuery_demo4.html.launch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/975905372.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/975905372.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jst.j2ee.web/webLibrariesCache.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.jst.j2ee.web/webLibrariesCache.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/NewsProject/2018/12/51/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/NewsProject/2018/12/51/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/NewsProject/2018/12/51/refactorings.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/NewsProject/2018/12/51/refactorings.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1381612641.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/1197480349.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/1197480349.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/3249752867.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.web.core/jssearch/3249752867.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/NewsProject/WebContent/JQuery/NewFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/NewsProject/WebContent/JQuery/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/NewsProject/WebContent/JQuery/demo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/NewsProject/WebContent/JQuery/demo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/NewsProject/WebContent/JQuery/demo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpstormProjects/FirstPHP/studyPHP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpstormProjects/FirstPHP/studyPHP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/child/signIn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/child/signUp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/cover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/19-bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/css/cover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/adv.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/imgs/picture6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/js/div-img轮播.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/JQuery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/HTMLProject/网站首页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/02-JS和JQ对象之间的转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/02-JS和JQ对象之间的转换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/08-属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/08-属性选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/09-绘图/04-图形绘制处理/04-实现文字倒影.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/09-绘图/04-图形绘制处理/04-实现文字倒影.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonCodes/02-Senior/11-线程/01-使用线程完成多任务.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCodes/02-Senior/11-线程/01-使用线程完成多任务.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonCodes/02-Senior/11-线程/10-同步.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCodes/02-Senior/11-线程/10-同步.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/4.(first last nth)-child选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/4.(first last nth)-child选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/00-全局属性/01-全局属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/00-全局属性/01-全局属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/01-section标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/01-section标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/02-header标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/02-header标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/03-footer标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/03-footer标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/04-nva标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/04-nva标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/05-article标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/05-article标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/06-aside标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/06-aside标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/07-figure标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/07-figure标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/08-hgroup标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/08-hgroup标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/09-address标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/09-address标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/01-HTML5的新结构/10-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/01-HTML5的新结构/10-demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/01-mark标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/01-mark标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/02-time标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/02-time标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/03-meter标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/03-meter标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/04-progress标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/04-progress标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/05-details标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/05-details标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/02-HTML5的新增内联元素/06-list标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/02-HTML5的新增内联元素/06-list标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/03-HTML5新增的表单类型和新的表单元素/01-新的input类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/03-HTML5新增的表单类型和新的表单元素/01-新的input类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/03-HTML5新增的表单类型和新的表单元素/02-datalist.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/03-HTML5新增的表单类型和新的表单元素/02-datalist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/03-HTML5新增的表单类型和新的表单元素/03-keygen.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/03-HTML5新增的表单类型和新的表单元素/03-keygen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/03-HTML5新增的表单类型和新的表单元素/04-output元素和input下number比较.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/03-HTML5新增的表单类型和新的表单元素/04-output元素和input下number比较.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/01-form元素新增属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/01-form元素新增属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/02-input元素新增属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/02-input元素新增属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/03-list属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/03-list属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/04-labels属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/04-labels属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/05-control属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/05-control属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/06-SelectionDirection属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/06-SelectionDirection属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/07-indeterminate属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/07-indeterminate属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/04-HTML5新增的表单属性/08-image提交按钮的hight属性和width属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/04-HTML5新增的表单属性/08-image提交按钮的hight属性和width属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/05-HTML5新增的表单验证功能/01-新增的表单验证功能.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/05-HTML5新增的表单验证功能/01-新增的表单验证功能.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/01-FileList.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/01-FileList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/02-FileReader-readAsText.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/02-FileReader-readAsText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/03-FileReader-readAsDataURL.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/03-FileReader-readAsDataURL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/FILEAPI.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/FILEAPI.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/exercise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/image/earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/image/earth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/image/moon.png" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/image/moon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/06-FileAPI/image/sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/06-FileAPI/image/sun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/01-Range对象基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/01-Range对象基本概念.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/02-selectNode等方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/02-selectNode等方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/03-setStart等方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/03-setStart等方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/04-setStartBefore等方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/04-setStartBefore等方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/05-cloneContent方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/05-cloneContent方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/06-cloneRange方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/06-cloneRange方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/07-moveContent方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/07-moveContent方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/08-collapse方法和detach方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/08-collapse方法和detach方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/09-insertNode方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/09-insertNode方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/07-Range对象/10-compareBoundaryPoints方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/07-Range对象/10-compareBoundaryPoints方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/01-音频播放.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/01-音频播放.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/02-视频播放.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/02-视频播放.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/03-拖放.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/03-拖放.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/04-拖放本地资源.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/04-拖放本地资源.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/movie.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/movie.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/08-音频视频播放/音视频播放和拖放.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/08-音频视频播放/音视频播放和拖放.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/01-画布标签的使用/00-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/01-画布标签的使用/00-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/01-画布标签的使用/00-创建canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/01-画布标签的使用/00-创建canvas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/01-画布标签的使用/01-Canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/01-画布标签的使用/01-Canvas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/02-画布路径/01-三角形.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/02-画布路径/01-三角形.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/02-画布路径/02-二次方贝塞尔曲线.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/02-画布路径/02-二次方贝塞尔曲线.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/02-画布路径/03-三次方贝塞尔曲线.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/02-画布路径/03-三次方贝塞尔曲线.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/02-画布路径/04-圆形.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/02-画布路径/04-圆形.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/02-画布路径/05-三角函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/02-画布路径/05-三角函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/03-画布绘制渐变图形和变形图像/01-线性颜色渐变.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/03-画布绘制渐变图形和变形图像/01-线性颜色渐变.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/03-画布绘制渐变图形和变形图像/02-径向渐变.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/03-画布绘制渐变图形和变形图像/02-径向渐变.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/03-画布绘制渐变图形和变形图像/03-绘制变形图形.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/03-画布绘制渐变图形和变形图像/03-绘制变形图形.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/04-图形绘制处理/01-图形组合.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/04-图形绘制处理/01-图形组合.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/04-图形绘制处理/02-绘制阴影.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/04-图形绘制处理/02-绘制阴影.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/04-图形绘制处理/03-使用图像.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/04-图形绘制处理/03-使用图像.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/04-图形绘制处理/04-实现文字倒影.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/04-图形绘制处理/04-实现文字倒影.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/09-绘图/绘图.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/09-绘图/绘图.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/10-SVG/01-绘制矢量图.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/10-SVG/01-绘制矢量图.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/10-SVG/SVG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/10-SVG/SVG.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/11-地理位置/01-地理位置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/11-地理位置/01-地理位置.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/11-地理位置/01-获取浏览器所在的经纬度.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/11-地理位置/01-获取浏览器所在的经纬度.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/11-地理位置/02-watchPosition.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/11-地理位置/02-watchPosition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/01-localStorage-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/01-localStorage-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/01-localStorage-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/01-localStorage-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/02-sessionStorage-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/02-sessionStorage-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/02-sessionStorage-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/02-sessionStorage-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/IndexDB.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/IndexDB.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/12-数据存储/Web存储.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/12-数据存储/Web存储.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/13-webCache/cache.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/13-webCache/cache.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/13-webCache/demo.appcache" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/13-webCache/demo.appcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/13-webCache/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/13-webCache/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/13-webCache/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/13-webCache/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/13-webCache/应用程序缓存.txt" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/13-webCache/应用程序缓存.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/14-Web Worker/WebWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/14-Web Worker/WebWorker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/14-Web Worker/sum_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/14-Web Worker/sum_worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/15-服务器发送事件/demo_sse.asp" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/15-服务器发送事件/demo_sse.asp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/15-服务器发送事件/demo_sse.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/15-服务器发送事件/demo_sse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/16-XMLHttpRequest/XMLHttpRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/16-XMLHttpRequest/XMLHttpRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/16-XMLHttpRequest/example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/16-XMLHttpRequest/example.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/16-XMLHttpRequest/获取完整的HTTP响应头部的方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/16-XMLHttpRequest/获取完整的HTTP响应头部的方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/17-WebSocket/socket.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/17-WebSocket/socket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/18-响应式布局/01-基本实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/18-响应式布局/01-基本实现.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/18-响应式布局/index01.css" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/18-响应式布局/index01.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/18-响应式布局/index01.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/18-响应式布局/index01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/18-响应式布局/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/18-响应式布局/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/19-bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/极客学院/HTML5/19-bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/极客学院/HTML/19-bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/11-地理位置/01-获取浏览器所在的经纬度.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/11-地理位置/01-获取浏览器所在的经纬度.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/01-生成数据集.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/02-读取数据集.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/03-test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/100000DataSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/100000DataSetSorted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/10000DataSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/10000DataSetSorted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/1000DataSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/1000DataSetSorted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/quickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/1-排序/6-归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/1-排序/6-归并排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,12 +640,13 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$01_.coverage" NAME="01-算法引入 Coverage Results" MODIFIED="1543319923888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
     <SUITE FILE_PATH="coverage/PycharmProjects$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1543319439586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/2-查找" />
     <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1543915064977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$1_.coverage" NAME="1.归并排序 Coverage Results" MODIFIED="1545094371629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三" />
     <SUITE FILE_PATH="coverage/PycharmProjects$03_.coverage" NAME="03-条形图个散点图 Coverage Results" MODIFIED="1543237182209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
     <SUITE FILE_PATH="coverage/PycharmProjects$04_.coverage" NAME="04-柱形图和盒图 Coverage Results" MODIFIED="1543239278358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
     <SUITE FILE_PATH="coverage/PycharmProjects$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1544084897738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/07-爬虫" />
     <SUITE FILE_PATH="coverage/PycharmProjects$chrome.coverage" NAME="chrome Coverage Results" MODIFIED="1543890702362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$05_.coverage" NAME="05-盒图 Coverage Results" MODIFIED="1543240027824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/09-Al/1.Python库/3.Matplotlib库" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$02_.coverage" NAME="02-代码执行时间测试模块 Coverage Results" MODIFIED="1543498577008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/1-算法" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$02_.coverage" NAME="02-读取数据集 Coverage Results" MODIFIED="1545712687428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -260,15 +663,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -278,17 +681,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/05.JS浏览器对象/5.history对象.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/05.JS浏览器对象/text.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/05.JS浏览器对象/4.计时器.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/06.瀑布流效果/css/style.css" />
-        <option value="$PROJECT_DIR$/PythonCodes/07-爬虫/test.py" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/06.瀑布流效果/index.html" />
-        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/06.瀑布流效果/js/app.js" />
-        <option value="$PROJECT_DIR$/极客学院/JS/07-面向对象/app.js" />
-        <option value="$PROJECT_DIR$/极客学院/JS/07-面向对象/app1.js" />
-        <option value="$PROJECT_DIR$/极客学院/JS/07-面向对象/index.html" />
-        <option value="$PROJECT_DIR$/极客学院/JS/07-面向对象/app2.js" />
         <option value="$PROJECT_DIR$/极客学院/JQuery/1.基础语法/app.js" />
         <option value="$PROJECT_DIR$/极客学院/JQuery/1.基础语法/index.html" />
         <option value="$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/selector.html" />
@@ -329,12 +721,23 @@
         <option value="$PROJECT_DIR$/极客学院/JQuery/4.动画效果/callback.js" />
         <option value="$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/4.(first last nth)-child选择器.html" />
         <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/02-JS和JQ对象之间的转换.html" />
+        <option value="$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/1-排序/6-归并排序.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三/1.归并排序.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三/2.最大字段和.py" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/11-地理位置/01-获取浏览器所在的经纬度.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/16-XMLHttpRequest/XMLHttpRequest.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验五.html" />
+        <option value="$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html" />
+        <option value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/01-生成数据集.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/02-读取数据集.py" />
+        <option value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/100000DataSetSorted.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="346" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="43" />
     <option name="width" value="1083" />
     <option name="height" value="942" />
   </component>
@@ -351,6 +754,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,29 +762,10 @@
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="HTMLCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="WebStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="04-JQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,7 +774,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/06.瀑布流效果/img/02.jpg" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HTMLCodes/WebStudy/极客JS/06.瀑布流效果/img/02.jpg" />
   </component>
   <component name="RecentsManager">
@@ -419,6 +804,58 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.02-读取数据集">
+    <configuration name="02-读取数据集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/02-读取数据集.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1.归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三/1.归并排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.02-读取数据集" />
+        <item itemvalue="Python.1.归并排序" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -475,22 +912,29 @@
       <workItem from="1545042899932" duration="1018000" />
       <workItem from="1545044113757" duration="641000" />
       <workItem from="1545053733958" duration="9000" />
+      <workItem from="1545091710155" duration="3133000" />
+      <workItem from="1545458383078" duration="4466000" />
+      <workItem from="1545649976721" duration="38000" />
+      <workItem from="1545650195763" duration="296000" />
+      <workItem from="1545651899740" duration="327000" />
+      <workItem from="1545696719928" duration="36000" />
+      <workItem from="1545712007085" duration="885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181760000" />
+    <option name="totallyTimeSpent" value="190941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="25" width="722" height="628" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info auto_hide="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" weight="0.44126505" />
+      <window_info auto_hide="true" content_ui="combo" x="935" y="62" width="320" height="616" id="Project" order="0" weight="0.38418078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.46774194" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29519072" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21342513" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,7 +943,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.247505" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,155 +959,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.asp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/2-EventMethod.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/2-EventMethod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/3-bindEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/3-bindEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/4-EventTarget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/4-EventTarget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/5-CustomEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/5-CustomEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/JQuery/test.css" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/JQuery/test.js" />
-    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/04-JQuery/03-动画效果.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/03.事件/5.事件流.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/03.事件/6.事件处理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/03.事件/7.事件对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/02.DOM对象/4.DOM对象控制HTML详解一.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/02.DOM对象/5.DOM对象控制HTML详解二.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/02.DOM对象/1.DOM操作HTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JS/01.基础教程/1.JS实现.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/01.选择器/MyCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/01.选择器/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/3.结构性伪类选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/2.伪元素选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/8.UI元素状态伪类选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/CSS/07.CSS3选择器/1.属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/1-selector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/极客学院/JQuery/2.选择器和事件/1-selector.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -853,6 +1148,185 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="275" column="20" lean-forward="true" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/05-数据结构与算法/5.排序和查找/1-排序/6-归并排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三/1.归并排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/实验二三/2.最大字段和.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/06-FileAPI/02-FileReader-readAsText.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/06-FileAPI/01-FileList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/06-FileAPI/03-FileReader-readAsDataURL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验二.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验三.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验四.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/11-地理位置/01-获取浏览器所在的经纬度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/11-地理位置/01-地理位置.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验五.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/16-XMLHttpRequest/获取完整的HTTP响应头部的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/05-HTML5/16-XMLHttpRequest/XMLHttpRequest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="111" column="16" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/实验六-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#fieldset#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/02-Senior/01-迭代器、闭包、装饰器/01-迭代器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/02-Senior/01-迭代器、闭包、装饰器/02-闭包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLCodes/WebStudy/07-Exercise/作业一.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/10000DataSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/1000DataSetSorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/100000DataSetSorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/10000DataSetSorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="95" column="15" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/02-读取数据集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCodes/01-Based/16-Exercise/04-背包问题/01-生成数据集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="17" selection-start-line="4" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

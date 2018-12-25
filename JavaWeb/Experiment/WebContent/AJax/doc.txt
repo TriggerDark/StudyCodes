@@ -1,0 +1,100 @@
+XMLHttpRequest
+JQuery发起AJax请求
+一.AJax基础(Asynchronous JavaScript and XML)
+创建快速动态网页的技术
+在后台与服务器进行少量的数据交换
+AJax可以使网页实现异步更新
+在不重新加载网页的情况下，对网页某个部分进行更新
+
+XHTML+CSS 标准化呈现
+使用XML+XSTL进行数据交互
+XMLHttpRequest对象
+JavaScript操作DOM
+JavaScript绑定和处理所有数据
+
+AJax引擎
+
+特点
+
+XMLHttpRequest
+IE7+Chrome/FF/Safari/Opera
+var xhr = new XMLHttpRequest();
+IE5/IE6
+vat xhr = new ActiveXObject("Mircrosoft XMLHttpRequest");
+
+
+var xhr;
+if(window.XMLHttpRequest){
+	xhr = new XMLHttpRequest();
+}else{
+	xhr = new ActiveXObject("Mircrosoft XMLHttpRequest");
+}
+
+2.XHR请求
+初始化请求参数
+xhr.open("GET", url, async);
+async = true;异步
+
+POST请求
+xhr.open("POST", "", );
+xhr.setRequestHeader("context-type"	);
+
+
+xhr.send();
+xhr.send(string);//仅用于POST请求
+
+3.XHR响应
+responseText
+responseXML
+
+4.XHR readyState
+一个完整的HTTP响应
+状态码、响应头集合、响应主体
+status statusText
+getAllResponseHeaders()
+
+200
+401
+404
+500
+503
+
+readyStatus 表名客户端与客户交互状态过程
+readyState 转态改变的时候会触发
+
+readystatechange 事件
+0-4
+响应就绪状态
+xhr.onreadystatechange = function() {
+	if (readyState==4 && status == 200) {
+		//JavaScript操作DOM处理数据
+	}
+}
+
+5.AJax应用五个步骤
+1)创建XMLHttpRequest
+2)设置回调函数
+xhr.onreadystatechange = callback;
+function callback() {
+	...
+}
+3)使用open方法与服务器建立连接
+xhr.open("GET", "TestServlet?name="+name, true);
+4)向服务器发送数据
+xhr.send(null);
+5)在回调函数中，针对不同的状态进行处理
+function callback() {
+	if (readyState == 4 && status == 200) {
+		//JavaScript操作DOM处理数据
+	}
+}
+
+2.	$.get()
+3.	$.post()
+4.	$.ajax()
+async
+data
+datatype	
+	xml
+success
+type
