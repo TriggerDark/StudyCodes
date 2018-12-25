@@ -1,4 +1,4 @@
-package Base.ch1.array;
+package base.ch1.array;
 
 public class foreach {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package Base.ch2.CreateClass;
-
-import Base.ch2.CreateClass.Employee;
+package base.ch2.CreateClass;
 
 /**
  * 调用Employee类

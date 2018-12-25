@@ -1,4 +1,4 @@
-package Base.ch1.array.ArraysMethods;
+package base.ch1.array.ArraysMethods;
 
 /**
  * sort()-->快速排序

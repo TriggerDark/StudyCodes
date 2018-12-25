@@ -1,4 +1,4 @@
-package Exercise;
+package exercise;
 
 public class demo2 {
     public static void delete(int[] arr, int n){

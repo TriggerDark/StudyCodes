@@ -1,4 +1,4 @@
-package Base.ch2.FactoryMethod;
+package base.ch2.FactoryMethod;
 
 import java.text.NumberFormat;
 

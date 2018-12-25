@@ -1,4 +1,4 @@
-package Base.ch3.ObjectTest;
+package base.ch3.objecttest;
 
 /**
  * 继承：不能继承父类的private成员
@@ -10,7 +10,7 @@ package Base.ch3.ObjectTest;
  *    this显示调用自身其他构造方法···系统会默认调用父类的无参构造方法
  */
 
-//创建Employee类的子类，即Manager类继承Employee类
+/*创建Employee类的子类，即Manager类继承Employee类*/
 public class Manager extends Employee {
 
     public double bonus;
@@ -21,6 +21,7 @@ public class Manager extends Employee {
     }
 
     //override覆盖方法
+    @Override
     public double getSalary(){
         double baseSalary = super.getSalary();
         return baseSalary + bonus;
@@ -32,7 +33,9 @@ public class Manager extends Employee {
 
     @Override
     public boolean equals(Object obj) {
-        if (!super.equals(obj)) return false;
+        if (!super.equals(obj)) {
+            return false;
+        }
         Manager other = (Manager)obj;
         return bonus == other.bonus;
     }

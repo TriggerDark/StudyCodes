@@ -1,4 +1,4 @@
-package Base.ch1.array;
+package base.ch1.array;
 
 /**
  * 一维数组定义

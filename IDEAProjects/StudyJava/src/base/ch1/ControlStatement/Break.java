@@ -1,4 +1,4 @@
-package Base.ch1.ControlStatement;
+package base.ch1.ControlStatement;
 
 public class Break {
     public static void main(String[] args) {

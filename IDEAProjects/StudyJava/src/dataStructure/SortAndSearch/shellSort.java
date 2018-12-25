@@ -1,4 +1,4 @@
-package DataStructure.SortAndSearch;
+package dataStructure.SortAndSearch;
 
 import java.util.Arrays;
 

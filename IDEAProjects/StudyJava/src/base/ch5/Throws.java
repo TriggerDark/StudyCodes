@@ -1,4 +1,4 @@
-package Base.ch5;
+package base.ch5;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

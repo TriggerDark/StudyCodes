@@ -1,6 +1,4 @@
-package Base.ch3.Polymorphism;
-
-import java.util.Scanner;
+package base.ch3.Polymorphism;
 
 public class Printer {
     /*多态;

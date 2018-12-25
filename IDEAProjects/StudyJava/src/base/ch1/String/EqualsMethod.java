@@ -1,4 +1,4 @@
-package Base.ch1.String;
+package base.ch1.String;
 
 /**
  * s.equals(t) -->s与t是否相等

@@ -1,4 +1,4 @@
-package Base.ch2.CreateClass;
+package base.ch2.CreateClass;
 
 import java.time.LocalDate;
 

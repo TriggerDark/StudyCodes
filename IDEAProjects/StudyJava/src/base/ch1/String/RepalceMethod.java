@@ -1,4 +1,4 @@
-package Base.ch1.String;
+package base.ch1.String;
 
 public class RepalceMethod {
     public static void main(String[] args){

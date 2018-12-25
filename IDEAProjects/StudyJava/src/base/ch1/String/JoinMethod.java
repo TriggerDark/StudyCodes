@@ -1,4 +1,4 @@
-package Base.ch1.String;
+package base.ch1.String;
 
 /**
  * 字符串的拼接

@@ -1,4 +1,4 @@
-package Base.ch1.String;
+package base.ch1.String;
 
 /**
  * str.SubstringMethod([start,] end)--->子串，相当于切片start可以不定义

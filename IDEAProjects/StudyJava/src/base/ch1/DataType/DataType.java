@@ -1,4 +1,4 @@
-package Base.ch1.DataType;
+package base.ch1.DataType;
 
 import java.lang.*;
 

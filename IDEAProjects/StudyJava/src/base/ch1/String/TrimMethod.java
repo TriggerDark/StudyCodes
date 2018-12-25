@@ -1,4 +1,4 @@
-package Base.ch1.String;
+package base.ch1.String;
 
 /**
  * trim()--->删除原始字符串头部和尾部的空格

@@ -1,4 +1,4 @@
-package Base.ch2.StaticMethod;
+package base.ch2.StaticMethod;
 
 public class Voter {
 

@@ -1,4 +1,4 @@
-package Base.ch3.Abstract;
+package base.ch3.Abstract;
 
 /**
  * 抽象方法没有方法体

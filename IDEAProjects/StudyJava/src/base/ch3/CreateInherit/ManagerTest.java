@@ -1,4 +1,4 @@
-package Base.ch3.CreateInherit;
+package base.ch3.CreateInherit;
 
 public class ManagerTest {
     public static void main(String[] args) {

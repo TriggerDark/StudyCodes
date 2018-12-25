@@ -1,20 +1,27 @@
-package DataStructure.SortAndSearch;
+package dataStructure.SortAndSearch;
 
 import java.util.Arrays;
 
-public class mergeSort {
-    public static void sort(int[] arr, int start, int end, int[] sorted){
+/**
+ * @author SuperStar
+ */
+
+public class MergeSort {
+    private static void sort(int[] arr, int start, int end, int[] sorted){
         if(start < end){
             int mid = (start + end) / 2;
+            // 拆分右边
             sort(arr, start, mid, sorted);
+            // 拆分左边
             sort(arr,mid + 1, end, sorted);
             merge(arr, start, mid, end, sorted);
         }
     }
 
-    public static void merge(int[] arr, int start, int mid, int end, int[] sorted){
+    private static void merge(int[] arr, int start, int mid, int end, int[] sorted){
         int fStart = start, lStart = mid + 1, index = 0;
 
+        // 把小值先放入数组sorted中
         while(fStart <= mid && lStart <= end){
             if(arr[fStart] <= arr[lStart]){
                 sorted[index++] = arr[fStart++];
@@ -22,6 +29,7 @@ public class mergeSort {
                 sorted[index++] = arr[lStart++];
             }
         }
+        // 把剩余的数组元素，都添加到数组sorted的后面
         while(fStart <= mid){
             sorted[index++] = arr[fStart++];
         }

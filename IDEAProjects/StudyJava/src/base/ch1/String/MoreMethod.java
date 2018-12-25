@@ -1,6 +1,4 @@
-package Base.ch1.String;
-
-import java.awt.desktop.SystemEventListener;
+package base.ch1.String;
 
 /***
  * charAt(int index)返回一个char类型

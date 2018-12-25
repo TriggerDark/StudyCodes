@@ -1,4 +1,4 @@
-package Base.ch2.StaticMethod;
+package base.ch2.StaticMethod;
 
 /**
  * final修饰符修饰的对象不可改变

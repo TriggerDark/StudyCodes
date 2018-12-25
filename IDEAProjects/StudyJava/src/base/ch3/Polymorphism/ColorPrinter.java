@@ -1,4 +1,4 @@
-package Base.ch3.Polymorphism;
+package base.ch3.Polymorphism;
 
 class ColorPrinter extends PrinterInfo{
     public ColorPrinter(String brand) {

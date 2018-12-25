@@ -1,4 +1,4 @@
-package Base.ch1.InputAndOutput;
+package base.ch1.InputAndOutput;
 
 import java.io.Console;
 

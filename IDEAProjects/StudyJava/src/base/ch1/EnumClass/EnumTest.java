@@ -1,4 +1,4 @@
-package Base.ch1.EnumClass;
+package base.ch1.EnumClass;
 
 import java.util.Scanner;
 

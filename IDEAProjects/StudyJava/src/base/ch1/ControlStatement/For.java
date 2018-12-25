@@ -1,6 +1,4 @@
-package Base.ch1.ControlStatement;
-
-import java.util.Scanner;
+package base.ch1.ControlStatement;
 
 public class For {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Base.ch1.InputAndOutput;
+package base.ch1.InputAndOutput;
 
 public class scanner {
     public static void main(String[] args){

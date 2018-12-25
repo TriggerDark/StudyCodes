@@ -1,7 +1,6 @@
-package Base.ch1.BigIntegerAndBigDecimal;
+package base.ch1.BigIntegerAndBigDecimal;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 public class bigDecimal {
 

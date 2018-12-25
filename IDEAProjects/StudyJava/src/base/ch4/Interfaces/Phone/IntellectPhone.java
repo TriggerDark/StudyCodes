@@ -1,4 +1,4 @@
-package Base.ch4.Interfaces.Phone;
+package base.ch4.Interfaces.Phone;
 
 public class IntellectPhone extends Handset implements TakePhoto, Playing, NetWorking {
     public IntellectPhone(){}

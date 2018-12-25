@@ -1,4 +1,4 @@
-package Base.ch4.Interfaces.Employee;
+package base.ch4.Interfaces.Employee;
 
 public class Employee implements Comparable<Employee> {
 

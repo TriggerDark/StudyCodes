@@ -1,6 +1,4 @@
-package Base.ch5;
-
-import org.ietf.jgss.GSSName;
+package base.ch5;
 
 public class GenderException extends Exception {
     public GenderException() {}

@@ -1,4 +1,4 @@
-package Base.ch3.ObjectTest;
+package base.ch3.objecttest;
 
 import java.time.LocalDate;
 import java.util.Objects;

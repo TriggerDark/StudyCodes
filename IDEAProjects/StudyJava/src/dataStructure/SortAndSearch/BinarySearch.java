@@ -1,4 +1,4 @@
-package DataStructure.SortAndSearch;
+package dataStructure.SortAndSearch;
 
 public class BinarySearch {
 
@@ -12,8 +12,9 @@ public class BinarySearch {
             } else {
                 return binarySearch(arr, mid + 1, end, key);
             }
-        }else
+        } else {
             return -1;
+        }
     }
 
 

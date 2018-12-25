@@ -1,4 +1,4 @@
-package DataStructure.SortAndSearch;
+package dataStructure.SortAndSearch;
 
 import java.util.Arrays;
 
@@ -41,7 +41,7 @@ public class quickSortT {
         quickSort(arr, index + 1, end);
     }
     public static void main(String[] args){
-        int[] arr = new int[]{54, 26, 93, 17, 31, 44, 55};
+        int[] arr = new int[]{54, 26, 93, 17, 31, 44, 55, 66};
         quickSort(arr, 0, arr.length - 1);
         System.out.print(Arrays.toString(arr));
     }

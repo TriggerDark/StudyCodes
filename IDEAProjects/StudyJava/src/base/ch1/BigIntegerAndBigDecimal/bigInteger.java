@@ -1,4 +1,4 @@
-package Base.ch1.BigIntegerAndBigDecimal;
+package base.ch1.BigIntegerAndBigDecimal;
 
 import java.math.BigInteger;
 import java.util.Scanner;

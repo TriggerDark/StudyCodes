@@ -1,4 +1,4 @@
-package Base.ch4.Interfaces.Door;
+package base.ch4.Interfaces.Door;
 
 public class TheftProofDoor extends Door implements Lock, TakePhoto {
 

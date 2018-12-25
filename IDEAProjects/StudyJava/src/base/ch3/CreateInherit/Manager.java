@@ -1,4 +1,4 @@
-package Base.ch3.CreateInherit;
+package base.ch3.CreateInherit;
 
 /**
  * 继承：不能继承父类的private成员

@@ -1,4 +1,4 @@
-package Base.ch3.Polymorphism;
+package base.ch3.Polymorphism;
 
 /*
  * 抽象方法，只包含方法头，没有方法体，可以定义为抽象方法

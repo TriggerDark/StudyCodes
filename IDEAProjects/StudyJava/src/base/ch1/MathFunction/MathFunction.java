@@ -1,4 +1,4 @@
-package Base.ch1.MathFunction;
+package base.ch1.MathFunction;
 
 public class MathFunction {
     public static void main(String[] args){

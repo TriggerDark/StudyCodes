@@ -1,4 +1,4 @@
-package Base.ch8;
+package base.ch8;
 
 import javax.swing.*;
 import java.awt.*;
