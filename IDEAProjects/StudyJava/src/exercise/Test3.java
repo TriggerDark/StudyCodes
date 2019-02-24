@@ -50,6 +50,6 @@ public class Test3 {
         int[] A = {11, 13, 15, 17, 19};
         int[] B = {2, 4, 10, 15, 20};
         int temp = searchMid(A, B, A.length);
-        System.out.println(temp);
+        System.out.println("中位数为：" + temp);
     }
 }

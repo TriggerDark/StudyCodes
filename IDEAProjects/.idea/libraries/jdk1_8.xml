@@ -1,10 +1,17 @@
 <component name="libraryTable">
   <library name="jdk1.8">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://D:/Eclipse/Java/jdk11.0.1/lib" />
+      <root url="file://D:/Jar" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://D:/Eclipse/Java/jdk1.8.0_192" />
+      <root url="file://D:/Eclipse/Java/jdk11.0.1/lib" />
     </SOURCES>
+    <jarDirectory url="file://D:/Eclipse/Java/jdk11.0.1/lib" recursive="false" />
+    <jarDirectory url="file://D:/Jar" recursive="false" />
     <jarDirectory url="file://D:/Eclipse/Java/jdk1.8.0_192" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://D:/Eclipse/Java/jdk11.0.1/lib" recursive="false" type="SOURCES" />
   </library>
 </component>

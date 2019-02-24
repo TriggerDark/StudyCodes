@@ -47,7 +47,6 @@ public class FileTest {
         ArrayList<String> arrayList =  TestReader.readFile(file);
 
         double[][] all= splitString(arrayList);
-        TestSort.quickSort(all, 0, all.length -1, 2);
         //用于检验数据是否按降序排序
 //        for (int i = 0; i < all.length; i++) {
 //            for (int j = 0; j < all[i].length; j ++) {
@@ -57,12 +56,13 @@ public class FileTest {
 //        }
         System.out.println("设置背包容量: ");
         int C = scanner.nextInt();
-        long startTime = System.nanoTime();
+        long startTime = System.currentTimeMillis();
+        TestSort.quickSort(all, 0, all.length -1, 2);
         double maxValue = knapsack(all, C);
-        long endTime = System.nanoTime();
+        long endTime = System.currentTimeMillis();
 //        System.out.println(startTime);
 //        System.out.println(endTime);
         System.out.println("目前装包最大价值为：" + maxValue +
-                "， 所占用的时间为：" +(endTime-startTime) + "(ns)");
+                "， 所占用的时间为：" +(endTime-startTime) + "(ms)");
     }
 }

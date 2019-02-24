@@ -8,7 +8,8 @@ enum Week {
 public class EnumMethod {
     public static void main(String[] args) {
         Week[] weeks = Week.values();
-        for (Week ele: weeks)
+        for (Week ele: weeks) {
             System.out.println(ele);
+        }
     }
 }

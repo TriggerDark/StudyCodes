@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>QQ空间资料修改</title>
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+				<legend>表单</legend>
+				<div>
+					<label>基本资料</label>
+					<input type="button" value="预览" />
+				</div>
+
+				<table border="0px" cellspacing="2px">
+					<tr>
+						<td>昵称:</td>
+						<td><input type="text" /></td>
+					</tr>
+
+					<tr>
+						<td>性别:</td>
+						<td>
+							<label>男</label><input type="radio" name="gender" value="1" />
+							<label>女</label><input type="radio" name="gender" value="0" />
+
+						</td>
+					</tr>
+
+					<tr>
+						<td>生日:</td>
+						<td><input type="datetime-local"></td>
+					</tr>
+
+					<tr>
+						<td>血型:</td>
+						<td>
+							<select>
+								<option>---</option>
+								<option value="O">O</option>
+								<option value="A">A</option>
+								<option value="B">B</option>
+								<option value="C">C</option>
+								<option value="AB">AB</option>
+								<option value="#">其他 </option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>感情状况:</td>
+						<td>
+							<select>
+								<option value="0">---</option>
+								<option value="1">单身</option>
+								<option value="4">恋爱</option>
+								<option value="5">订婚</option>
+								<option value="2">已婚</option>
+								<option value="6">分居</option>
+								<option value="7">离异</option>
+								<option value="3">保密</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>现居地:</td>
+						<td>
+							<select>
+								<option value="0">---</option>
+								<option value="1">中国</option>
+								<option value="2">美国</option>
+								<option value="3">英国 </option>
+							</select>
+							<select>
+								<option value="0">---</option>
+								<option value="1">江苏</option>
+								<option value="2">浙江</option>
+							</select>
+							<select>
+								<option value="0">---</option>
+								<option value="1">南京</option>
+								<option value="2">六合</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>职业:</td>
+						<td><input type="text" /></td>
+					</tr>
+
+					<tr>
+						<td>公司名称:</td>
+						<td><input type="text" /></td>
+					</tr>
+
+					<tr>
+						<td>兴趣爱好:</td>
+						<td>
+							<label>阅读类</label> <input type="checkbox" value="1" />
+							<label>健身运动类</label><input type="checkbox" value="2" />
+							<label>艺术类</label><input type="checkbox" value="3" />
+							<label>电子竞技类</label><input type="checkbox" value="4" />
+						</td>
+					</tr>
+				</table>
+				<div>
+					<input type="reset" value="重新设置" />
+					<input type="button" value="保存" onclick="fun()" />
+					<input type="checkbox" value="不通知我的好友" />
+					<label>(仅本次设置有效)</label>
+				</div>
+			</fieldset>
+		</form>
+
+		<!-- JavaScript -->
+		<script>
+			function fun() {
+				confirm("确定提交保存吗?");
+			}
+		</script>
+
+	</body>
+
+</html>

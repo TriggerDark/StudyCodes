@@ -30,8 +30,9 @@ public class ArrayListTest {
         staff.add(1, new Employee("name1", 4000, 2018, 12, 7));
         //与上面add()相反
         staff.remove(1);
-        for (Employee e : staff)
+        for (Employee e : staff) {
             e.raiseSalary(5);
+        }
 
         for (Employee e:staff){
             //System.out.println("name=" + e.getName() + ",salary=" + e.getSalary() + ",hireDay=" + e.getHireDay());

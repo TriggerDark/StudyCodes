@@ -9,6 +9,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_192"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;D:\Eclipse\apache-tomcat-9.0.14&quot; -Dcatalina.home=&quot;D:\Eclipse\apache-tomcat-9.0.14&quot; -Dwtp.deploy=&quot;E:\JavaWeb&quot; -Djava.endorsed.dirs=&quot;D:\Eclipse\apache-tomcat-9.0.14\endorsed&quot; -Djava.security.manager -Djava.security.policy=&quot;D:\Eclipse\apache-tomcat-9.0.14\conf\catalina.policy&quot; -Dwtp.configured.security=true"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;D:\Eclipse\apache-tomcat-9.0.14&quot; -Dcatalina.home=&quot;D:\Eclipse\apache-tomcat-9.0.14&quot; -Dwtp.deploy=&quot;D:\Eclipse\apache-tomcat-9.0.14\webapps&quot; -Djava.endorsed.dirs=&quot;D:\Eclipse\apache-tomcat-9.0.14\endorsed&quot;"/>
 <stringAttribute key="server-id" value="Tomcat v9.0 Server at localhost"/>
 </launchConfiguration>

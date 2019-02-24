@@ -6,7 +6,7 @@ enum Size {
     SMALL("S"), MEDIA("M"), LARGE("L"), EXTRA_LARGE("XL");
     private String abbreviation;
 
-    private Size(String abbreviation){
+    private Size(String abbreviation) {
         this.abbreviation = abbreviation;
     }
 
@@ -23,7 +23,8 @@ public class EnumTest {
         Size size = Enum.valueOf(Size.class, input);
         System.out.println("size=" + size);
         System.out.println("Abbreviation=" + size.getAbbreviation());
-        if (size == Size.EXTRA_LARGE)
+        if (size == Size.EXTRA_LARGE) {
             System.out.println("Good Job");
+        }
     }
 }

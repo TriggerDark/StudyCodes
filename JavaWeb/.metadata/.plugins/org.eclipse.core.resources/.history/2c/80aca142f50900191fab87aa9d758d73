@@ -1,0 +1,38 @@
+package com.demo.Servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import net.sf.json.JSONObject;
+
+@WebServlet("/xmlHttp")
+public class AjaxServlet extends HttpServlet {
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String cstr1 = "province";
+		String cstr2 = "sdcity";
+		String cstr3 = "jscity";
+		String cstr4 = "zjcity";
+		String str1 = "Province";
+		String str2 = "City";
+//		System.out.println(data(cstr1, str1));
+//		System.out.println(data(cstr2, str2));
+//		System.out.println(data(cstr3, str2));
+//		System.out.println(data(cstr4, str2));
+		String s = data(cstr1, str1);
+		String[] string = s.split("\n");
+		System.out.println(string.length);
+		req.setCharacterEncoding("utf-8");
+		resp.setCharacterEncoding("utf-8");
+		resp.setContentType("text/html;charset=utf-8");
+		String un=req.getParameter("un");
+		String pd=req.getParameter("pd");
+		String s = un+":"+pd+":"+req.getMethod();
+		resp.getWriter().write(s);
+	}
+}

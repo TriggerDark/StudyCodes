@@ -194,3 +194,620 @@
 12月 25, 2018 20:45:59.92 [13824:13492:1225/204559.927:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
 12月 25, 2018 20:46:21.42 [13824:13492:1225/204621.426:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
 12月 25, 2018 20:49:02.81 [7320:7072:1225/204902.816:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+12月 25, 2018 20:57:21.90 NEW SESSION
+12月 25, 2018 20:57:21.90 [3140:1804:1225/205721.902:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 25, 2018 20:57:21.91 [3140:1804:1225/205721.912:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 25, 2018 20:57:30.35 [3140:1804:1225/205730.350:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 25, 2018 20:57:30.91 [3140:1804:1225/205730.918:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:57:31.38 [3140:1804:1225/205731.387:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:57:35.21 [3140:1804:1225/205735.217:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:57:35.55 [3140:1804:1225/205735.551:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:58:22.31 [3140:1804:1225/205822.309:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 25, 2018 20:59:27.56 [3140:1804:1225/205927.565:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 25, 2018 20:59:31.84 [3140:1804:1225/205931.842:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 25, 2018 20:59:31.97 [3140:1804:1225/205931.974:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 25, 2018 20:59:55.58 [3140:1804:1225/205955.579:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:59:55.98 [3140:1804:1225/205955.981:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:59:58.20 [3140:1804:1225/205958.207:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 20:59:58.31 [3140:1804:1225/205958.315:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 25, 2018 21:00:38.34 [3140:448:1225/210038.340:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/remote/serve_file/@d1388eea987cd8f0f0e28b3570cded07eebae848/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/bundled/shell.js (24)
+12月 25, 2018 21:00:38.34 [3140:448:1225/210038.342:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:00:38.34 [3140:448:1225/210038.342:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:00:38.35 [3140:448:1225/210038.342:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:00:38.35 [3140:448:1225/210038.342:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:00:38.35 [3140:448:1225/210038.342:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:00:38.35 [3140:448:1225/210038.343:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 25, 2018 21:01:54.31 [3140:448:1225/210154.312:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+12月 27, 2018 21:07:00.35 NEW SESSION
+12月 27, 2018 21:07:00.35 [15280:13300:1227/210700.347:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:07:00.35 [15280:13300:1227/210700.358:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:07:14.77 [15280:9220:1227/210714.776:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 27, 2018 21:08:03.28 [10576:9900:1227/210803.283:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:08:03.29 [10576:9900:1227/210803.292:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:08:15.10 [10576:9900:1227/210815.109:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 27, 2018 21:08:15.36 [10576:9900:1227/210815.360:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:08:24.73 [10576:7580:1227/210824.736:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 27, 2018 21:09:30.54 [14264:13828:1227/210930.542:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 27, 2018 21:09:30.79 [14264:13828:1227/210930.791:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:09:32.74 [14264:13828:1227/210932.744:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:09:32.82 [14264:13828:1227/210932.820:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:09:39.96 [14264:13828:1227/210939.960:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:09:42.96 [14264:13828:1227/210942.964:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:09:45.80 [14264:13828:1227/210945.805:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:09:45.81 [14264:13828:1227/210945.814:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:09:49.75 [14264:15100:1227/210949.756:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 27, 2018 21:16:29.74 [9688:15332:1227/211629.740:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:16:29.75 [9688:15332:1227/211629.750:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:16:43.91 [9688:15332:1227/211643.912:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:16:49.31 [9688:15332:1227/211649.315:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 27, 2018 21:16:53.13 [9688:15332:1227/211653.138:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 27, 2018 21:17:03.13 [9688:1284:1227/211703.136:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 27, 2018 21:17:50.45 [16104:14744:1227/211750.449:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 27, 2018 21:21:10.07 [15180:3836:1227/212110.077:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:21:10.08 [15180:3836:1227/212110.089:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 27, 2018 21:21:23.39 [15180:3836:1227/212123.392:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 27, 2018 21:22:07.32 [15180:3836:1227/212207.322:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 27, 2018 21:22:47.41 [15180:3836:1227/212247.416:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 27, 2018 21:24:37.26 [15180:3836:1227/212437.259:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 27, 2018 21:27:04.87 [15180:3836:1227/212704.872:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 27, 2018 21:29:52.37 [15180:11388:1227/212952.378:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 27, 2018 21:30:14.04 [15180:3836:1227/213014.048:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 27, 2018 21:30:37.68 [15180:11388:1227/213037.683:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 27, 2018 21:31:24.42 [15180:11388:1227/213124.420:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 24:06:55.68 [14656:11544:1228/000655.681:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:06:55.69 [14656:11544:1228/000655.696:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:06:56.49 [14656:11544:1228/000656.498:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -100
+12月 28, 2018 24:07:07.34 [14656:11544:1228/000707.344:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:07:40.48 [14656:18580:1228/000740.486:ERROR:get_updates_processor.cc(242)] PostClientToServerMessage() failed during GetUpdates
+12月 28, 2018 24:07:49.56 [14656:11544:1228/000749.560:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:08:25.34 [14656:11544:1228/000825.347:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 24:09:07.29 [14656:11544:1228/000907.286:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:09:28.42 [14656:18580:1228/000928.424:ERROR:get_updates_processor.cc(242)] PostClientToServerMessage() failed during GetUpdates
+12月 28, 2018 24:10:31.22 [14656:11544:1228/001031.222:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:10:56.96 [14656:11544:1228/001056.967:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:11:01.40 [14656:11544:1228/001101.399:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:11:21.43 [14656:18580:1228/001121.429:ERROR:get_updates_processor.cc(242)] PostClientToServerMessage() failed during GetUpdates
+12月 28, 2018 24:11:43.81 [14656:11544:1228/001143.817:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:13:11.19 [14656:11544:1228/001311.190:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:14:31.35 [14656:11544:1228/001431.349:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:15:53.35 [14656:11544:1228/001553.349:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:16:03.43 [14656:18580:1228/001603.435:ERROR:get_updates_processor.cc(242)] PostClientToServerMessage() failed during GetUpdates
+12月 28, 2018 24:18:37.36 [14656:8104:1228/001837.368:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 24:21:44.33 [9912:8172:1228/002144.329:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:21:44.33 [9912:8172:1228/002144.329:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:21:52.82 [9912:8172:1228/002152.820:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:21:52.82 [9912:8172:1228/002152.829:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:22:11.88 [9912:8172:1228/002211.882:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:22:13.33 [9912:8172:1228/002213.330:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:22:13.52 [9912:8172:1228/002213.528:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:22:13.76 [9912:8172:1228/002213.769:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:22:17.90 [9912:16372:1228/002217.899:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 28, 2018 24:23:06.09 [9912:8172:1228/002306.097:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:23:11.52 [9912:8172:1228/002311.528:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:24:18.57 [9912:16372:1228/002418.579:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 24:24:25.14 [9912:8172:1228/002425.145:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:24:25.15 [9912:8172:1228/002425.156:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:24:37.14 [9912:8172:1228/002437.146:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:24:38.78 [9912:16372:1228/002438.780:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 24:24:42.31 [9912:8172:1228/002442.312:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:24:44.66 [9912:8172:1228/002444.667:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:24:44.78 [9912:8172:1228/002444.779:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:25:23.37 [9912:16372:1228/002523.370:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 24:27:02.54 [9912:16372:1228/002702.539:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 24:27:41.55 [9912:8172:1228/002741.551:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:28:41.18 [9912:8172:1228/002841.182:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:28:44.55 [9912:8172:1228/002844.554:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:28:44.56 [9912:8172:1228/002844.559:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:30:27.93 [9912:8172:1228/003027.935:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:30:28.03 [9912:8172:1228/003028.036:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:30:41.97 [9912:16372:1228/003041.977:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 24:32:31.11 [9912:8172:1228/003231.112:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:32:31.22 [9912:8172:1228/003231.221:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:32:40.49 [9912:16372:1228/003240.498:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/remote/serve_file/@d1388eea987cd8f0f0e28b3570cded07eebae848/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/bundled/shell.js (24)
+12月 28, 2018 24:32:40.54 [9912:16372:1228/003240.548:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:32:40.54 [9912:16372:1228/003240.548:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:32:42.15 [9912:16372:1228/003242.159:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:11.05 [9912:16372:1228/003311.057:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:11.19 [9912:16372:1228/003311.195:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:11.20 [9912:16372:1228/003311.207:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:11.30 [9912:8172:1228/003311.300:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:33:11.41 [9912:8172:1228/003311.409:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:33:13.64 [9912:16372:1228/003313.648:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:13.67 [9912:16372:1228/003313.677:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:30.69 [9912:16372:1228/003330.696:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:30.74 [9912:16372:1228/003330.743:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:30.87 [9912:16372:1228/003330.876:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:30.96 [9912:8172:1228/003330.966:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:33:31.08 [9912:8172:1228/003331.079:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:33:34.18 [9912:16372:1228/003334.180:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:33:34.19 [9912:16372:1228/003334.191:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:43.73 [9912:16372:1228/003443.733:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:43.81 [9912:16372:1228/003443.814:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:43.92 [9912:16372:1228/003443.926:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:44.01 [9912:8172:1228/003444.018:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:34:44.15 [9912:8172:1228/003444.154:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:34:44.50 [9912:8172:1228/003444.499:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 24:34:46.64 [9912:16372:1228/003446.649:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:46.69 [9912:16372:1228/003446.695:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:34:46.70 [9912:16372:1228/003446.704:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:07.65 [9912:8172:1228/003507.649:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 24:35:21.13 [9912:16372:1228/003521.133:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:21.18 [9912:16372:1228/003521.185:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:21.30 [9912:16372:1228/003521.302:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:21.40 [9912:8172:1228/003521.404:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:35:21.52 [9912:8172:1228/003521.521:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 24:35:24.33 [9912:16372:1228/003524.329:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:24.33 [9912:16372:1228/003524.329:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:24.35 [9912:16372:1228/003524.349:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 24:35:28.60 [9912:16372:1228/003528.608:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 01:05:27.42 [11060:18568:1228/010527.423:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 01:05:27.43 [11060:18568:1228/010527.432:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 01:05:38.85 [11060:2748:1228/010538.852:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 01:05:38.85 [11060:6760:1228/010538.854:ERROR:get_updates_processor.cc(242)] PostClientToServerMessage() failed during GetUpdates
+
+12月 28, 2018 10:15:09.98 NEW SESSION
+12月 28, 2018 10:15:09.98 [16880:2216:1228/101509.980:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:15:09.99 [16880:2216:1228/101509.989:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:15:20.38 [16880:2216:1228/101520.379:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 28, 2018 10:15:28.05 [16880:8668:1228/101528.055:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 10:19:48.77 [19424:13020:1228/101948.778:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 10:35:19.88 [19116:9932:1228/103519.881:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:35:19.89 [19116:9932:1228/103519.890:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:35:34.37 [19116:9932:1228/103534.378:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 10:36:15.57 [19116:9932:1228/103615.577:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 10:36:58.44 [19116:9932:1228/103658.440:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 10:37:19.66 [19116:9932:1228/103719.660:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 10:37:31.22 [19116:9932:1228/103731.221:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:37:31.35 [19116:9932:1228/103731.350:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:37:57.37 [19116:9932:1228/103757.377:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:37:57.50 [19116:9932:1228/103757.501:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:38:08.81 [19116:9932:1228/103808.815:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:38:08.92 [19116:9932:1228/103808.920:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:39:13.02 [19116:9932:1228/103913.019:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 10:39:31.62 [19116:9932:1228/103931.623:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 10:39:32.70 [19116:9932:1228/103932.705:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 28, 2018 10:40:01.16 [19116:9932:1228/104001.162:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 10:40:06.51 [19116:9932:1228/104006.514:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:40:06.67 [19116:9932:1228/104006.677:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:40:22.55 [19116:9240:1228/104022.557:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/remote/serve_file/@d1388eea987cd8f0f0e28b3570cded07eebae848/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/bundled/shell.js (24)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.559:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.559:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.56 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.560:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.561:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.561:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.561:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.561:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.562:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.562:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.562:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:40:22.57 [19116:9240:1228/104022.563:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:41:43.09 [19116:9932:1228/104143.097:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 10:42:00.85 [19116:9240:1228/104200.858:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:00.86 [19116:9240:1228/104200.858:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.07 [19116:9240:1228/104201.074:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.09 [19116:9240:1228/104201.095:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.09 [19116:9240:1228/104201.095:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.10 [19116:9240:1228/104201.095:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.10 [19116:9240:1228/104201.095:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.15 [19116:9932:1228/104201.149:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:42:01.17 [19116:9240:1228/104201.177:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.18 [19116:9240:1228/104201.184:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.30 [19116:9932:1228/104201.303:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 10:42:01.31 [19116:9240:1228/104201.317:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.46 [19116:9240:1228/104201.459:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.81 [19116:9240:1228/104201.812:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.83 [19116:9240:1228/104201.837:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:01.86 [19116:9240:1228/104201.863:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:03.18 [19116:9240:1228/104203.183:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:03.24 [19116:9240:1228/104203.242:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 10:42:42.17 [19116:9240:1228/104242.175:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 10:43:29.56 [19116:9240:1228/104329.564:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 10:44:50.02 [19116:9240:1228/104450.022:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 10:45:22.02 [19116:9932:1228/104522.017:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 10:46:54.80 [19116:9240:1228/104654.807:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 10:49:38.02 [19116:9240:1228/104938.020:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-118).
+12月 28, 2018 10:50:18.39 [19116:9240:1228/105018.394:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 11:57:55.61 [15596:1132:1228/115755.610:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 11:57:56.23 [15596:1132:1228/115756.236:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 11:58:00.60 [15596:1132:1228/115800.600:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 11:58:08.99 [15596:1132:1228/115808.991:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 11:58:08.99 [15596:1132:1228/115808.996:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 11:58:21.01 [15596:16604:1228/115821.017:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:12:03.74 [4512:15092:1228/131203.744:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:26:20.59 [14952:8864:1228/132620.591:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:26:20.59 [14952:8864:1228/132620.595:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:26:27.62 [14952:15852:1228/132627.626:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:28:55.68 [12960:1764:1228/132855.686:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:28:55.69 [12960:1764:1228/132855.695:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:29:01.98 [12960:1764:1228/132901.981:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 13:29:06.54 [12960:12784:1228/132906.547:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:29:47.76 [1720:1668:1228/132947.763:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:29:47.77 [1720:1668:1228/132947.776:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:29:54.31 [1720:7044:1228/132954.309:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:36:06.58 [18944:2024:1228/133606.587:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:43:00.84 [1480:16420:1228/134300.847:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:43:00.85 [1480:16420:1228/134300.853:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:43:04.05 [1480:16420:1228/134304.056:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 13:43:52.06 [1480:16420:1228/134352.064:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 13:44:28.12 [1480:16420:1228/134428.119:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 13:45:11.93 [1480:16420:1228/134511.932:ERROR:connection_handler_impl.cc(474)] Timed out waiting for GCM Protocol buffer.
+12月 28, 2018 13:45:43.79 [1480:16420:1228/134543.791:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:45:43.80 [1480:16420:1228/134543.800:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:46:23.08 [1480:16420:1228/134623.088:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:46:23.32 [1480:16420:1228/134623.326:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:46:37.18 [1480:16420:1228/134637.179:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 13:46:55.02 [1480:16420:1228/134655.021:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:46:55.18 [1480:16420:1228/134655.179:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:47:05.10 [1480:16420:1228/134705.100:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 13:47:55.95 [1480:1844:1228/134755.952:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 13:49:38.42 [304:5892:1228/134938.423:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:49:38.43 [304:5892:1228/134938.435:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:49:46.38 [304:5892:1228/134946.386:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 13:49:49.32 [304:5892:1228/134949.327:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 13:49:58.29 [304:5892:1228/134958.292:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:49:58.44 [304:5892:1228/134958.442:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:50:21.09 [304:5892:1228/135021.094:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:50:21.26 [304:5892:1228/135021.260:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 13:50:21.93 [304:3992:1228/135021.931:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 14:08:14.38 [14012:16380:1228/140814.381:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 14:08:23.77 [14012:16380:1228/140823.769:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 28, 2018 14:09:22.70 [14012:16380:1228/140922.700:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 28, 2018 14:09:38.72 [14012:16380:1228/140938.723:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:11:49.55 [14012:16380:1228/141149.550:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:14:23.03 [14012:16380:1228/141423.037:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:17:40.39 [14012:16380:1228/141740.396:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:18:46.08 [14012:19300:1228/141846.082:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-118).
+12月 28, 2018 14:18:58.66 [14012:19300:1228/141858.665:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:19:45.70 [14012:19300:1228/141945.704:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:20:54.82 [14012:19300:1228/142054.819:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:22:52.58 [14012:19300:1228/142252.584:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:23:21.31 [14012:16380:1228/142321.309:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:27:03.04 [14012:19300:1228/142703.040:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:31:10.19 [14012:16380:1228/143110.196:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:34:17.49 [14012:19300:1228/143417.490:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:42:55.24 [14012:16380:1228/144255.241:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:44:38.53 [14012:19300:1228/144438.537:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 14:54:19.28 [14012:16380:1228/145419.279:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 14:54:59.56 [14012:19300:1228/145459.561:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 15:05:20.58 [14012:19300:1228/150520.588:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 15:06:04.31 [14012:16380:1228/150604.314:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 15:15:41.61 [14012:19300:1228/151541.616:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 15:17:49.37 [14012:16380:1228/151749.378:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 15:21:05.02 [14012:16380:1228/152105.019:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 15:21:05.03 [14012:16380:1228/152105.031:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 15:21:08.05 [14012:19300:1228/152108.050:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 18:56:03.73 [11804:2440:1228/185603.736:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 18:56:10.58 [11804:2440:1228/185610.584:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 18:56:10.59 [11804:2440:1228/185610.589:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 18:56:11.88 [11804:8484:1228/185611.886:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 18:56:16.76 [11804:8484:1228/185616.763:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 18:57:04.40 [9272:7092:1228/185704.406:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 18:57:04.41 [9272:7092:1228/185704.416:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 18:57:07.95 [9272:13392:1228/185707.958:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 19:12:14.23 [11208:18896:1228/191214.236:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 28, 2018 19:12:14.24 [11208:18896:1228/191214.245:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:12:14.73 [11208:18896:1228/191214.735:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -105
+12月 28, 2018 19:12:16.51 [11208:18896:1228/191216.511:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 19:12:27.09 [11208:18896:1228/191227.097:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+12月 28, 2018 19:14:16.14 [11208:18896:1228/191416.140:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 28, 2018 19:14:16.14 [11208:18896:1228/191416.142:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:14:16.62 [11208:18896:1228/191416.619:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+12月 28, 2018 19:14:18.30 [11208:18896:1228/191418.306:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 19:14:33.02 [11208:14052:1228/191433.026:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 28, 2018 19:14:41.58 [11208:18896:1228/191441.580:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+12月 28, 2018 19:15:13.79 [11208:18896:1228/191513.794:ERROR:connection_handler_impl.cc(474)] Timed out waiting for GCM Protocol buffer.
+12月 28, 2018 19:16:44.26 [11208:18896:1228/191644.259:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:17:17.11 [11208:14052:1228/191717.112:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:17:26.35 [11208:18896:1228/191726.354:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 19:17:30.72 [11208:18896:1228/191730.724:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+12月 28, 2018 19:17:53.26 [11208:18896:1228/191753.261:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:17:58.54 [11208:14052:1228/191758.547:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:18:39.15 [11208:18896:1228/191839.153:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 19:19:00.18 [11208:14052:1228/191900.187:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:19:34.00 [11208:18896:1228/191934.006:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:19:34.01 [11208:18896:1228/191934.010:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:20:06.98 [11208:18896:1228/192006.984:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:20:07.13 [11208:18896:1228/192007.130:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:20:28.57 [11208:18896:1228/192028.556:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:21:14.65 [11208:14052:1228/192114.658:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:21:17.13 [11208:14052:1228/192117.137:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 19:21:45.61 [18848:8892:1228/192145.610:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:22:35.95 [18848:8892:1228/192235.953:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:22:48.63 [18848:8892:1228/192248.631:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:23:41.56 [18848:8892:1228/192341.568:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:25:02.49 [18848:8892:1228/192502.493:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:25:24.35 [18848:8892:1228/192524.357:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:25:54.64 [18848:13624:1228/192554.638:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:26:15.38 [18848:8892:1228/192615.388:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:26:15.39 [18848:8892:1228/192615.392:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 19:26:44.32 [18848:13624:1228/192644.320:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:27:11.96 [18848:8892:1228/192711.965:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:28:02.45 [18848:13624:1228/192802.455:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:29:07.06 [18848:8892:1228/192907.062:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 19:29:29.75 [18848:13624:1228/192929.750:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-118).
+12月 28, 2018 19:30:05.54 [18848:13624:1228/193005.540:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:30:25.37 [18848:8892:1228/193025.376:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:33:09.66 [18848:13624:1228/193309.659:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:35:22.35 [18848:8892:1228/193522.356:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:36:48.29 [18848:8892:1228/193648.293:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 28, 2018 19:38:49.08 [18848:13624:1228/193849.083:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 19:39:26.06 [14888:9412:1228/193926.058:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 19:40:29.27 [14888:9412:1228/194029.270:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:42:21.67 [14888:9412:1228/194221.672:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:44:51.70 [14888:9412:1228/194451.698:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:48:01.71 [14888:9412:1228/194801.708:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:51:00.19 [14888:9492:1228/195100.196:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:51:50.14 [14888:9492:1228/195150.141:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:52:01.99 [14888:9492:1228/195201.995:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-118).
+12月 28, 2018 19:52:34.09 [14888:9412:1228/195234.090:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 19:52:54.72 [14888:9492:1228/195254.724:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:54:42.74 [14888:9492:1228/195442.744:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 19:57:47.25 [14888:9492:1228/195747.252:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:01:38.56 [14888:9412:1228/200138.562:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:04:52.17 [14888:9492:1228/200452.169:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:10:04.22 [14888:9412:1228/201004.223:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:10:04.23 [14888:9412:1228/201004.235:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:11:06.08 [14888:9412:1228/201106.079:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:11:06.24 [14888:9412:1228/201106.244:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:12:19.65 [14888:9412:1228/201219.649:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:12:19.77 [14888:9412:1228/201219.776:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:12:48.93 [14888:9492:1228/201248.916:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 20:15:10.94 [9348:8968:1228/201510.945:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 20:15:13.46 [9348:8968:1228/201513.464:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:15:13.47 [9348:8968:1228/201513.469:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:15:52.74 [9348:8968:1228/201552.743:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 20:16:00.20 [9348:8968:1228/201600.205:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:16:00.30 [9348:8968:1228/201600.303:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:16:34.95 [9348:8968:1228/201634.953:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:16:38.88 [9348:8968:1228/201638.879:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 28, 2018 20:16:49.60 [9348:8968:1228/201649.600:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+12月 28, 2018 20:17:22.13 [9348:8968:1228/201722.129:ERROR:connection_handler_impl.cc(474)] Timed out waiting for GCM Protocol buffer.
+12月 28, 2018 20:18:49.25 [9348:8968:1228/201849.251:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:19:09.49 [9348:8968:1228/201909.493:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:19:09.79 [9348:8968:1228/201909.789:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:20:12.85 [9348:8968:1228/202012.856:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:20:13.09 [9348:8968:1228/202013.097:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:20:28.03 [9348:6352:1228/202028.034:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/remote/serve_file/@d1388eea987cd8f0f0e28b3570cded07eebae848/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/bundled/shell.js (24)
+12月 28, 2018 20:20:28.03 [9348:6352:1228/202028.035:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 20:20:28.03 [9348:6352:1228/202028.035:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+12月 28, 2018 20:20:29.48 [9348:6352:1228/202029.486:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 28, 2018 20:21:32.86 [1592:3308:1228/202132.867:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 20:21:38.63 [1592:3308:1228/202138.636:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -7
+12月 28, 2018 20:22:28.55 [1592:3308:1228/202228.555:ERROR:socket_stream.cc(219)] Closing stream with result -2
+12月 28, 2018 20:22:32.41 [1592:3308:1228/202232.412:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:23:34.32 [1592:3308:1228/202334.328:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 28, 2018 20:24:37.75 [1592:3308:1228/202437.749:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:26:17.39 [1592:3308:1228/202617.392:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:26:17.40 [1592:3308:1228/202617.402:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:26:56.21 [1592:3308:1228/202656.209:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:26:56.38 [1592:3308:1228/202656.384:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:27:14.20 [1592:3308:1228/202714.200:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:27:51.97 [1592:3308:1228/202751.972:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:27:51.97 [1592:3308:1228/202751.975:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 28, 2018 20:30:34.03 [1592:3308:1228/203034.029:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:35:06.64 [1592:3308:1228/203506.643:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:35:08.37 [1592:1768:1228/203508.372:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:35:56.53 [1592:1768:1228/203556.531:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:37:02.03 [1592:1768:1228/203702.036:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-118).
+12月 28, 2018 20:37:02.64 [1592:3308:1228/203702.640:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 28, 2018 20:37:05.54 [1592:1768:1228/203705.543:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:39:21.33 [1592:1768:1228/203921.330:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:42:35.80 [1592:1768:1228/204235.805:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 28, 2018 20:44:49.37 [1592:3308:1228/204449.377:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+12月 28, 2018 20:46:52.14 [1592:1768:1228/204652.147:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+12月 29, 2018 16:52:02.23 NEW SESSION
+12月 29, 2018 16:52:02.23 [1704:13768:1229/165202.237:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 16:52:13.38 [1704:6976:1229/165213.385:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-3).
+12月 29, 2018 16:52:29.43 [1704:13768:1229/165229.433:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -202
+12月 29, 2018 16:52:31.19 [1704:13768:1229/165231.190:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:52:31.20 [1704:13768:1229/165231.203:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:52:35.70 [1704:6976:1229/165235.700:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 16:53:04.94 [1136:13748:1229/165304.943:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:53:04.95 [1136:13748:1229/165304.955:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:53:14.10 [1136:13748:1229/165314.107:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 16:53:26.84 [1136:2724:1229/165326.841:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-3).
+12月 29, 2018 16:53:37.10 [1136:13748:1229/165337.103:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -202
+12月 29, 2018 16:54:07.18 [1136:13748:1229/165407.179:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:54:07.32 [1136:13748:1229/165407.326:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:54:46.06 [1136:13748:1229/165446.060:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:54:46.19 [1136:13748:1229/165446.194:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 16:54:48.73 [1136:13748:1229/165448.732:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 16:56:12.36 [1136:13748:1229/165612.367:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -202
+12月 29, 2018 16:59:15.65 [1136:2724:1229/165915.656:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 17:23:47.65 [5932:1640:1229/172347.654:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:24:12.64 [5932:1640:1229/172412.644:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:24:20.00 [5932:1980:1229/172419.999:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 29, 2018 17:24:27.20 [5932:1980:1229/172427.205:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 17:24:43.64 [13628:11416:1229/172443.640:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:24:54.76 [13628:3876:1229/172454.760:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 17:45:49.56 [12824:13112:1229/174549.563:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:46:16.31 [12824:13112:1229/174616.310:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:46:23.20 [12824:9160:1229/174623.203:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 29, 2018 17:46:56.61 [12824:13112:1229/174656.610:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:48:43.13 [12824:13112:1229/174843.139:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:51:57.59 [12824:9160:1229/175157.596:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 17:52:15.27 [12824:9160:1229/175215.270:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 17:54:26.04 [3816:6096:1229/175426.046:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:54:45.37 [3816:6096:1229/175445.378:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 17:54:45.38 [3816:6096:1229/175445.388:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 17:54:54.46 [3816:6096:1229/175454.466:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:54:59.15 [3816:4292:1229/175459.157:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 29, 2018 17:55:50.65 [3816:6096:1229/175550.655:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 17:55:53.69 [3816:6096:1229/175553.692:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 17:55:53.70 [3816:6096:1229/175553.701:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 17:56:21.77 [3816:4292:1229/175621.776:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 18:11:23.64 [10100:8684:1229/181123.640:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:11:30.67 [10100:8684:1229/181130.672:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:11:30.68 [10100:8684:1229/181130.682:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:11:52.01 [10100:8684:1229/181152.013:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:11:56.22 [10100:14424:1229/181156.226:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+12月 29, 2018 18:11:57.35 [10100:8684:1229/181157.359:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:11:57.50 [10100:8684:1229/181157.506:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:12:04.76 [10100:8684:1229/181204.765:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:12:04.96 [10100:8684:1229/181204.961:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 18:12:43.18 [10100:8684:1229/181243.185:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:14:19.73 [10100:8684:1229/181419.739:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:17:34.14 [10100:8684:1229/181734.146:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:22:17.87 [10100:14424:1229/182217.871:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:22:44.57 [10100:14424:1229/182244.574:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:23:29.59 [10100:14424:1229/182329.591:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:24:55.92 [10100:14424:1229/182455.919:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:25:14.03 [10100:8684:1229/182514.031:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:28:35.91 [10100:14424:1229/182835.909:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:35:14.03 [10100:8684:1229/183514.035:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:35:42.76 [10100:14424:1229/183542.764:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:42:56.49 [10100:14424:1229/184256.495:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+12月 29, 2018 18:45:14.04 [10100:8684:1229/184514.040:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:45:42.77 [10100:14424:1229/184542.769:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 18:55:14.04 [10100:8684:1229/185514.044:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 18:55:42.77 [10100:14424:1229/185542.773:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:05:14.05 [10100:8684:1229/190514.048:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:05:42.77 [10100:14424:1229/190542.777:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:15:14.05 [10100:8684:1229/191514.051:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:15:42.78 [10100:14424:1229/191542.781:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:25:14.05 [10100:8684:1229/192514.055:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:25:42.78 [10100:14424:1229/192542.787:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:35:14.06 [10100:8684:1229/193514.060:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:35:42.79 [10100:14424:1229/193542.789:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:45:14.06 [10100:8684:1229/194514.063:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:45:42.79 [10100:14424:1229/194542.794:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 19:55:14.06 [10100:8684:1229/195514.065:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 19:55:42.80 [10100:14424:1229/195542.798:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 20:05:14.07 [10100:8684:1229/200514.070:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 20:05:42.80 [10100:14424:1229/200542.802:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 20:15:14.07 [10100:8684:1229/201514.074:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+12月 29, 2018 20:15:42.80 [10100:14424:1229/201542.805:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 20:24:47.78 [10100:8684:1229/202447.785:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -202
+12月 29, 2018 20:25:11.09 [10100:8684:1229/202511.094:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 20:25:42.85 [10100:14424:1229/202542.855:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+12月 29, 2018 20:25:51.74 [10100:14424:1229/202551.746:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 20:32:33.56 [7368:12872:1229/203233.565:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:32:33.57 [7368:12872:1229/203233.574:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:32:41.36 [7368:12872:1229/203241.365:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 20:33:01.98 [7368:12872:1229/203301.985:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:02.18 [7368:12872:1229/203302.187:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:04.30 [7368:12872:1229/203304.302:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:04.83 [7368:12872:1229/203304.836:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:21.66 [7368:12872:1229/203321.660:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:33:21.86 [7368:12872:1229/203321.860:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:33:25.95 [7368:12872:1229/203325.954:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 20:33:45.57 [7368:12872:1229/203345.571:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:45.87 [7368:12872:1229/203345.877:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:47.65 [7368:12872:1229/203347.653:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:48.27 [7368:12872:1229/203348.270:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:48.84 [7368:12872:1229/203348.846:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:51.90 [7368:12872:1229/203351.900:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:52.85 [7368:12872:1229/203352.851:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:33:53.13 [7368:12872:1229/203353.128:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:00.86 [7368:12872:1229/203400.864:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:01.31 [7368:12872:1229/203401.314:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:01.94 [7368:12872:1229/203401.939:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:16.94 [7368:12872:1229/203416.945:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:18.05 [7368:12872:1229/203418.049:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:18.05 [7368:11216:1229/203418.051:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-101).
+12月 29, 2018 20:34:22.36 [7368:12872:1229/203422.359:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:26.59 [7368:12872:1229/203426.595:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:35.01 [7368:12872:1229/203435.011:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:36.89 [7368:12872:1229/203436.893:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 20:34:50.96 [7368:12872:1229/203450.962:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:34:51.11 [7368:12872:1229/203451.116:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:34:51.16 [7368:12872:1229/203451.161:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:34:55.04 [7368:11216:1229/203455.047:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 20:51:22.77 [13372:3940:1229/205122.762:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:23.87 [13372:3940:1229/205123.876:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:24.81 [13372:3940:1229/205124.815:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:25.04 [13372:3940:1229/205125.045:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:26.16 [13372:3940:1229/205126.164:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:26.36 [13372:3940:1229/205126.365:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:26.81 [13372:3940:1229/205126.811:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:28.61 [13372:3940:1229/205128.609:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:51:29.01 [13372:13964:1229/205129.011:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 20:53:29.26 [15336:13396:1229/205329.266:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:53:29.28 [15336:13396:1229/205329.288:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:53:32.60 [15336:10648:1229/205332.602:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 20:58:37.15 [13864:14492:1229/205837.159:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:58:37.16 [13864:14492:1229/205837.168:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:58:41.73 [13864:14492:1229/205841.733:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:58:41.88 [13864:14492:1229/205841.887:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:58:43.33 [13864:14492:1229/205843.334:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 20:58:43.95 [13864:14492:1229/205843.957:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:58:44.31 [13864:14492:1229/205844.314:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 20:58:50.50 [13864:7800:1229/205850.504:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 20:59:35.42 [12452:2032:1229/205935.421:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:59:35.43 [12452:2032:1229/205935.430:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 20:59:43.05 [12452:11404:1229/205943.058:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:02:10.17 [9476:15332:1229/210210.172:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 21:02:10.18 [9476:15332:1229/210210.181:ERROR:extension_protocols.cc(568)] Allowing load of chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+12月 29, 2018 21:02:15.50 [9476:5664:1229/210215.500:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:02:33.84 [13844:14112:1229/210233.848:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:13:59.20 [11996:15220:1229/211359.202:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:14:43.58 [12012:13684:1229/211443.586:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 21:14:46.13 [12012:7388:1229/211446.138:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:15:25.61 [2452:12468:1229/211525.607:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:27.71 [2452:12468:1229/211527.715:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:27.92 [2452:12468:1229/211527.923:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:27.97 [2452:12468:1229/211527.976:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:29.03 [2452:12468:1229/211529.036:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:29.28 [2452:12468:1229/211529.281:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:30.18 [2452:12468:1229/211530.184:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:31.37 [2452:12468:1229/211531.373:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:31.75 [2452:12468:1229/211531.757:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:34.77 [2452:12468:1229/211534.778:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:15:34.87 [2452:3004:1229/211534.875:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:19:50.61 [7048:3800:1229/211950.616:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:19:50.68 [7048:3800:1229/211950.684:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:19:50.90 [7048:3800:1229/211950.905:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -118
+12月 29, 2018 21:19:52.68 [7048:3800:1229/211952.678:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:19:53.13 [7048:3800:1229/211953.134:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:20:12.82 [7048:3800:1229/212012.828:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:20:15.30 [7048:3800:1229/212015.301:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:20:16.70 [7048:3800:1229/212016.704:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:20:17.15 [7048:3800:1229/212017.158:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:20:25.54 [7048:7916:1229/212025.540:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:21:05.34 [13740:15056:1229/212105.215:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:06.74 [13740:15056:1229/212106.743:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:07.57 [13740:15056:1229/212107.572:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:07.84 [13740:15056:1229/212107.840:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:09.31 [13740:15056:1229/212109.310:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:09.69 [13740:15056:1229/212109.690:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:09.72 [13740:15056:1229/212109.724:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:12.17 [13740:15056:1229/212112.177:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:12.20 [13740:15056:1229/212112.201:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:13.88 [13740:15056:1229/212113.886:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:16.30 [13740:15056:1229/212116.306:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:16.47 [13740:15056:1229/212116.472:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:19.81 [13740:1124:1229/212119.815:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:21:41.54 [7760:7272:1229/212141.539:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:43.33 [7760:7272:1229/212143.329:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:43.56 [7760:7272:1229/212143.563:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:43.72 [7760:7272:1229/212143.728:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:45.04 [7760:7272:1229/212145.048:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:45.28 [7760:7272:1229/212145.281:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:46.33 [7760:7272:1229/212146.338:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:47.48 [7760:7272:1229/212147.480:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:47.88 [7760:7272:1229/212147.885:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:50.97 [7760:7272:1229/212150.978:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:51.54 [7760:7272:1229/212151.540:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:51.98 [7760:7272:1229/212151.982:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:21:59.53 [7760:7272:1229/212159.531:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:22:00.22 [7760:7272:1229/212200.218:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:22:00.31 [7760:7272:1229/212200.317:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:22:05.73 [7760:2732:1229/212205.730:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+12月 29, 2018 21:23:34.61 [7592:236:1229/212334.616:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:23:36.87 [7592:236:1229/212336.872:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:23:45.83 [7592:236:1229/212345.829:ERROR:connection_handler_impl.cc(474)] Timed out waiting for GCM Protocol buffer.
+12月 29, 2018 21:23:56.85 [7592:236:1229/212356.859:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:23:59.84 [7592:236:1229/212359.846:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:24:08.52 [7592:236:1229/212408.519:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:24:13.28 [7592:236:1229/212413.286:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:24:23.86 [7592:236:1229/212423.866:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+12月 29, 2018 21:24:32.85 [7592:13904:1229/212432.854:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED

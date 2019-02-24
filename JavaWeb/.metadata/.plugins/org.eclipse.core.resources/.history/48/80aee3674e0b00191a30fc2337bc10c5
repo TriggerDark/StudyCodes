@@ -1,0 +1,7 @@
+package com.experiment.dataService;
+
+import com.experiment.servlet.DepartmentInfo;
+
+public interface DepartmentDataService {
+    DepartmentInfo getDepartmentInfoService();
+}

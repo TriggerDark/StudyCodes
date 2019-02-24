@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		
+			/* 300  290  63*41*/
+			#calculator{
+				width: 300px;
+				margin: 5px auto;
+				/*border: solid 1px red;*/ 
+				font-family: "微软雅黑";
+				background-image:url(img/bg.jpg) ;
+			}
+			
+			#calculator label{
+				display: block;
+				width: 295px;
+				padding:0 5px 2px 0;
+				
+				font-size: 8px;
+				text-align: right;
+				
+				color: white;
+				background-color: black;
+			}
+			
+			#calculator #screen{
+				width: 290px;
+				height: 84px;
+				padding:0 5px;
+				
+				border-width: 0px;
+				text-align: right;
+				font-size: 40px;
+				background-image:url(img/inputBg.jpg);
+			}
+			
+			#calculator #buttonList{
+				list-style: none;
+				width: 300px;
+				height: 280px;
+				padding-left: 2px;
+				margin-top: 10px;
+				position: relative;
+				/*border: dashed 1px blue;*/
+			}
+			
+			/*默认按钮大小*/
+			#calculator #buttonList li{
+				width: 63px;
+				height: 41px;
+				float: left;
+				/*border: dotted 1px pink;*/
+				padding:4px 5px;
+			}
+			
+			#calculator #buttonList li.equal{
+				width: 63px;
+				height:99px;
+				/*border: solid 1px yellow;*/
+				position: absolute;
+				bottom: 25px;
+				right: 7px;
+			}
+			
+			#calculator #buttonList li.point{
+				position: absolute;
+				bottom: 25px;
+				left: 148px;
+			}
+			
+			#calculator #buttonList li.zero {
+				width: 136px;
+				height: 41px;
+				position: absolute;
+				bottom: 25px;
+				left: 2px;
+			}
+			
+			#calculator #buttonList li a{
+				display: block;
+				width: inherit;
+				height: inherit;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				line-height: 41px;
+				/*border: solid 1px green;*/
+				background-image:url(img/btn.png);
+			}
+			
+			#calculator #buttonList li a:hover {
+				background-position: -63px 0;
+			}
+			
+			#calculator #buttonList li.oper a{
+				background-position:0 -41px;
+			}
+			
+			#calculator #buttonList li.oper a:hover{
+				background-position:-63px -41px;
+			}
+			
+			#calculator #buttonList li.equal a{
+				line-height: 99px;
+				background-position:0 -164px;
+			}
+			
+			#calculator #buttonList li.equal a:hover{
+				background-position: -63px -163px; 	
+			}
+			
+			#calculator #buttonList li.zero a{
+				background-position: 0 -82px;
+			}
+			
+			#calculator #buttonList li.zero a:hover{
+				background-position: 0 -123px;
+			}
+			
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="calculator">
+			<label>By yelin</label>
+			<input id="screen" value="0"/>
+			<ul id="buttonList">
+				<li class="oper"><a href="#">C</a></li>
+				<li class="oper"><a href="#">%</a></li>
+				<li class="oper"><a href="#">÷</a></li>
+				<li class="oper"><a href="#">×</a></li>
+				
+				<li><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li class="oper"><a href="#">-</a></li>
+				
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li class="oper"><a href="#">+</a></li>
+				
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				
+				<li class="zero"><a href="#">0</a></li>
+				<li class="point"><a href="#">.</a></li>
+				<li class="equal"><a href="#">=</a></li>
+			</ul>
+		</div>
+		
+	</body>
+</html>

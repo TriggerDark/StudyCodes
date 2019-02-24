@@ -1,7 +1,6 @@
 package com.demo.Servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,7 +13,7 @@ import net.sf.json.JSONObject;
 @WebServlet("/checkInputServlet")
 public class checkInputServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		String un = request.getParameter("un");
 		String pd = request.getParameter("pd");
 		JSONObject jo = new JSONObject();
@@ -23,10 +22,10 @@ public class checkInputServlet extends HttpServlet {
 		} else {
 			jo.put("message", "–£—È ß∞‹");
 		}
+		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8"); 
-		PrintWriter pw = response.getWriter();
-		pw.write(jo.toString());
+		response.getWriter().write(jo.toString());
 	}
 
 }

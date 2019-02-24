@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*
+			 * 相对父级元素的 视觉坐标  只读
+			 * offsetLeft
+			 * offsetRight
+			 * 
+			 * 当前元素的宽高属性+border padding margin 总
+			 * offsetWidth
+			 * offsetHeight
+			 * 
+			 * 鼠标在窗口中的坐标
+			 * clientX   clientY
+			 * */
+			
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#demo{
+				position: relative;
+				display: block;
+				width: 600px;
+				height: 202px;
+				border: solid 1px red;
+				margin: 20px auto;
+			}
+			
+			#float-box{
+				display: none;
+				width: 100px;
+				height: 80px;
+				position: absolute;
+				background: #ffffcc;
+				border: 1px solid #cccccc;
+				opacity: 0.5;
+				cursor: move;
+			}
+			
+			
+			#small-box{
+				display: block;
+				overflow: hidden;
+				width: 250px;
+				height:200px;
+				
+				border: 1px solid gainsboro;
+				
+				position: absolute;
+			}
+			
+			#big-box{
+				display: none;
+				overflow: hidden;
+				width: 250px;
+				height:200px;
+				border: 1px solid gainsboro;
+				
+				position: absolute;
+				left:260px;
+				top:0px;
+				z-index: 5; /*图层位于最上层，当显示时遮盖之下的文字*/
+			}
+			
+			
+			#small-box img{
+				display: block;
+				width: 250px;  /*放大比例3倍*/
+			}
+			
+			#big-box img{
+				display: block;
+				width: 750px;
+				position: absolute;
+			}
+			
+			#text-introduction{
+				position: absolute;
+				left: 270px;
+			}
+		</style>
+		
+		<script>
+			window.onload= function(){
+				//获取所需要的对象
+				var objDemo = document.getElementById("demo");
+				var objSmallBox = document.getElementById("small-box");
+				var objFloatBox = document.getElementById("float-box");
+				var objBigBox = document.getElementById("big-box");
+				var objBigBoxImage = objBigBox.getElementsByTagName("img")[0];
+				
+				//鼠标移入显示， 移出隐藏
+				objSmallBox.onmouseover = function(){
+					objFloatBox.style.display = "block";
+					objBigBox.style.display = "block";
+				};
+				objSmallBox.onmouseout =function(){
+					objFloatBox.style.display = "none";
+					objBigBox.style.display = "none";
+				};
+				
+				//鼠标在小box中移动   大box中的图片相应的移动
+				objSmallBox.onmousemove = function(ev){ //参数  实际的事件对象 这里为鼠标
+					var _event = ev;
+					
+					//浮动窗口的坐标
+					var left = _event.clientX-objDemo.offsetLeft 
+							-objSmallBox.offsetLeft-objFloatBox.offsetWidth/2;
+					var top = _event.clientY-objDemo.offsetTop
+							-objSmallBox.offsetTop-objFloatBox.offsetHeight/2;
+					
+					//边界超出问题
+					if(left<0){ //鼠标靠近左边界时
+						left = 0;
+					}else if(left > objSmallBox.offsetWidth-objFloatBox.offsetWidth){ //鼠标靠近右边界时
+						left = objSmallBox.offsetWidth - objFloatBox.offsetWidth;
+					}
+					
+					if(top<0){ //鼠标过于靠近顶部
+						top = 0;
+					}else if(top > objSmallBox.offsetHeight-objFloatBox.offsetHeight ){//鼠标过于靠近底部
+						top = objSmallBox.offsetHeight - objFloatBox.offsetHeight;
+					}
+					
+					//float框 定位
+					objFloatBox.style.left = left+"px";
+					objFloatBox.style.top = top+"px";
+					
+					//big框中图片定位放大3倍
+					objBigBoxImage.style.left = -left*3 + "px";
+					objBigBoxImage.style.top = -top*3 + "px";
+				}
+			}
+		</script>
+		
+		
+	</head>
+	<body>
+		<div id="demo">
+			<div id="small-box">
+				<div id="float-box">
+					
+				</div>
+				<img src="猫图片.png" />
+			</div>
+			
+			<div id="big-box">
+				<img src="猫图片.png"/>
+			</div>
+			
+			<div id="text-introduction">
+				<p>
+					文字说明...<br />
+					品种：...<br />
+					年龄：...<br />
+					详细描述:...
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

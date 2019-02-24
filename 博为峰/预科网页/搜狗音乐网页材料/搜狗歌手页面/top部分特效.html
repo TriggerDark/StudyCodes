@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<style>
+			a{text-decoration: none;}
+			.clear{clear: both;}
+			
+			#container{
+				/*border: 5px solid black;*/
+				width: 1000px;
+				font-family: "微软雅黑";
+				margin: 0 auto;
+			}
+		
+			/*----顶部 推荐歌手部分 */
+			#top{
+				height: 270px;
+				position: relative;
+				border: 1px solid red;
+			}
+			
+			#top .title{
+				height: 40px;
+				/*border: 1px solid green;*/
+			}
+			
+			#top .title img{
+				margin-top:10px ;
+				height: 20px;
+			}
+			
+			#top .title span{
+				/*border: 1px solid blue;*/
+				position: relative;
+				top: -3px;
+				font-size:15px;
+			}
+			
+			#top .board {
+				width: 996px;
+				height: 230px;
+				background-color: #f6f6f6;
+				border: 1px solid #eeeeee;
+				border-color: black;
+				border-radius: 3px;
+				position: relative;
+				/*overflow: hidden;*/
+			}
+			
+			#top .board .box{
+				margin-left: 0px;
+				margin-top:10px ;
+				width: 2940px;
+				border: 1px solid green;
+				position: absolute;
+				left: 0;
+				top: 0;
+				transition: all 1s;
+			}
+			
+			/*左右移动 */
+			
+			#top .board .box a{
+				float: left;
+				margin: 5px;
+				width: 186px;
+				height: 186px;
+				/*border: 1px solid purple;*/
+				display: inline-block;
+			}
+			
+			#top .board .box a img{
+				border: 1px solid #eeeeee;
+				border-radius: 2px;
+				width: 185px;
+				height: 185px;
+				position: relative;
+				left: 0;
+				top: 0;
+				transition: all 0.6s;
+			}
+			
+			#top .board .box a img:hover{
+				width: 195px;
+				height: 195px;
+				top:-5px;
+				left: -5px;
+			}
+			
+			#top .btn {
+				display: block;
+				width: 30px;
+				height: 60px;
+				/*border: 1px solid blue;*/
+				overflow: hidden;
+				position: absolute;
+				top: 110px;
+				/*right: 0;*/
+			}
+			
+			#top .btn span{
+				display: block;
+				height: 60px;
+				line-height: 58px;
+				
+				font-family: charcoal;
+				/*border: 1px solid red;*/
+				border-radius: 50%;
+				font-size: 30px;
+				color: whitesmoke;
+				background-color:rgba(100,100,100,0.6) ;
+			}
+			
+			#top .btn span.leftBtn{
+				padding-left:28px;
+				margin-left:-30px;
+				width: 32px;
+			}
+			
+			#top .btn span.rightBtn{
+				padding-left:8px;
+				width: 52px;
+			}
+		</style>
+		
+		<script>
+			window.onload = function(){
+				var box = document.getElementsByClassName("box")[0];
+				
+				var btnArr = document.getElementsByClassName("btn");
+				
+				//右按钮  让box向左滑动   196*5= 980px
+				btnArr[1].onclick = function(){
+					if(parseInt(box.style.left) >-1960){
+						btnArr[0].style.display="block";
+						box.style.left =  parseInt(box.style.left) - 980 +"px"; 
+						if(box.style.left =="-1960px"){
+							this.style.display = "none";
+						}
+					}
+				}
+				
+				//左按钮  让box向右滑动   196*5= 980px
+				btnArr[0].onclick = function(){
+					if(parseInt(box.style.left) <0){
+						btnArr[1].style.display="block";
+						box.style.left =  parseInt(box.style.left) + 980 +"px"; 
+						if(box.style.left =="0px"){
+							this.style.display = "none";
+						}
+					}
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+				<div class="title">
+					<img src="img/图标.png" />
+					<span>推荐歌手</span>
+				</div>
+				<div class="board">
+					<div class="show" style="position: relative; margin-left: 5px; width: 985px; height: 230px; border: 1px solid orange; overflow: hidden;">
+					<div class="box" style="left: 0;">
+						<a href="#">
+							<img src="img/图1.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/图2.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/图3.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/图4.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/图5.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/1.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/2.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/3.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/4.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/5.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/6.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/7.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/8.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/9.png" />
+						</a>
+						
+						<a href="#">
+							<img src="img/10.png" />
+						</a>
+						
+						<div class="clear"></div>
+					</div>
+					</div>
+				</div>
+			
+				<label class="btn" style="left: 0px; display: none;">
+					<span class="leftBtn"> < </span>
+				</label>
+				
+				<label class="btn" style="right: 0px;">
+					<span class="rightBtn"> > </span>
+				</label>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>

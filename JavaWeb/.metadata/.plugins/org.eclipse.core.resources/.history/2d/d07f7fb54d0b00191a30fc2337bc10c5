@@ -1,0 +1,7 @@
+package com.experiment.dao;
+
+import com.experiment.servlet.DepartmentInfo;
+
+public interface DepartmentDao {
+    DepartmentInfo getDepartmentInfo();
+}

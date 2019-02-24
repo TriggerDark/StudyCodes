@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/myStyle.css" />
+		<script>
+		//至少三组数据
+			var songListArr= [
+				["img/songList/01.jpg","img/songList/02.jpg","img/songList/03.jpg","img/songList/04.jpg","img/songList/05.jpg"],
+				["img/songList/06.jpg","img/songList/07.jpg","img/songList/08.jpg","img/songList/09.jpg","img/songList/10.jpg"],
+				["img/songList/01.jpg","img/songList/02.jpg","img/songList/03.jpg","img/songList/04.jpg","img/songList/05.jpg"]
+			];
+		
+		
+			window.onload=function(){
+				/*----内容加载----*/
+				autoMake(document.getElementsByClassName("playList")[0],songListArr);
+				
+				/*----slide按钮的事件------
+				 首先悬停到各自的版块   该版块的 left 和 right按钮要显现
+				 */
+				var fieldArr=document.getElementsByClassName("mod_box");
+				for(var i=0; i<fieldArr.length;i++){
+					fieldArr[i].onmouseover=function(){
+						var leftSlide = this.getElementsByClassName("left")[0];
+						var rightSlide = this.getElementsByClassName("right")[0];
+						
+						if(leftSlide != null){
+							leftSlide.style.opacity="1";
+							leftSlide.style.left="0px";
+						}
+						if(rightSlide != null){
+							rightSlide.style.opacity="1";
+							rightSlide.style.right="0px";
+						}
+					}
+					fieldArr[i].onmouseout=function(){
+						var leftSlide = this.getElementsByClassName("left")[0];
+						var rightSlide = this.getElementsByClassName("right")[0];
+						if(leftSlide != null){
+							leftSlide.style.opacity="0";
+							leftSlide.style.left="-80px";
+						}
+						if(rightSlide != null){
+							rightSlide.style.opacity="0";
+							rightSlide.style.right="-80px";
+						}
+					}	
+				}
+				
+				/*其次 left 和 right 按钮点击各自实现 无限轮播*/
+				var leftArr = document.getElementsByClassName("left");
+				var rightArr = document.getElementsByClassName("right");
+				for (var i=0;i<leftArr.length;i++) {
+					//左边按钮   对应playlist中的li 向右边动 1200px
+					leftArr[i].onmousedown = function(){ //鼠标按下要复位
+						//找到该按钮所对应的 li
+						var inner = this.parentNode.parentNode;
+						var li = inner.getElementsByTagName("li")[0];
+						li.style.transition="";
+						if(parseInt(li.style.left)==0){
+							li.style.left = "-2440px";
+						}
+					}
+					
+					leftArr[i].onmouseup = function(){//鼠标松手才动
+						//找到该按钮所对应的 li
+						var inner = this.parentNode.parentNode;
+						var li = inner.getElementsByTagName("li")[0];
+						li.style.left = parseInt(li.style.left)+1220+"px"; //当前基础向右1220px
+						li.style.transition = "all 0.9s";
+					}
+					
+					//右边按钮  对应playlist中的li 向左边 1200px
+					rightArr[i].onmousedown = function(){
+						//找到该按钮所对应的 li
+						var inner = this.parentNode.parentNode;
+						var li = inner.getElementsByTagName("li")[0];
+						li.style.transition="";
+						if(parseInt(li.style.left)==-2440){
+							li.style.left = "0px";
+						}
+					}
+					rightArr[i].onmouseup = function(){
+						//找到该按钮所对应的 li
+						var inner = this.parentNode.parentNode;
+						var li = inner.getElementsByTagName("li")[0];
+						li.style.left = parseInt(li.style.left)-1220+"px"; //当前基础向右1220px
+						li.style.transition = "all 0.9s";
+					}
+				}
+				
+				
+				
+				/*----switch按钮的事件------
+				 所有的switch 按钮的事件是相同的
+				 * */
+				var switchArr = document.getElementsByClassName("switch");
+				for (var i=0;i<switchArr.length;i++) {
+					//找出 当前switch 中的所有按钮
+					var btnArr = switchArr[i].children;
+					for(var j=0;j<btnArr.length;j++){
+						btnArr[j].index=j;
+						btnArr[j].onclick = function(){
+							this.parentElement
+						}
+					}
+					
+				}
+				
+				
+				
+				
+				
+				
+				/*功能方法：给定数据，将制定模块动态生成
+				 参数:field指的是  playList那个容器   一个li是一版内容（每版5个图片box）
+				 * */
+				function autoMake(field,imgDataArr){
+					//找到playlist容器中的  li中的第一个模板div
+					//根据数据  不断完善li的内容   所有的li中都是 都额外多一个board(至少3个)
+					var li = field.firstElementChild;
+					var board = li.firstElementChild; // board
+					var boxPatten = board.innerHTML;
+					
+					var boardArr = new Array();//记录每次生成的 board 代码
+					for(var i=0;i<imgDataArr.length;i++){//数据2维数组中的 每一行对应一个board
+						var boxArr = new Array();
+						for(var j=0;j<imgDataArr[i].length;j++){
+							var tmpStr = boxPatten.replace("{{img}}",imgDataArr[i][j]);
+							boxArr.push(tmpStr);
+						}
+						boardArr.push("<div class='board'>"+boxArr.join("")+"</div>");
+					}
+					li.innerHTML = boardArr.join("");
+					
+					//li初始一下 位置
+					li.style.left="0px";
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<audio autoplay="autoplay" loop="loop"src="http://www.ytmp3.cn/down/41551.mp3"></audio>
+		<div class="mod_header">
+			<div class="part1">
+				<a href="#">
+					<img src="img/head/logo.png"/>
+				</a>
+			</div>
+			<div class="part2">
+				<a href="#">音乐馆</a>
+				<a href="#">我的音乐</a>
+				<a href="#">客户端</a>
+				<a href="#">音乐号</a>
+				<a href="#">VIP</a>
+			</div>
+			<div class="part3">
+				<form action="123.jsp">
+					<div>
+						<input type="text" placeholder="搜索音乐、MV、歌单、用户"/>
+						<a href="#"></a>
+					</div>
+					<button class="btn1" type="button">登录</button>
+					<button class="btn2" type="button">开通绿钻豪华版</button>
+					<button class="btn3" type="button">开通付费包</button>
+				</form>
+			</div>
+			<div class="part4">
+				<a href="#" style="color: #31c27c;">首页</a>
+				<a href="#">歌手</a>
+				<a href="#">专辑</a>
+				<a href="#">排行榜</a>
+				<a href="#">分类歌单</a>
+				<a href="#">电台</a>
+				<a href="#">MV</a>
+				<a href="#">数字专辑</a>
+			</div>
+		</div>
+		
+		<!--歌单部分-->
+		<div class="songList mod_box">
+			<div class="inner">
+				<!--版块标题-->
+				<h2>歌单推荐</h2>
+				
+				<!--版块导航-->
+				<div class="tab">
+					<a>为你推荐</a>
+					<a>网络歌曲</a>
+					<a>轻音乐</a>
+					<a>电子</a>
+					<a>热门游戏</a>
+					<a>情歌</a>
+				</div>
+				
+				<!--主体内容展示板-->
+				<ul class="playList">
+					<li>
+						<div class="board">
+							<div class="smallBox">
+								<a class="pic" href="#"> 
+									<img class="show" src="{{img}}" />
+									<i><img src="img/play.png"/></i>
+								</a>
+								<a class="title" href="#">每日新歌：VIXX一步一步向你靠近</a>
+								<h5>播放量:40万</h5>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+				<!--下方按钮-->
+				<div class="switch">
+					<a></a>
+					<a></a>
+				</div>
+				
+				<!--左右切换按钮-->
+				<div class="slide">
+					<div class="left"><img src="img/left.png"/></div>
+					<div class="right"><img src="img/right.png"/></div>
+				</div>
+				
+				
+			</div>
+		</div>		
+		
+		<!--新歌推荐部分-->
+		<div class="mod_box">
+			<div class="newRecomond">
+				<h2>歌单推荐</h2>
+				
+				<div class="tab">   
+					<a>内地</a>
+					<a>港台</a>
+					<a>欧美</a>
+					<a>日本</a>
+					<a>韩国</a>
+				</div>
+				
+				<div class="switch">
+					<a></a>
+					<a></a>
+				</div>
+			</div>
+		</div>		
+		
+	
+	</body>
+</html>

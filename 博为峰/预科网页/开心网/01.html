@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center; /*内容居中*/
+	background-color:#ffffff;
+}
+#container{
+	margin:1px auto 0px auto; /*左右为auto: 整体居中*/
+	position:relative;/*logo以及右上角的超链接以此为基准进行绝对定位*/
+	width:1000px;
+	height:500px;
+	background-color:#ffffff;
+	border-left:1px solid #aaaaaa;
+	border-right:1px solid #aaaaaa;
+	border-bottom:1px solid #aaaaaa;
+}
+#head{
+	height:57px;
+	background-image:url(n_bg_r.gif);
+	background-repeat:repeat-x;
+	background-color:#D01E3B;
+}
+#logo{
+	position:absolute; /*logo采用绝对定位，以最外部的container为基准*/
+	left:62px;
+	top:0px;
+}
+#login{ /*右上角的超链接采用绝对定位，同样以最外部的container为基准*/
+	width:120px;
+	position:absolute;
+	right:0px;
+	top:2px;
+}
+#left{
+	padding-top:50px;
+	padding-left:15px;
+	width:215px;
+	height:350px;
+	background-color:#f4f4f4;
+	float:left;
+	text-align:left;
+}
+#left a:link,#left a:visited{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	width:70px;
+	background-color:#d11e3c;
+	border-top:1px solid #efdfe5;
+	border-left:1px solid #efdfe5;
+	border-right:1px solid #cb7683;
+	border-bottom:1px solid #cb7683;
+	text-align:center;
+	padding:3px 5px 3px 5px;
+
+}
+#left a:hover{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	width:70px;
+	background-color:#d11e3c;
+	border-top:1px solid #cb7683;
+	border-left:1px solid #cb7683;
+	border-right:1px solid #efdfe5;
+	border-bottom:1px solid #efdfe5;
+	text-align:center;
+	padding:2px 7px 4px 3px;
+}
+#right{
+	margin-top:-15px;
+	height:415px;
+	width:770px;
+	background-color:#ffffff;
+	float:left;
+}
+#kaixin{
+	padding-top:68px;
+	width:160px;
+	float:left;
+	height:235px;
+	text-align:right;
+	font-size:36px;
+	color:red;
+}
+#content{
+	width:610px;
+	float:left;
+	padding-top:68px;
+	text-align:left;
+}
+#contentone{
+	width:500px;
+	line-height:30px;
+	font-weight:bold;
+	font-size:14px;
+}
+#contentthree{
+	width:500px;
+	line-height:30px;
+	font-weight:bold;
+	font-size:12px;
+}
+.contentfour{
+	width:500px;
+	line-height:30px;
+	font-size:12px;
+	padding-left:20px;
+}
+#foot{
+	height:43px;
+	clear:both;
+	line-height:43px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+	<div id="head"> 	
+        	<img id="logo" src="kaixinlogo.gif"/>
+        	<div id="login">
+            	<a href="">登陆</a>
+                <a href="">注册</a>
+                <a href="">退出</a>
+            </div>
+    </div>
+	<div id="left">
+    	<div id="leftlogin">
+        	<table>
+            	<tr>
+                	<td>Email: </td>
+                    <td><input type="text" /></td>
+                </tr>
+            	<tr>
+                	<td>密码: </td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                	<td>&nbsp;</td>
+                    <td><input type="checkbox" />记住状态</td>
+                </tr>
+                <tr>
+                	<td>&nbsp;</td>
+                    <td><a href="">登陆</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="right">
+    	<div id="kaixin">
+        	开心网
+        </div>
+        
+        <div id="content">
+        	<div id="contentone">
+            	是一个社交网络，通过它您可以与朋友，同学，同事，家人保持更紧密的联系，
+                及时了解他们的动态；与他们分享你的生活和快乐。
+            </div>
+            <div>
+            	<img src="sy_tp_1.gif"/>
+            </div>
+            <div id="contentthree">
+            	我们每天都在开心地进步着：
+            </div>
+            <div class="contentfour"> 
+            	5月26日  非常礼遇：礼遇成真送梦龙香口味巧克力酱冰激凌
+            </div>
+            <div class="contentfour"> 
+            	5月25日  帐户管理：改进了"现居住地"的输入方式
+            </div>
+            <div class="contentfour"> 
+            	5月23日  真心话：题目的最大字数增加了一倍
+            </div>
+        </div>
+    </div>
+	<div id="foot">
+    	更新时间: 2008-06-24 &copy;All Rights Reserved 
+    </div>
+</div>
+</body>
+</html>

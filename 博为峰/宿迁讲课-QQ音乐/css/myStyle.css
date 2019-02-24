@@ -1,0 +1,306 @@
+@charset "utf-8";
+/*---通用式样------------------------------------------------*/
+	/*每个版块的灰色背景  内容容器*/
+		
+		.mod_box {
+			background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(200, 200, 200, 0.3));
+			position: relative;
+		}
+		
+		.inner {
+			width: 1200px;
+			min-height: 100px;
+			margin: 0 auto;
+		}
+
+
+	/*每个版块的标题*/
+		.mod_box h2{
+			padding: 50px 0 24px 0;
+			text-align: center;
+			font-size: 30px;
+			height: 40px;
+			letter-spacing: 15px;
+			font-weight:550;
+		}
+
+
+	/*每个版块的tab部分*/	
+		.tab{
+			text-align: center;
+			height: 50px;
+		}
+		.tab a{
+			display: inline-block;
+			margin: 0 24px;
+			font-size: 15px;
+			color: #333333;
+		}
+		.tab a:hover{color:#31c27c;}
+
+	/*每个版块的 主体播放部分*/
+
+		.playList {
+			width: 1200px;
+			min-height: 310px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.playList li{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 3660px;
+			min-height: 300px;
+		}
+		
+		
+
+	/*左右切换按钮*/
+		.slide div{
+			font-size: 40px;
+			line-height: 108px;
+			width: 80px;
+			height: 108px;
+			background-color: rgba(0,0,0,0.05);
+			position: absolute;
+			top: 40%;
+			text-align: center;
+			transition: all 0.7s;
+			opacity:0;
+		}
+		.slide .left{left: -80px;}
+		.slide .right{right: -80px;}
+		
+		
+		.slide div img{
+			display: block;
+			width: 30px;
+			height: 40px;
+			margin: 34px 25px;
+		}
+		
+	/*下方切换按钮*/
+		.switch{
+			width: 1200px;
+			height: 38px;
+			text-align: center;
+			cursor: default;
+		}
+		.switch a{
+			cursor: pointer;
+			display: inline-block;
+			width: 8px;
+			height: 8px;
+			margin: 5px;
+			border: 1px solid #C9C9C9;
+			background-color: #DDDDDD;
+			border-radius:50%;
+		}
+		.switch a:hover{
+			background-color: #333333;
+			box-shadow: 0 0 30px #333333;
+		}
+		
+		/*-----------------搜索栏head部分-----------------------------*/
+		.mod_header{
+			width: 1200px;
+			height: 142px;
+			margin: 0 auto;
+		}
+		/*logo部分*/
+		.mod_header .part1{
+			width: 200px;
+			height: 90px;
+			float: left;
+		}
+		.mod_header .part1 a{
+			margin-top: 19px;
+			display: block;
+		}
+		
+		/*音乐馆  我的音乐 vip 部分*/
+		.mod_header .part2 {
+			width: 480px;
+			height: 90px;
+			float: left;
+		}
+		.mod_header .part2 a{
+			float: left;
+			padding: 0 20px;
+			height: 90px;
+			color: black;
+			font-size: 18px;
+			line-height:90px;
+		}
+		.mod_header .part2 a:hover{
+			color: #31c27c;
+		}
+		
+		/*搜索部分*/
+		.mod_header .part3{
+			width: 520px;
+			height: 90px;
+			float: left;
+		}
+		.mod_header .part3 form{
+			margin: 25px 0;
+			height: 40px;
+			position: relative;
+		}
+		/*搜所框*/
+		.mod_header .part3 div{
+			width: 174px;
+			height: 36px;
+			border: 1px solid #c9c9c9;
+			border-radius: 3px;
+			padding:0 33px 0 11px ;
+			position: relative;
+		}
+		.mod_header .part3 div input{
+			width: 174px;
+			height: 34px;
+			font-size: 14px;
+			border: 0;
+			display: block;
+			outline: none;
+		}
+		
+		.mod_header .part3 div a{
+			position: absolute;
+			right: 4px;
+			top: 8px;
+			width: 16px;
+			height: 16px;
+			background-image: url(img/head/timg.jpg);
+			background-size: 16px 16px;
+		}
+		.mod_header .part3 div a:hover{
+			background-image: url(img/head/timg2.jpg);
+		}
+		/*登录 等三个按钮*/
+		.mod_header .part3 button{cursor: pointer;}
+		.mod_header .part3 button.btn1{
+			position: absolute;
+			top: 6px;
+			left: 250px;
+			font-size: 16px;
+		}
+		.mod_header .part3 button.btn1:hover{color: #31c27c;}
+		.mod_header .part3 button.btn2{
+			position: absolute;
+			top: -2px;
+			left: 305px;
+			height: 40px;
+			padding: 0 9px;
+			
+			font-size: 13px;
+			color: white;
+			border: 1px solid #31c27c;
+			border-radius: 3px;
+			background-color: #31c27c;
+		}
+		.mod_header .part3 button.btn2:hover{
+			background-color: #21925c;
+		}
+		.mod_header .part3 button.btn3{
+			position: absolute;
+			top: -2px;
+			left: 425px;
+			height: 40px;
+			padding: 0 9px;
+			font-size: 13px;
+			border: 1px solid #c9c9c9;
+			border-radius: 3px;
+		}
+		.mod_header .part3 button.btn3:hover{
+			background-color: #dddddd;
+		}
+		/*顶部第二行 小导航*/
+		.mod_header .part4{
+			float: left;
+			width: 970px;
+			height: 51px;
+			border-top:1px solid  #f2f2f2;
+			padding-left: 230px;
+		}
+		.mod_header .part4 a{
+			float: left;
+			height: 50px;
+			line-height: 50px;
+			margin-right: 50px;
+			font-size: 15px;
+			color: #333333;
+		}
+		.mod_header .part4 a:hover{color: #31c27c;}
+		
+		
+		/*----------------歌单推荐-------------------------*/
+		/*---songList 部分---*/
+		.songList .smallBox{
+			width:224px ;
+			height:286px;
+			margin-right: 20px;
+			float: left;
+		}
+		.songList  .smallBox a{display: block;}
+		.songList  .smallBox a.pic{
+			width: 224px;
+			height: 224px;
+			position: relative;
+			overflow: hidden;
+		}
+		.songList .smallBox a.pic img.show{
+			width: 224px;
+			height: 224px;
+			transition: all 0.7s;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.songList .smallBox a.pic:hover img.show{
+			width: 244px;
+			height: 244px;
+			left: -10px;
+			top: -10px;
+		}
+		.songList .smallBox i{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 224px;
+			height: 224px;
+			background-color:rgba(0,0,0,0.3);
+			opacity: 0;
+			transition: all 0.7s;
+		}
+		.songList .smallBox a.pic:hover i{opacity: 1;}
+		.songList .smallBox i img{
+			width: 40px;
+			height: 40px;
+			transition: all 0.7s;
+			position: absolute;
+			left: 92px;
+			top: 92px;
+		}
+		.songList .smallBox a.pic:hover i img{
+			width: 70px;
+			height: 70px;
+			left: 77px;
+			top: 77px;
+		}
+		.songList .smallBox a.title{
+			margin:10px 0;
+			font-size: 14px;
+			color: #333333;
+		}
+		.songList .smallBox a.title:hover{
+			color: #31C27C;
+		}
+		.songList .smallBox h5{
+			font-weight:normal;
+			font-size: 14px;
+		}
+		
+		

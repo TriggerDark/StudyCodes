@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>缩略图幻灯片 </title>
+		
+		<style>
+			*{margin: 0px; padding: 0px;} /* 0px时 px单位可省*/
+			body{
+				padding: 50px 0;
+				background-color: #FFFFFF;
+				font-size: 14px;
+				font-family: arial;
+				color:#555555;
+				-webkit-font-smoothing: antialiased;/*字体抗锯齿*/
+			}
+				
+			.slider .main .main-i,
+			.slider .main,		
+			.slider{
+				width: 100%;
+				height:500px;
+				position: relative;
+			}
+			
+			.slider{
+				width:1280px;   /*图片 大小1280*500px*/
+				margin: 20px auto;
+			}
+			
+			/*------幻灯片区域------*/
+			.slider .main{  
+				overflow: hidden;
+				position: relative;
+			}
+			
+			/*每一张幻灯片的样式*/
+			.slider .main .main-i {
+				opacity: 0;/*默认状态为 0*/
+				position: absolute;
+				right: 50%; /*初始状态偏右 点中之后 向左移动进入*/
+				top: 0px;
+				-webkit-transition: all 0.5s; /*移动动画*/ 
+				overflow: hidden;
+			}
+			.slider .main .main-i img{
+				display: block;
+				width: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 1; /*图片放在底层*/
+			}
+			.slider .main .main-i .caption{
+				position: absolute;
+				right: 50%;
+				top: 30%;
+				z-index: 9; /*文字放上面*/
+				
+				margin-right:13%; /*视觉效果往左便一点*/
+			}
+			.slider .main .main-i .caption h2{
+				font-size: 40px;
+				line-height: 50px;
+				color: #B5B5B5;
+				text-align: right;
+				margin-right: 45px; /*初始状态偏左 选中后移到中间*/
+				-webkit-transition: all 1s 0.8s; /*移动动画 等幻灯动完之后再动1秒*/ 
+				opacity: 0;/*输出时状态 完全透明*/
+			}
+			.slider .main .main-i .caption h3{
+				font-size: 70px;
+				line-height: 70px;
+				color: #000000;
+				text-align: right;
+				font-family: monospace;
+				margin-right: -45px;/*初始状态偏右 选中后移到中间*/
+				-webkit-transition: all 1s 0.8s; /*移动动画 等幻灯片动完之后再动1秒*/ 
+				opacity: 0;/*输出时状态 完全透明*/
+			}
+			
+			/*------控制按钮区域-------*/
+			.slider .ctrl{
+				width: 100%;
+				height: 13px;
+				line-height: 13px;
+				text-align: center;
+				font-size:0px; /*字体为0 去除控制按钮之间的间距*/
+				position: absolute;
+				left: 0;
+				bottom: -13px;
+				
+				background-color: gainsboro;
+			}
+			
+			.slider .ctrl .ctrl-i{
+				display: inline-block;/*行内块元素 不换行*/
+				width:150px;
+				height: 13px;
+				background-color: #666666;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+				position: relative;
+				margin-left: 1px;
+			}
+			
+			.slider .ctrl .ctrl-i img{
+				width: 100%;
+				position: absolute;
+				left: 0;
+				bottom: 50px;
+				z-index: 1;
+				opacity: 0;/*初始状态 隐藏*/
+				-webkit-transition: all 0.4s; /*渐变 动画*/
+			}
+			
+			/*hover 到控制按钮的式样*/
+			.slider .ctrl .ctrl-i:hover{
+				background-color:#F0F0F0;
+			}
+			.slider .ctrl .ctrl-i:hover img{
+				bottom: 13px;
+				opacity: 1; /*显现*/
+				/*预览图倒影效果*/
+				-webkit-box-reflect: below 0px -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					from(transparent),
+					color-stop(50%,transparent),
+					to(rgba(255,255,255,0.3))
+				);
+			}
+			
+			/*----选中状态下的控制按钮式样----*/
+			.slider .ctrl .ctrl-i_active:hover,
+			.slider .ctrl .ctrl-i_active{   /*点中的那个 背景颜色深*/
+				background-color: #000000;
+			}
+			.slider .ctrl .ctrl-i_active:hover img{/*选中的那个预览图片不显示*/
+				opacity: 0;
+			}
+			
+			/*----选中状态幻灯片式样-----*/			
+			.slider .main .main-i_active{
+				opacity: 1; /*选中状态*/
+				right: 0;
+			}
+			.slider .main .main-i_active .caption h2,
+			.slider .main .main-i_active .caption h3{
+				margin-right: 0px;
+				opacity: 1;
+			}
+		</style>
+		
+		<script>
+			//1.数据定义  （实际中应由后台给予 AJXS）
+			var dataArr=[
+				{img:1,h3:'Creative',h2:'DUET'},
+				{img:2,h3:'Friendly',h2:'DEVIL'},
+				{img:3,h3:'Tranquilent',h2:'COMPATRIOT'},
+				{img:4,h3:'Insecure',h2:'HUSSLER'},
+				{img:5,h3:'Loving',h2:'REBEL'},
+				{img:6,h3:'Passionate',h2:'SEEKER'},
+				{img:7,h3:'Crazy',h2:'FRIEND'}
+			];
+			
+			//2. 通用函数 根据id获取DOM元素    或者.类名获取一个DOM元素数组
+			function getDOMElement (id){
+				if(id.substr(0,1) == '.'){
+					return document.getElementsByClassName(id.substring(1));
+				}
+				return document.getElementById(id);
+			}
+						
+			//3.行为函数 添加幻灯片的操作 (所有幻灯片&对应按钮)
+			function addSlider(){
+				//3.1获取模板 的html字符 并清除头尾的空白符
+				var tpl_main = getDOMElement('template_main').innerHTML
+								.replace(/^\s*/,'')
+								.replace(/\s*$/,'');
+								
+				var tpl_ctrl = getDOMElement("template_ctrl").innerHTML
+								.replace(/^\s*/,'')
+								.replace(/\s*$/,'');
+				
+				//3.2 定义最终显示的 幻灯片/控制按钮数组
+				var main_arr = [];
+				var ctrl_arr = [];
+				for (var i = 0;i<dataArr.length;i++) {
+					var _tmp_main = tpl_main
+									.replace(/{{index}}/g,dataArr[i].img)
+									.replace(/{{h2}}/g,dataArr[i].h2)
+									.replace(/{{h3}}/g,dataArr[i].h3);
+					var _tmp_ctrl = tpl_ctrl
+									.replace(/{{index}}/g,dataArr[i].img);
+					
+					//用两个数组记录相应最后要输出的内容
+					main_arr.push(_tmp_main);
+					ctrl_arr.push(_tmp_ctrl);			
+				}
+				
+				
+				//3.3将两个数组中的元素 添加到界面
+				getDOMElement('template_main').innerHTML = main_arr.join("");
+				getDOMElement('template_ctrl').innerHTML = ctrl_arr.join("");
+				
+			}
+		
+			//4 幻灯片切换动作函数
+			function switchSlider(n){
+				//重置幻灯片状态
+				var clear_main = getDOMElement(".main-i"); //数组
+				var clear_ctrl = getDOMElement(".ctrl-i"); //数组
+				for(var i = 0; i<clear_main.length;i++){
+					clear_main[i].className = clear_main[i].className.replace(" main-i_active","");
+					clear_ctrl[i].className = clear_ctrl[i].className.replace(" ctrl-i_active","");
+				}
+				
+				//点击的幻灯片选中
+				getDOMElement("main_"+n).className += " main-i_active";
+				getDOMElement("ctrl_"+n).className += " ctrl-i_active";
+			}
+			
+			window.onload = function(){
+				//调用相应函数显示界面
+				addSlider();
+				
+				//开始时默认选中第一张幻灯片
+				switchSlider(1);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div class="slider">
+			<!--幻灯片 图片文字部分-->
+			<!--幻灯片部分模板-->
+			<div class="main" id = "template_main">
+				<div class="main-i" id="main_{{index}}">
+					<div class="caption">
+						<h2>{{h2}}</h2>
+						<h3>{{h3}}</h3>
+					</div>
+					<img src="ppt/{{index}}.jpg"/>
+				</div>
+			</div>
+			
+			<!--控制按钮 缩略图部分-->
+			<!--控制按钮模板-->
+			<div class="ctrl" id="template_ctrl">
+				<a class="ctrl-i" id="ctrl_{{index}}" href="javascript:switchSlider({{index}});">
+					<img src="ppt/{{index}}.jpg" />
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

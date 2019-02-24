@@ -1,2 +1,5 @@
 #Tomcat publish data
-#Tue Dec 25 20:51:40 CST 2018
+#Sat Dec 29 21:22:41 CST 2018
+org.eclipse.jst.jee.server\:test=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\test
+org.eclipse.jst.jee.server\:AJax=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\AJax
+org.eclipse.jst.jee.server\:Experiment=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\Experiment

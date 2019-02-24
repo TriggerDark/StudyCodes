@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>综合练习</title>
+		
+		<style>
+			#title{
+				font-family: "微软雅黑";/*字体*/
+				color: #ff00ff;
+				font-weight: bold;  /*字体加粗*/
+				font-style: italic; /*斜体*/
+			}
+		
+			#title2{
+				font-size: 15px; 
+				font-family: "微软雅黑";
+				color: cornflowerblue;
+			}
+		
+			img{
+				width:150px;
+				height:150px;
+			}
+			
+			.piont{
+				color:brown;
+				font-style: italic;
+				font-size: 14px;
+				font-family:"黑体";
+			}
+	
+		</style>
+		
+	</head>
+
+	<body>
+		<!-- 标题 -->
+		<h2 id="title">农家乐网上菜单</h2>
+		<hr/>
+
+		<!-- 菜单 -->
+		<a id="title2" name="menu" >菜单</a>
+		<ul type="circle">
+			<li><a href="#fish">鱼香肉丝</a></li>
+			<li><a href="#eggplant">肉末茄子</a></li>
+			<li><a href="#paper">青椒肉丝</a></li>
+			<li><a href="#chicken">辣子鸡丁</a></li>
+		</ul>
+		<hr/>
+
+		<!-- 菜的具体内容 -->
+		<!--鱼香肉丝-->
+		<a name="fish" class="piont">鱼香肉丝</a><br/>
+		<img src="img/FishMeat.jpg" alt="找不到图片"></img>
+		<p>
+			单价: &yen;15 &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#menu">返回菜单</a>
+		</p>
+
+		<!--肉末茄子-->
+		<a name="eggplant" class="piont">肉末茄子</a><br/>
+		<img src="img/eggplant.jpg" alt="找不到图片"></img>
+		<p>
+			单价: &yen;17 &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#menu">返回菜单</a>
+		</p>
+
+		<!--青椒肉丝-->
+		<a name="paper" class="piont">青椒肉丝</a><br/>
+		<img src="img/paper.jpg" alt="找不到图片"></img>
+		<p>
+			单价: &yen;10 &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#menu">返回菜单</a>
+		</p>
+
+		<!--辣子鸡丁-->
+		<a name="chicken" class="piont">辣子鸡丁</a><br/>
+		<img src="img/chicken.jpg"  alt="找不到图片"></img>
+		<p>
+			单价: &yen;23 &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#menu">返回菜单</a>
+		</p>
+
+	</body>
+
+</html>

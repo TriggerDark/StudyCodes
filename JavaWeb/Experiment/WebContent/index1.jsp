@@ -13,11 +13,14 @@ $(function(){
 		var pd = $("#pd").val();
 		$.ajax({
 			type: "POST",
-			url: "/NewsProject",
+			url: "checkInputServlet",
+			async: true,
+			dataType: "json", 
 			data: "un=" + un + "&pd=" + pd,
 			success: function(json){
 				$("#result").html(json.message);
-			}
+			},
+			contentType: "application/x-www-form-urlencoded"
 		})
 	});
 })
@@ -27,8 +30,8 @@ $(function(){
 <form action="">
 	<input type="text" id="un">
 	<input type="password" id="pd">
-	<input type="button" id="btn" value="提交">
 </form>
+<button id="btn">按钮</button><br/>
 <div id="result"></div>
 </body>
 </html>

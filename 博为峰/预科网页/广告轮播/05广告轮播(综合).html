@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>广告轮播---幻灯片效果</title>
+		<style>
+			*{
+				margin: 0px;
+				padding:0px;
+			}
+			
+			ul{
+				list-style: none;
+			}
+			
+			body{
+				background: #000000;
+				text-align: center;
+				font: "微软雅黑" 12px;
+			}
+			
+			#box{ /*整体容器*/
+				position:relative;
+				width:492px;
+				height:172px;
+				background: #FFFFFF;
+				border-radius: 5px;
+				border:8px solid #FFFFFF;
+				margin:10px auto;	
+			}
+			
+			#box .list{ /*图片列表*/
+				position:relative;
+				width:490px;
+				height:170px;
+				overflow: hidden;/*子级容器溢出隐藏*/
+				border:1px solid #cccccc;
+			}
+			
+			#box .list li{
+				position:absolute;
+				top:0px;
+				left:0px;
+				width:490px;
+				height:170px;
+				opacity: 0; /*完全透明*/
+			}
+			
+			#box .list li.current{/*当前显示广告*/
+				opacity: 1;/*不透明*/
+			}
+			
+			/*数字部分*/
+			#box .count{
+				position:absolute;
+				right: 0px;
+				bottom:5px;
+			}
+			
+			#box .count li{
+				color:#FFFFFF;
+				float:left;
+				width:20px;
+				height:20px;
+				cursor:pointer;
+				margin-right: 5px;
+				overflow: hidden;
+				background:#FF0900;
+				opacity: 0.6;
+				border-radius: 20px;
+			}
+			
+			#box .count li.current{ /*选中数字*/
+				color:#FFFFFF;
+				opacity: 1;
+				font-weight: bold;
+				background: #ff60;
+			}
+			
+		</style>
+		
+		<script>
+			window.onload = function(){
+				var oBox = document.getElementById("box");	
+				var aUl = document.getElementsByTagName("ul");
+				//图片数组
+				var aImg = aUl[0].getElementsByTagName("li");
+				//数字数组
+				var aNum = aUl[1].getElementsByTagName("li");
+				
+				var timer = null;//计时器用以 图片的渐变效果
+				var play = null;//计时器用以 图片的自动播放
+				
+				var num = 0; //当前播放第几张
+				
+				//切换按钮
+				for(var i = 0; i<aNum.length; i++){
+					aNum[i].index = i;
+					aNum[i].onmouseover = function () {
+						show(this.index);
+						num = this.index;//当前播放的图片张数
+					}
+				}
+				
+				//自动播放  2秒自动下一张
+				function autoPlay(){
+					play = setInterval(function(){
+						num++;//播放下一张
+						if(num >= aImg.length){//所有图片播放完毕之后从头播放
+							num = 0;
+						}
+						show(num);//显示下一张图片
+					},2000);
+				}
+				autoPlay();//调用自动播放
+				
+				
+				//鼠标进入box容器时 关闭自动播放的定时器
+				oBox.onmouseover = function(){
+					clearInterval(play);
+				};
+				
+				//鼠标离开自动定时器是启动播放
+				oBox.onmouseout = function(){
+					autoPlay();
+				};
+				
+				//图片切换， 淡入淡出效果
+				//  参数为图片的下标数字
+				function show(a) {
+					var tmp = a;
+					var alpha = 0;
+					
+					//结束动画效果
+					clearInterval(timer);
+					
+					//将所有数字图片  置为未选中状态
+					for(var i = 0; i<aNum.length; i++){
+						aNum[i].className = "";
+						//aImg[i].className = ""; //这样写清空无效， 图片渐变效果.style.opacity改变式样属性的优先级高
+						aImg[i].style.opacity = 0; 
+					}
+					
+					//将悬停数字置为选中状态
+					aNum[a].className = "current";
+					
+					//将选中的数字所代表的图片置为选中状态
+					//    选中图片没20毫秒不透明度+20% 直到100%
+					timer = setInterval(function(){
+						alpha += 2;
+						if(alpha > 100){alpha = 100;}
+						aImg[tmp].style.opacity = alpha/100; 
+						if(alpha == 100){clearImmediate(timer);}
+					},20);
+				}
+			}
+		</script>
+		
+		
+	</head>
+
+	<body>
+		<div id="box">
+			<ul class="list">
+				<li class="current"><img src="advertisment/01.jpg" width="490px"  height= "170px"/></li>
+				<li><img src="advertisment/02.jpg" width="490px" height="170px"/></li>
+				<li><img src="advertisment/03.jpg" width="490px" height="170px"/></li>
+				<li><img src="advertisment/04.jpg" width="490px" height="170px"/></li>
+				<li><img src="advertisment/05.jpg" width="490px" height="170px"/></li>
+			</ul>
+			
+			<ul class="count">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul> 
+		</div>	
+	</body>
+</html>
