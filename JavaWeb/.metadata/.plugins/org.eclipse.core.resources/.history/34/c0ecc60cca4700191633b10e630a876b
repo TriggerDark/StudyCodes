@@ -1,0 +1,16 @@
+package model;
+
+import entity.User;
+
+public class UserDao implements IUserDao {
+
+	@Override
+	public User findByUsername(String userName) {
+		return null;
+	}
+
+	@Override
+	public void insert(User user) {
+	}
+
+}

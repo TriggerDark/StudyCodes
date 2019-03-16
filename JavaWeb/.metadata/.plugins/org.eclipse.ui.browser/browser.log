@@ -811,3 +811,121 @@
 12月 29, 2018 21:24:13.28 [7592:236:1229/212413.286:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
 12月 29, 2018 21:24:23.86 [7592:236:1229/212423.866:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
 12月 29, 2018 21:24:32.85 [7592:13904:1229/212432.854:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+3月 09, 2019 14:13:21.59 NEW SESSION
+3月 09, 2019 14:13:21.60 [5620:4164:0309/141321.597:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:13:45.42 [5620:4164:0309/141345.418:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:13:54.52 [5620:14576:0309/141354.526:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-100).
+3月 09, 2019 14:14:27.37 [5620:4164:0309/141427.375:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:14:33.18 [5620:14576:0309/141433.188:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:15:00.54 [5620:14576:0309/141500.541:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:15:55.15 [5620:14576:0309/141555.152:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:16:01.96 [5620:4164:0309/141601.965:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:17:17.20 [5620:14576:0309/141717.206:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:19:05.57 [5620:14576:0309/141905.577:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 09, 2019 14:19:05.71 [5620:4164:0309/141905.711:ERROR:browser_process_sub_thread.cc(209)] Waited 43 ms for network service
+3月 09, 2019 14:22:00.76 [13492:12964:0309/142200.766:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:22:15.36 [13492:9196:0309/142215.368:ERROR:CONSOLE(24)] "Empty response arrived for script 'chrome-devtools://devtools/remote/serve_file/@8e2b610813e167eee3619ac4ce6e42e3ec622017/product_registry_impl/product_registry_impl_module.js'", source: chrome-devtools://devtools/bundled/shell.js (24)
+3月 09, 2019 14:22:15.37 [13492:9196:0309/142215.370:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.54 [13492:9196:0309/142215.539:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.56 [13492:9196:0309/142215.563:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.82 [13492:9196:0309/142215.822:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.86 [13492:9196:0309/142215.866:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.86 [13492:9196:0309/142215.867:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:15.90 [13492:9196:0309/142215.903:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:24.43 [13492:12964:0309/142224.436:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:22:33.52 [13492:9196:0309/142233.528:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-100).
+3月 09, 2019 14:22:39.03 [13492:9196:0309/142239.032:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:39.03 [13492:9196:0309/142239.032:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:22:39.03 [13492:9196:0309/142239.032:ERROR:CONSOLE(108)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: chrome-devtools://devtools/bundled/shell.js (108)
+3月 09, 2019 14:23:11.87 [13492:12964:0309/142311.874:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:24:48.00 [13492:12964:0309/142448.000:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:28:21.58 [13492:9196:0309/142821.582:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:28:45.98 [13492:12964:0309/142845.982:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:28:49.40 [13492:9196:0309/142849.402:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:29:31.80 [13492:9196:0309/142931.792:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:31:19.74 [13492:9196:0309/143119.748:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:34:57.61 [13492:9196:0309/143457.614:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:35:02.35 [13492:12964:0309/143502.354:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:41:18.98 [13492:9196:0309/144118.970:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:45:02.39 [13492:12964:0309/144502.390:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 14:51:19.00 [13492:9196:0309/145119.002:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 09, 2019 14:55:02.40 [13492:12964:0309/145502.406:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 15:00:31.80 [13492:9196:0309/150031.802:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 09, 2019 15:00:31.93 [13492:12964:0309/150031.922:ERROR:browser_process_sub_thread.cc(209)] Waited 38 ms for network service
+3月 09, 2019 15:07:27.35 [5480:14188:0309/150727.357:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 15:07:50.96 [5480:14188:0309/150750.968:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 15:08:01.63 [5480:5600:0309/150801.639:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-100).
+3月 09, 2019 15:08:39.64 [5480:14188:0309/150839.643:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -100
+3月 09, 2019 15:09:58.10 [5480:14188:0309/150958.101:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+3月 09, 2019 15:16:13.35 [5480:14188:0309/151613.356:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:21:14.19 [5480:14188:0309/152114.198:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:26:15.11 [5480:14188:0309/152615.113:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:31:15.97 [5480:14188:0309/153115.972:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:36:16.69 [5480:14188:0309/153616.692:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:41:17.47 [5480:14188:0309/154117.470:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:46:18.19 [5480:14188:0309/154618.199:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:51:19.07 [5480:14188:0309/155119.069:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 15:56:19.70 [5480:14188:0309/155619.703:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:01:20.57 [5480:14188:0309/160120.576:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:06:21.41 [5480:14188:0309/160621.410:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:11:21.46 [5480:14188:0309/161121.458:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:16:22.23 [5480:14188:0309/161622.234:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:21:22.92 [5480:14188:0309/162122.917:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:26:23.61 [5480:14188:0309/162623.616:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:31:24.14 [5480:14188:0309/163124.147:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:36:24.82 [5480:14188:0309/163624.820:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:41:25.56 [5480:14188:0309/164125.560:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:46:26.25 [5480:14188:0309/164626.258:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:51:27.15 [5480:14188:0309/165127.156:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 09, 2019 16:53:52.15 [5480:5600:0309/165352.155:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 09, 2019 16:53:52.36 [5480:14188:0309/165352.355:ERROR:browser_process_sub_thread.cc(209)] Waited 45 ms for network service
+
+3月 10, 2019 10:12:26.21 NEW SESSION
+3月 10, 2019 10:12:26.21 [17056:8744:0310/101226.211:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 10:12:26.38 [17056:15332:0310/101226.379:ERROR:browser_process_sub_thread.cc(209)] Waited 30 ms for network service
+3月 10, 2019 10:16:25.95 [7360:3864:0310/101625.952:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 10:16:26.06 [7360:11304:0310/101626.065:ERROR:browser_process_sub_thread.cc(209)] Waited 39 ms for network service
+3月 10, 2019 10:49:49.43 [8796:6076:0310/104949.432:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 10:49:49.59 [8796:6968:0310/104949.598:ERROR:browser_process_sub_thread.cc(209)] Waited 54 ms for network service
+3月 10, 2019 11:05:03.68 [16228:15056:0310/110503.688:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:05:50.04 [16228:15056:0310/110550.047:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:06:51.58 [16228:15056:0310/110651.583:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+3月 10, 2019 11:09:10.65 NEW SESSION
+3月 10, 2019 11:09:10.65 [6084:13504:0310/110910.650:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:09:54.45 [6084:13504:0310/110954.449:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:10:58.32 [6084:13504:0310/111058.319:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:12:47.76 [6084:13504:0310/111247.764:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:16:45.55 [6084:13504:0310/111645.555:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+3月 10, 2019 11:19:22.07 [6084:13504:0310/111922.078:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-118).
+3月 10, 2019 11:20:51.82 [6084:13504:0310/112051.825:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+3月 10, 2019 19:43:48.66 NEW SESSION
+3月 10, 2019 19:43:48.66 [3124:8744:0310/194348.663:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 19:48:49.23 [3124:8744:0310/194849.237:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 19:53:51.10 [3124:8744:0310/195351.102:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 19:54:44.44 [3124:16152:0310/195444.444:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 19:54:44.60 [3124:8744:0310/195444.606:ERROR:browser_process_sub_thread.cc(209)] Waited 66 ms for network service
+3月 10, 2019 20:05:34.94 [15888:12808:0310/200534.944:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 20:05:46.63 [15888:15512:0310/200546.636:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 20:05:46.76 [15888:12808:0310/200546.768:ERROR:browser_process_sub_thread.cc(209)] Waited 47 ms for network service
+3月 10, 2019 20:06:55.23 [12340:6588:0310/200655.234:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 20:06:55.41 [12340:12656:0310/200655.410:ERROR:browser_process_sub_thread.cc(209)] Waited 65 ms for network service
+3月 10, 2019 20:19:43.40 [9228:10380:0310/201943.404:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 20:24:43.98 [9228:10380:0310/202443.985:ERROR:socket_stream.cc(219)] Closing stream with result -2
+3月 10, 2019 20:27:10.32 [9228:12136:0310/202710.327:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3月 10, 2019 20:27:10.48 [9228:10380:0310/202710.487:ERROR:browser_process_sub_thread.cc(209)] Waited 74 ms for network service
+
+3月 13, 2019 22:32:27.44 NEW SESSION
+3月 13, 2019 22:32:27.44 [9260:8652:0313/223227.434:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+3月 13, 2019 22:32:27.60 [9260:1432:0313/223227.602:ERROR:browser_process_sub_thread.cc(210)] Waited 67 ms for network service
+3月 13, 2019 22:36:04.48 [8592:12668:0313/223604.483:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+3月 13, 2019 22:36:04.63 [8592:13596:0313/223604.631:ERROR:browser_process_sub_thread.cc(210)] Waited 50 ms for network service
+
+3月 15, 2019 11:05:50.90 NEW SESSION
+3月 15, 2019 11:05:50.90 [10796:12832:0315/110550.899:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+3月 15, 2019 11:05:51.13 [10796:8912:0315/110551.138:ERROR:browser_process_sub_thread.cc(210)] Waited 95 ms for network service
+
+3月 16, 2019 17:21:42.29 NEW SESSION
+3月 16, 2019 17:21:42.29 [14688:15712:0316/172142.290:ERROR:socket_stream.cc(219)] Closing stream with result -2

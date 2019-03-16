@@ -1,0 +1,6 @@
+package cn.tedu.entity;
+
+public class Dept {
+	private int id;
+	
+}

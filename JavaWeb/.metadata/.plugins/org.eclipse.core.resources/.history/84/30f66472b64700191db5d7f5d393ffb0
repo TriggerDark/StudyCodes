@@ -1,0 +1,28 @@
+package cn.tedu.dao;
+
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+
+import cn.tedu.entity.Dept;
+
+/**
+ * 对Dept表进行各种访问的接口
+ * 在MyBatis的动态代理实现方式中，会自动生成该接口的
+ * 实现类(实现接口中的所有方法)
+ * @author SuperStar
+ *
+ */
+
+public interface IDeptDao {
+	
+	/*
+	 * #{name}:若方法的参数是直接赋值的类型(如基本类型或String)
+	 */
+	
+	@Insert("insert into dept(deptName, address) "
+			+ "values(#{deptName}, #{address})")
+	public void insertDept(Dept dept);//插入部门
+	
+	@Delete("delete from dept where id=#{id}")
+	public void DeleteByID(Integer id);//按id删除部门
+}

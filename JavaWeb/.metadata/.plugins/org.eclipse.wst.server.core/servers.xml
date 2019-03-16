@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="5">
-    <list key="modules" value0="AJax::org.eclipse.jst.jee.server:AJax::jst.web::4.0" value1="Experiment::org.eclipse.jst.jee.server:Experiment::jst.web::4.0" value2="test::org.eclipse.jst.jee.server:test::jst.web::4.0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="13">
+    <list key="modules" value0="JavaEE_MVC::org.eclipse.jst.jee.server:JavaEE_MVC::jst.web::4.0" value1="JavaEE_Ajax::org.eclipse.jst.jee.server:JavaEE_Ajax::jst.web::4.0" value2="JavaEE_Experiment::org.eclipse.jst.jee.server:JavaEE_Experiment::jst.web::4.0" value3="JavaEE_Test::org.eclipse.jst.jee.server:JavaEE_Test::jst.web::4.0" value4="JavaEE_MVC2::org.eclipse.jst.jee.server:JavaEE_MVC2::jst.web::4.0"/>
   </server>
 </servers>

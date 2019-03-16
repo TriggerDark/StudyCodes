@@ -10,7 +10,7 @@ public class setDemo {
     public static void main(String[] args) {
         Set<NewsTitle> set = new HashSet<>();
         NewsTitle newsTitle1 = new NewsTitle(1, "hello1", "admin1");
-        NewsTitle newsTitle2 = new NewsTitle(2, "hello2", "admin2");
+        NewsTitle newsTitle2 = new NewsTitle(1, "hello2", "admin1");
         NewsTitle newsTitle3 = new NewsTitle(3, "hello3", "admin3");
         NewsTitle newsTitle4 = new NewsTitle(4, "hello4", "admin4");
         NewsTitle newsTitle5 = new NewsTitle(5, "hello5", "admin5");

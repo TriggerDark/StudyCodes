@@ -1,0 +1,13 @@
+newCachedThreadPool()  创建一个可缓存的线程池，有任务时才创建新任务
+newSingleThreadExecutor()     创建一个单线程池
+newFixedThreadPool(int Threads)
+newScheduledThreadPool(int corePoolSize)
+
+
+corePoolSize：核心池的大小
+maximumPoolSize：线程池最大线程数
+keepAliveTime：表示线程没有任务执行时最多保持多久时间会终止
+unit：参数keepAliveTIme的时间单位
+workQueue：一个阻塞队列，用来存储等待线程执行的任务
+threadFactory：线程工厂，主要用来创建线程
+handler：表示当拒绝处理任务时的策略

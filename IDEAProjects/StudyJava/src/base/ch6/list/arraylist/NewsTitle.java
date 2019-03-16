@@ -1,5 +1,7 @@
 package base.ch6.list.arraylist;
 
+import java.util.Objects;
+
 public class NewsTitle {
     private int id;
     private String title;
@@ -29,6 +31,21 @@ public class NewsTitle {
 
     public String getAuthor() {
         return author;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        NewsTitle newsTitle = (NewsTitle) o;
+        return id == newsTitle.id &&
+                title.equals(newsTitle.title) &&
+                author.equals(newsTitle.author);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title, author);
     }
 
     public void setAuthor(String author) {

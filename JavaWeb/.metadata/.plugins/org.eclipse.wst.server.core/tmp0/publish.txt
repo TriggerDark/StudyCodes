@@ -1,5 +1,11 @@
 #Tomcat publish data
-#Sat Dec 29 21:22:41 CST 2018
-org.eclipse.jst.jee.server\:test=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\test
-org.eclipse.jst.jee.server\:AJax=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\AJax
+#Sat Mar 16 17:19:00 CST 2019
+org.eclipse.jst.jee.server\:JavaEE_Experiment=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEE_Experiment
+org.eclipse.jst.jee.server\:JavaEE_MVC=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEE_MVC
 org.eclipse.jst.jee.server\:Experiment=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\Experiment
+org.eclipse.jst.jee.server\:test=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\test
+org.eclipse.jst.jee.server\:JavaEE_Test=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEE_Test
+org.eclipse.jst.jee.server\:JavaEEP01=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEEP01
+org.eclipse.jst.jee.server\:JavaEE_Ajax=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEE_Ajax
+org.eclipse.jst.jee.server\:JavaEE_MVC2=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\JavaEE_MVC2
+org.eclipse.jst.jee.server\:AJax=D\:\\Eclipse\\apache-tomcat-9.0.14\\webapps\\AJax

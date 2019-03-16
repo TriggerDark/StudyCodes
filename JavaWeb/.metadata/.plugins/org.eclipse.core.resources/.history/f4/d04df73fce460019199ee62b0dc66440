@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	span{
+		color: blue;
+		font-weight: bold;
+	}
+</style>
+</head>
+<body>
+	<h1>你成功了！<span></span></h1>
+</body>
+</html>

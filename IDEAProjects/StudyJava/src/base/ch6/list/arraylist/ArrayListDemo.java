@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class ArrayListDemo {
     public static void main(String[] args) {
         NewsTitle title1 = new NewsTitle(1, "天气不错1", "admin");
-        NewsTitle title2 = new NewsTitle(2, "天气不错2", "admin");
+        NewsTitle title2 = new NewsTitle(1, "天气不错1", "admin");
         NewsTitle title3 = new NewsTitle(3, "天气不错3", "admin");
         NewsTitle title4 = new NewsTitle(4, "天气不错4", "admin");
         NewsTitle title5 = new NewsTitle(5, "天气不错5", "admin");

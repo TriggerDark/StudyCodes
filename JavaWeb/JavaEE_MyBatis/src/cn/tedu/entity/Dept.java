@@ -1,0 +1,43 @@
+package cn.tedu.entity;
+
+import java.io.Serializable;
+
+/**
+ * 实体类，对应数据库dept表
+ * @author SuperStar
+ *
+ */
+
+public class Dept implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1621626890088953365L;
+	private int id;
+	private String deptName;
+	private String address;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getDeptName() {
+		return deptName;
+	}
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	@Override
+	public String toString() {
+		return "Dept [id=" + id + ", deptName=" + deptName + ", address=" + address + "]";
+	}
+	
+}

@@ -1,0 +1,15 @@
+MVC结构
+M代表Model，实际上值业务逻辑及对数据的存取访问
+V代表视图View，展现给用户的界面(一般就是指jsp或html)
+C代表Controller控制器，一方面，主要用来接受视图V的请求，交给模型M处理
+	另一方面，它也获取模型M处理的结果，交给视图V去显示
+	
+例：设计一个MVC模式的应用程序，实现用户的注册与登录界面
+
+视图V涉及到regist.jsp(注册页面)、login.jsp(登录界面)、
+error.jsp(注册或者登陆失败的界面)、index.jsp(登陆成功后的界面)
+
+控制器C涉及到对reg.do请求的接受与效应(利用regServlet类处理)、
+login.do登陆的接收与响应(利用loginServlet类处理)
+
+模型M涉及到如何具体注册regist、如何具体登陆的login业务逻辑

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings  >
+		<setting name="logImpl" value="STDOUT_LOGGING"/>
+	</settings>
+	<environments default="environment">
+		<environment id="environment">
+			<transactionManager type="JDBC" />
+			<!-- 配置连接数据库的参数值 -->
+			<dataSource type="POOLED">	<!-- mybatis中连接数据库（包括连接池等）是自己的实现方案，无需单独配连接池、和导入dbcp等 -->
+				<property name="driver" value="com.mysql.jdbc.Driver" /> 
+				<property name="url"	value="jdbc:mysql://localhost:3306/student_db?characterEncoding=utf-8"/>
+				<property name="username" value="root" />
+				<property name="password" value="5841314921lrw" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- 在配置文件中 关联包下的 dao接口 -->
+	<mappers>
+		<mapper class="/JavaEE_MyBatis/src/cn/tedu/dao/IDeptDao.java" />
+	</mappers>
+</configuration> 
