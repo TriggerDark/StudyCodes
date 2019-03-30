@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <canvas id="myCanvas" style="width: 600px; height: 500px; border: 1px solid black;"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext('2d');
+        context.fillStyle = 'blue';
+        context.font = '24pt Helvetica';
+        context.fillText("Hello World!", 0, 100);
+        context.transform(1, 0, 0, -1, 0, 5);
+        var grd = context.createLinearGradient(0, -10, 0, -200);
+        grd.addColorStop(0, 'blue');
+        grd.addColorStop(1, 'white');
+        context.fillStyle = grd;
+        context.fillText("Hello World!", 0, -100);
+    </script>
 </body>
 </html>

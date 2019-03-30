@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <script>
+        var id;
+        $(function () {
+            $('#btn').attr("disabled", true);
+            id = setInterval("countDown()", 1000);
+        });
+        var leftSecond = 10;
+        function countDown() {
+            if (leftSecond <= 0) {
+                $("#btn").val("同意");
+                $("#btn").attr("disabled", false);
+                clearInterval(id);
+                return;
+            }
+            leftSecond --;
+            $("#btn").val('仔细阅读' + leftSecond +"s");
+        }
+    </script>
 </head>
 <body>
-$END$
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="button" id="btn" value="同意">
 </body>
 </html>

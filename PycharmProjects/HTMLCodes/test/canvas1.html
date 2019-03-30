@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <canvas width="200" height="100" id="myCanvas" style="border: 1px solid black;"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        var grd = context.createLinearGradient(0, 0, 175, 50);
+        grd.addColorStop(0, "#F00");
+        grd.addColorStop(1, "#0F0");
+        context.fillStyle = grd;
+        context.fillRect(0, 0, 175, 50);
+    </script>
 </body>
 </html>

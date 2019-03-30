@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $('#kw').val('请输入关键字').addClass("waiting").focus(function () {
+                if ($(this).val("").removeClass('waiting'));
+            }).blur(function () {
+                if ($(this).val() == "") {
+                    $("#kw").val("请输入关键字").addClass("waiting")
+                }
+            });
+        });
+    </script>
+    <style>
+        .waiting{
+            color: grey;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <input type="text" id="kw">
 </body>
 </html>

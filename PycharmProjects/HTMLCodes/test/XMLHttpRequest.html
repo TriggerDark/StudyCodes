@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style>
+        #div{
+            width: auto;
+            height: auto;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="div"></div>
+    <button onclick="load('example.xml')">按钮</button>
+    <script>
+        function load(url) {
+            var xmlHttp;
+            if (window.XMLHttpRequest) {
+                xmlHttp = new XMLHttpRequest();
+            } else if (window.ActiveXObject) {
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    //document.getElementById("div").innerHTML = this.getAllResponseHeaders();
+                    //document.getElementById("div").innerHTML = this.getResponseHeader('Last-Modified');
+                    //document.getElementById("div").innerHTML = this.getResponseHeader('content-type');
+                    document.getElementById("div").innerHTML = this.getResponseHeader('cache-control');
+                    /*
+                    date: Tue, 1 Jan 2019 06:58:48 GMT
+                    x-content-type-options: nosniff
+                    last-modified: Thu, 22 Nov 2018 02:26:03 GMT
+                    server: PyCharm 2018.3.2
+                    x-frame-options: SameOrigin
+                    content-type: application/xml
+                    cache-control: private, must-revalidate
+                    content-length: 872 x-xss-protection: 1; mode=block
+                     */
+                }
+            };
+            xmlHttp.open("get", url, true);
+            xmlHttp.send(null);
+        }
+    </script>
 </body>
 </html>

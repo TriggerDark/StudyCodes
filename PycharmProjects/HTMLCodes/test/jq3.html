@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#all").click(function () {
+                $("#container :checkbox").prop("checked", true);
+            });
+            $("#uall").click(function () {
+                $("#container :checkbox").prop("checked", false);
+            });
+            $("#fall").click(function () {
+                $("#container :checkbox").each(function () {
+                    $(this).prop("checked", !($(this).prop("checked")));
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="container">
